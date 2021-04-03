@@ -1,34 +1,25 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="iLDeck.kissr.comSearch" resolutions="1x" timestamp="1616328900223">
-  <folder name="fonts">
-    <file name="fakepearl-regular.woff" crc="199010244"/>
-    <file name="fakepearl-regular.eot" crc="4027795295"/>
-    <file name="fakepearl-regular.svg" crc="178479175"/>
-  </folder>
-  <folder name="images">
-    <file name="family.jpg" crc="487300905" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="confussion-u281-fr.png" crc="3840337734" ref="index"/>
-    <file name="pexels-trang-doan-1092730.jpg" crc="4169149191" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-  </folder>
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://disable2040.github.io/abledesign" resolutions="1x" timestamp="1617452356095">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="355074497" ref="index"/>
+    <file name="index.css" crc="3903076723" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
     <file name="museutils.js" crc="3939489907" ref="index"/>
     <file name="whatinput.js" crc="86476730" ref="index"/>
     <file name="museconfig.js" crc="3936894949" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="index"/>
     <file name="jquery.watch.js" crc="522499760" ref="index"/>
     <file name="jquery.musemenu.js" crc="4139692962" ref="index"/>
     <file name="html5shiv.js" crc="4241844378" ref="index"/>
     <file name="require.js" crc="4177726516" ref="index"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="index"/>
   </folder>
-  <file name="index.html" crc="3978408221" seo="true" mt="1616328899389" redirect="true"/>
+  <folder name="images">
+    <file name="ada fung.jpg" crc="37711131" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="3954727730" seo="true" mt="1617452355846" redirect="true"/>
 </manifest>
