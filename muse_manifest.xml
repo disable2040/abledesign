@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://wwwuat.polyu.edu.hk/proj/hkvmt" resolutions="1x,2x" timestamp="1619575427138">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://wwwuat.polyu.edu.hk/proj/hkvmt" resolutions="1x,2x" timestamp="1619575902495">
   <folder name="css">
     <file name="site_global.css" crc="3842947113"/>
     <file name="master_storytelling.css" crc="3954366982" ref="healthinfo_causes:healthinfo_intro:healthinfo_stages"/>
@@ -7,16 +7,16 @@
     <file name="nomq_preview_master_normal.css" crc="70895231" ref="treatmentplan:healthinfo_resources:aboutus:earlyprevention:contactus:activities:index"/>
     <file name="healthinfo_causes.css" crc="3776020508" ref="healthinfo_causes"/>
     <file name="nomq_healthinfo_causes.css" crc="200700849" ref="healthinfo_causes"/>
-    <file name="treatmentplan.css" crc="3840928993" ref="treatmentplan"/>
-    <file name="nomq_treatmentplan.css" crc="167447722" ref="treatmentplan"/>
+    <file name="treatmentplan.css" crc="4153069708" ref="treatmentplan"/>
+    <file name="nomq_treatmentplan.css" crc="6409006" ref="treatmentplan"/>
     <file name="healthinfo_intro.css" crc="4079169503" ref="healthinfo_intro"/>
     <file name="nomq_healthinfo_intro.css" crc="4135382640" ref="healthinfo_intro"/>
-    <file name="healthinfo_resources.css" crc="346052013" ref="healthinfo_resources"/>
+    <file name="healthinfo_resources.css" crc="74588046" ref="healthinfo_resources"/>
     <file name="nomq_healthinfo_resources.css" crc="4146036442" ref="healthinfo_resources"/>
     <file name="aboutus.css" crc="302397561" ref="aboutus"/>
     <file name="nomq_aboutus.css" crc="327525027" ref="aboutus"/>
-    <file name="earlyprevention.css" crc="3817117352" ref="earlyprevention"/>
-    <file name="nomq_earlyprevention.css" crc="430728488" ref="earlyprevention"/>
+    <file name="earlyprevention.css" crc="134640868" ref="earlyprevention"/>
+    <file name="nomq_earlyprevention.css" crc="4184222504" ref="earlyprevention"/>
     <file name="contactus.css" crc="3866356251" ref="contactus"/>
     <file name="nomq_contactus.css" crc="407205730" ref="contactus"/>
     <file name="activities.css" crc="76396000" ref="activities"/>
@@ -534,9 +534,9 @@
     <file name="healthinfo_02_2-u124495-fr_2x.png" crc="185160364" ref="healthinfo_stages"/>
   </folder>
   <file name="healthinfo_intro.html" crc="361879948" seo="true" mt="1619070935979" redirect="true"/>
-  <file name="healthinfo_resources.html" crc="4227127082" seo="true" mt="1619575398892" redirect="true"/>
-  <file name="earlyprevention.html" crc="4189305175" seo="true" mt="1619072228283" redirect="true"/>
-  <file name="treatmentplan.html" crc="3787251182" seo="true" mt="1619575373686" redirect="true"/>
+  <file name="healthinfo_resources.html" crc="4247742674" seo="true" mt="1619575398892" redirect="true"/>
+  <file name="earlyprevention.html" crc="4177836589" seo="true" mt="1619575617972" redirect="true"/>
+  <file name="treatmentplan.html" crc="86665529" seo="true" mt="1619575825233" redirect="true"/>
   <file name="aboutus.html" crc="346544492" seo="true" mt="1619575393248" redirect="true"/>
   <file name="index.html" crc="374620930" seo="true" mt="1619072496016" redirect="true"/>
   <file name="activities.html" crc="3932890741" seo="true" mt="1619072138340" redirect="true"/>
