@@ -1,30 +1,30 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://wwwuat.polyu.edu.hk/proj/hkvmt" resolutions="1x,2x" timestamp="1619575902495">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://wwwuat.polyu.edu.hk/proj/hkvmt" resolutions="1x,2x" timestamp="1619957511562">
   <folder name="css">
-    <file name="site_global.css" crc="3842947113"/>
-    <file name="master_storytelling.css" crc="3954366982" ref="healthinfo_causes:healthinfo_intro:healthinfo_stages"/>
-    <file name="nomq_preview_master_storytelling.css" crc="4102606202" ref="healthinfo_causes:healthinfo_intro:healthinfo_stages"/>
-    <file name="master_normal.css" crc="3831813819" ref="treatmentplan:healthinfo_resources:aboutus:earlyprevention:contactus:activities:index"/>
-    <file name="nomq_preview_master_normal.css" crc="70895231" ref="treatmentplan:healthinfo_resources:aboutus:earlyprevention:contactus:activities:index"/>
-    <file name="healthinfo_causes.css" crc="3776020508" ref="healthinfo_causes"/>
+    <file name="site_global.css" crc="449176851"/>
+    <file name="master_storytelling.css" crc="3954366982" ref="healthinfo_causes:healthinfo_stages:healthinfo_intro"/>
+    <file name="nomq_preview_master_storytelling.css" crc="4102606202" ref="healthinfo_causes:healthinfo_stages:healthinfo_intro"/>
+    <file name="master_normal.css" crc="19200199" ref="earlyprevention:index:activities:healthinfo_resources:aboutus:treatmentplan:contactus"/>
+    <file name="nomq_preview_master_normal.css" crc="4223901013" ref="earlyprevention:index:activities:healthinfo_resources:aboutus:treatmentplan:contactus"/>
+    <file name="healthinfo_causes.css" crc="376884044" ref="healthinfo_causes"/>
     <file name="nomq_healthinfo_causes.css" crc="200700849" ref="healthinfo_causes"/>
-    <file name="treatmentplan.css" crc="4153069708" ref="treatmentplan"/>
-    <file name="nomq_treatmentplan.css" crc="6409006" ref="treatmentplan"/>
-    <file name="healthinfo_intro.css" crc="4079169503" ref="healthinfo_intro"/>
-    <file name="nomq_healthinfo_intro.css" crc="4135382640" ref="healthinfo_intro"/>
-    <file name="healthinfo_resources.css" crc="74588046" ref="healthinfo_resources"/>
-    <file name="nomq_healthinfo_resources.css" crc="4146036442" ref="healthinfo_resources"/>
-    <file name="aboutus.css" crc="302397561" ref="aboutus"/>
-    <file name="nomq_aboutus.css" crc="327525027" ref="aboutus"/>
-    <file name="earlyprevention.css" crc="134640868" ref="earlyprevention"/>
-    <file name="nomq_earlyprevention.css" crc="4184222504" ref="earlyprevention"/>
-    <file name="contactus.css" crc="3866356251" ref="contactus"/>
-    <file name="nomq_contactus.css" crc="407205730" ref="contactus"/>
-    <file name="activities.css" crc="76396000" ref="activities"/>
-    <file name="nomq_activities.css" crc="466066998" ref="activities"/>
-    <file name="index.css" crc="114545512" ref="index"/>
-    <file name="nomq_index.css" crc="3937514550" ref="index"/>
-    <file name="healthinfo_stages.css" crc="4221968066" ref="healthinfo_stages"/>
+    <file name="earlyprevention.css" crc="4171465157" ref="earlyprevention"/>
+    <file name="nomq_earlyprevention.css" crc="3868035136" ref="earlyprevention"/>
+    <file name="index.css" crc="149231286" ref="index"/>
+    <file name="nomq_index.css" crc="3835894268" ref="index"/>
+    <file name="activities.css" crc="274431342" ref="activities"/>
+    <file name="nomq_activities.css" crc="3762056112" ref="activities"/>
+    <file name="healthinfo_stages.css" crc="47819944" ref="healthinfo_stages"/>
     <file name="nomq_healthinfo_stages.css" crc="4241053834" ref="healthinfo_stages"/>
+    <file name="healthinfo_resources.css" crc="158343485" ref="healthinfo_resources"/>
+    <file name="nomq_healthinfo_resources.css" crc="481246837" ref="healthinfo_resources"/>
+    <file name="aboutus.css" crc="30264234" ref="aboutus"/>
+    <file name="nomq_aboutus.css" crc="202371484" ref="aboutus"/>
+    <file name="healthinfo_intro.css" crc="4150464671" ref="healthinfo_intro"/>
+    <file name="nomq_healthinfo_intro.css" crc="156798112" ref="healthinfo_intro"/>
+    <file name="treatmentplan.css" crc="318706666" ref="treatmentplan"/>
+    <file name="nomq_treatmentplan.css" crc="4167806357" ref="treatmentplan"/>
+    <file name="contactus.css" crc="385014373" ref="contactus"/>
+    <file name="nomq_contactus.css" crc="212907584" ref="contactus"/>
   </folder>
   <folder name="fonts">
     <file name="fakepearl-regular.woff" crc="199010244"/>
@@ -65,6 +65,7 @@
     <file name="pic_kevin-chan.jpg" crc="4168401078" seo="true" mt="1619073758000"/>
     <file name="pic_newman-lau.jpg" crc="329432143" seo="true" mt="1615552941000"/>
     <file name="pic_alex-choy.jpg" crc="3888795333" seo="true" mt="1615552892000"/>
+    <file name="pexels-marcus-aurelius-6785214.mp4" crc="492596173" seo="true" mt="1615553156000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="healthinfo_intro:healthinfo_resources:earlyprevention:treatmentplan:aboutus:index:activities:contactus:healthinfo_stages:healthinfo_causes"/>
@@ -227,15 +228,14 @@
     <file name="logo-website_2x.png" crc="4121552401" ref="healthinfo_resources:earlyprevention">
       <caption webpage="healthinfo_resources" alt=""/>
     </file>
+    <file name="wave_green.png" crc="272047350" ref="earlyprevention:index">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
     <file name="prevention.png" crc="523896773" ref="earlyprevention">
       <caption webpage="earlyprevention" alt=""/>
     </file>
-    <file name="heart.png" crc="3865258326" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
-    </file>
-    <file name="heart_2x.png" crc="6203520" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
-    </file>
+    <file name="heart-u46709-fr.png" crc="4163465754" ref="earlyprevention"/>
+    <file name="heart-u46709-fr_2x.png" crc="190284401" ref="earlyprevention"/>
     <file name="community.png" crc="4025402584" ref="earlyprevention">
       <caption webpage="earlyprevention" alt=""/>
     </file>
@@ -266,36 +266,114 @@
     <file name="head_2x.png" crc="4256728339" ref="earlyprevention">
       <caption webpage="earlyprevention" alt=""/>
     </file>
-    <file name="pyramid.png" crc="4274445711" ref="earlyprevention">
+    <file name="earlyprevent02.png" crc="4074554393" ref="earlyprevention">
       <caption webpage="earlyprevention" alt=""/>
     </file>
-    <file name="pyramid_2x.png" crc="4285234752" ref="earlyprevention">
+    <file name="earlyprevent02_2x.png" crc="427699322" ref="earlyprevention">
       <caption webpage="earlyprevention" alt=""/>
     </file>
-    <file name="elderapp01.png" crc="369731505" ref="earlyprevention">
+    <file name="earlyprevent01-u134469-fr.png" crc="3956274365" ref="earlyprevention"/>
+    <file name="earlyprevent01-u134469-fr_2x.png" crc="47896449" ref="earlyprevention"/>
+    <file name="pyramid.png" crc="448532059" ref="earlyprevention">
       <caption webpage="earlyprevention" alt=""/>
     </file>
-    <file name="elderapp01_2x.png" crc="409521707" ref="earlyprevention">
+    <file name="pyramid_2x.png" crc="3783698299" ref="earlyprevention">
       <caption webpage="earlyprevention" alt=""/>
     </file>
-    <file name="elderapp02.png" crc="185955865" ref="earlyprevention">
+    <file name="hiking.png" crc="80106068" ref="earlyprevention">
       <caption webpage="earlyprevention" alt=""/>
     </file>
-    <file name="elderapp03.png" crc="454423253" ref="earlyprevention">
+    <file name="hiking_2x.png" crc="335734529" ref="earlyprevention">
       <caption webpage="earlyprevention" alt=""/>
     </file>
-    <file name="elderapp03_2x.png" crc="296739370" ref="earlyprevention">
+    <file name="dancing.png" crc="308176038" ref="earlyprevention">
       <caption webpage="earlyprevention" alt=""/>
     </file>
-    <file name="elderapp04.jpg" crc="4028585756" ref="earlyprevention">
+    <file name="dancing_2x.png" crc="164489505" ref="earlyprevention">
       <caption webpage="earlyprevention" alt=""/>
     </file>
-    <file name="elderapp05.jpg" crc="22169728" ref="earlyprevention">
+    <file name="football.png" crc="4130318723" ref="earlyprevention">
       <caption webpage="earlyprevention" alt=""/>
     </file>
-    <file name="elderapp06-u46947-fr.png" crc="47209626" ref="earlyprevention"/>
-    <file name="elderapp06-u46947-fr_2x.png" crc="4049893613" ref="earlyprevention"/>
-    <file name="pic_healthyfood.jpg" crc="3987092162" ref="earlyprevention">
+    <file name="football_2x.png" crc="296858846" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="running.png" crc="505620156" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="running_2x.png" crc="340542662" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="biking.png" crc="354849602" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="biking_2x.png" crc="57938959" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="watch tv.png" crc="192769212" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="watch tv_2x.png" crc="4109313515" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="phone.png" crc="4076229429" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="phone_2x.png" crc="4079010042" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="stair climbing 1.png" crc="3787780868" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="stair climbing 1_2x.png" crc="3874344198" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="park equipment.png" crc="3905395547" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="park equipment_2x.png" crc="312386691" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="walking 1.png" crc="4057562425" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="walking 1_2x.png" crc="320786827" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="ball game.png" crc="4115547279" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="ball game_2x.png" crc="210542617" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="remote.png" crc="3795225739" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="remote_2x.png" crc="3863605008" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="walking 2.png" crc="157972504" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="walking 2_2x.png" crc="154197497" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="stair climbing 2.png" crc="4256086653" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="stair climbing 2_2x.png" crc="275775565" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="housework.png" crc="360833770" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="housework_2x.png" crc="222319847" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="caregiver.png" crc="4272895169" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="caregiver_2x.png" crc="198682506" ref="earlyprevention">
       <caption webpage="earlyprevention" alt=""/>
     </file>
     <file name="pic_family.jpg" crc="3865288110" ref="earlyprevention">
@@ -304,14 +382,214 @@
     <file name="pic_family_2x.jpg" crc="208600098" ref="earlyprevention">
       <caption webpage="earlyprevention" alt=""/>
     </file>
-    <file name="pyramid-u46793-fr.png" crc="4070121402" ref="earlyprevention"/>
-    <file name="pyramid-u46793-fr_2x.png" crc="241356123" ref="earlyprevention"/>
-    <file name="pyramid-u46793-fr2.png" crc="3951409829" ref="earlyprevention"/>
-    <file name="pyramid-u46793-fr_2x2.png" crc="154151855" ref="earlyprevention"/>
-    <file name="pyramid-u46793-fr3.png" crc="57871537" ref="earlyprevention"/>
-    <file name="pyramid-u46793-fr_2x3.png" crc="4166631258" ref="earlyprevention"/>
-    <file name="pyramid-u46793-fr4.png" crc="3766537019" ref="earlyprevention"/>
-    <file name="pyramid-u46793-fr_2x4.png" crc="3951409829" ref="earlyprevention"/>
+    <file name="pic_elderly exercise01.jpg" crc="4117029872" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="pic_elderly exercise01_2x.jpg" crc="91601344" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="pic_elderly dance-u46874-fr.jpg" crc="4051158357" ref="earlyprevention"/>
+    <file name="pic_elderly dance-u46874-fr_2x.jpg" crc="247285683" ref="earlyprevention"/>
+    <file name="pic_elderly yoga.jpg" crc="4178556890" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="pic_elderly yoga_2x.jpg" crc="60052714" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="elderapp01.png" crc="369731505" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="elderapp01_2x.png" crc="409521707" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="app_store_btn.svg" crc="205710994" ref="earlyprevention"/>
+    <file name="app_store_btn_poster_u139080.png" crc="4269226487" ref="earlyprevention"/>
+    <file name="google_play_btn-u139097-fr.png" crc="3833108303" ref="earlyprevention"/>
+    <file name="google_play_btn-u139097-fr_2x.png" crc="4220721082" ref="earlyprevention"/>
+    <file name="elderapp03.png" crc="454423253" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="elderapp03_2x.png" crc="296739370" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="elderapp05.jpg" crc="22169728" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="elderapp06-u139275-fr.png" crc="47209626" ref="earlyprevention"/>
+    <file name="elderapp06-u139275-fr_2x.png" crc="4049893613" ref="earlyprevention"/>
+    <file name="pic_elderly reading.jpg" crc="3913855253" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="pic_elderly reading_2x.jpg" crc="439024894" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="pic_calligraphy.jpg" crc="87145653" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="pic_calligraphy_2x.jpg" crc="4064391419" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="pic_mahjong.jpg" crc="4087234966" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="pic_mahjong_2x.jpg" crc="4214693614" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="pic_healthyfood.jpg" crc="3987092162" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="mediterranean diet.png" crc="3923115882" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="earilyprevent_healthyfoodbook.jpg" crc="346002558" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="earilyprevent_healthyfoodbook_2x.jpg" crc="3810053066" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="arrow_green.png" crc="3854523882" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="arrow_green_2x.png" crc="424156880" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="dash diet.png" crc="376650716" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="earlyprevent03.png" crc="4173897142" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="earlyprevent03_2x.png" crc="4204358354" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="earlyprevent04.png" crc="3760406277" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="earlyprevent04_2x.png" crc="3916993941" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="wave_green-buttonu133421-fr.png" crc="3931894385" ref="earlyprevention"/>
+    <file name="wave_green-buttonu133421-fr_2x.png" crc="4001871886" ref="earlyprevention"/>
+    <file name="heart.png" crc="3865258326" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="heart_2x.png" crc="6203520" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="earlyprevent01-u134469-fr2.png" crc="4281208210" ref="earlyprevention"/>
+    <file name="earlyprevent01-u134469-fr_2x2.png" crc="36389413" ref="earlyprevention"/>
+    <file name="earlyprevent02-u137562-fr.png" crc="4117366120" ref="earlyprevention"/>
+    <file name="earlyprevent02-u137562-fr_2x.png" crc="487689442" ref="earlyprevention"/>
+    <file name="hiking-u138626-fr.png" crc="4168714638" ref="earlyprevention"/>
+    <file name="hiking-u138626-fr_2x.png" crc="3980996549" ref="earlyprevention"/>
+    <file name="dancing-u138625-fr.png" crc="4044445366" ref="earlyprevention"/>
+    <file name="dancing-u138625-fr_2x.png" crc="317699302" ref="earlyprevention"/>
+    <file name="football-u138624-fr.png" crc="3758305731" ref="earlyprevention"/>
+    <file name="football-u138624-fr_2x.png" crc="250690610" ref="earlyprevention"/>
+    <file name="running-u138623-fr.png" crc="229030728" ref="earlyprevention"/>
+    <file name="running-u138623-fr_2x.png" crc="4290841923" ref="earlyprevention"/>
+    <file name="biking-u138622-fr.png" crc="199499596" ref="earlyprevention"/>
+    <file name="biking-u138622-fr_2x.png" crc="411084329" ref="earlyprevention"/>
+    <file name="watch tv-u138594-fr.png" crc="3946282804" ref="earlyprevention"/>
+    <file name="watch tv-u138594-fr_2x.png" crc="35822057" ref="earlyprevention"/>
+    <file name="phone-u138595-fr.png" crc="3913682005" ref="earlyprevention"/>
+    <file name="phone-u138595-fr_2x.png" crc="4146289922" ref="earlyprevention"/>
+    <file name="park equipment-u137719-fr.png" crc="4281784262" ref="earlyprevention"/>
+    <file name="park equipment-u137719-fr_2x.png" crc="3967724330" ref="earlyprevention"/>
+    <file name="walking 1-u137720-fr.png" crc="51982852" ref="earlyprevention"/>
+    <file name="walking 1-u137720-fr_2x.png" crc="360653103" ref="earlyprevention"/>
+    <file name="ball game-u137703-fr.png" crc="247731763" ref="earlyprevention"/>
+    <file name="ball game-u137703-fr_2x.png" crc="3840600475" ref="earlyprevention"/>
+    <file name="remote-u137783-fr.png" crc="4181931129" ref="earlyprevention"/>
+    <file name="remote-u137783-fr_2x.png" crc="4253614244" ref="earlyprevention"/>
+    <file name="walking 2-u137784-fr.png" crc="3864896537" ref="earlyprevention"/>
+    <file name="walking 2-u137784-fr_2x.png" crc="141706161" ref="earlyprevention"/>
+    <file name="stair climbing 2-u137831-fr.png" crc="348126990" ref="earlyprevention"/>
+    <file name="stair climbing 2-u137831-fr_2x.png" crc="87942210" ref="earlyprevention"/>
+    <file name="housework-u137768-fr.png" crc="3897432598" ref="earlyprevention"/>
+    <file name="housework-u137768-fr_2x.png" crc="4110117254" ref="earlyprevention"/>
+    <file name="caregiver-u137767-fr.png" crc="4069434394" ref="earlyprevention"/>
+    <file name="caregiver-u137767-fr_2x.png" crc="4003320987" ref="earlyprevention"/>
+    <file name="earilyprevent_healthyfoodbook-u141197-fr.jpg" crc="535885340" ref="earlyprevention"/>
+    <file name="earilyprevent_healthyfoodbook-u141197-fr_2x.jpg" crc="139546337" ref="earlyprevention"/>
+    <file name="mediterranean diet2.png" crc="441315717" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="mediterranean diet_2x.png" crc="3923115882" ref="earlyprevention">
+      <caption webpage="earlyprevention" alt=""/>
+    </file>
+    <file name="pyramid-u138499-fr.png" crc="4096238157" ref="earlyprevention"/>
+    <file name="pyramid-u138499-fr_2x.png" crc="4196587753" ref="earlyprevention"/>
+    <file name="pic_elderly exercise01-u46869-fr.jpg" crc="4166974249" ref="earlyprevention"/>
+    <file name="pic_elderly exercise01-u46869-fr_2x.jpg" crc="189303940" ref="earlyprevention"/>
+    <file name="pic_elderly dance-u46874-fr2.jpg" crc="323414777" ref="earlyprevention"/>
+    <file name="pic_elderly dance-u46874-fr_2x2.jpg" crc="4294124425" ref="earlyprevention"/>
+    <file name="pic_mahjong-u139125-fr.jpg" crc="4139680979" ref="earlyprevention"/>
+    <file name="pic_mahjong-u139125-fr_2x.jpg" crc="120033165" ref="earlyprevention"/>
+    <file name="pic_elderly reading-u139123-fr.jpg" crc="391387741" ref="earlyprevention"/>
+    <file name="pic_elderly reading-u139123-fr_2x.jpg" crc="290293916" ref="earlyprevention"/>
+    <file name="pic_calligraphy-u139124-fr.jpg" crc="4023378573" ref="earlyprevention"/>
+    <file name="pic_calligraphy-u139124-fr_2x.jpg" crc="167814316" ref="earlyprevention"/>
+    <file name="google_play_btn-u139097-fr2.png" crc="4125680410" ref="earlyprevention"/>
+    <file name="google_play_btn-u139097-fr_2x2.png" crc="219356684" ref="earlyprevention"/>
+    <file name="wave_green-buttonu133421-fr2.png" crc="29123789" ref="earlyprevention:index"/>
+    <file name="wave_green-buttonu133421-fr_2x2.png" crc="4008102356" ref="earlyprevention:index"/>
+    <file name="pyramid-u138499-fr2.png" crc="4288878415" ref="earlyprevention"/>
+    <file name="pyramid-u138499-fr_2x2.png" crc="4270604040" ref="earlyprevention"/>
+    <file name="google_play_btn-u139097-fr3.png" crc="143917488" ref="earlyprevention"/>
+    <file name="google_play_btn-u139097-fr_2x3.png" crc="95374768" ref="earlyprevention"/>
+    <file name="wave_green-buttonu133421-fr3.png" crc="4224577850" ref="earlyprevention:index"/>
+    <file name="wave_green-buttonu133421-fr_2x3.png" crc="363466457" ref="earlyprevention:index"/>
+    <file name="mediterranean diet-u142343-fr.png" crc="195386186" ref="earlyprevention"/>
+    <file name="mediterranean diet-u142343-fr_2x.png" crc="512563360" ref="earlyprevention"/>
+    <file name="pyramid-u138499-fr3.png" crc="3785314607" ref="earlyprevention"/>
+    <file name="pyramid-u138499-fr_2x3.png" crc="4292492826" ref="earlyprevention"/>
+    <file name="google_play_btn-u139097-fr4.png" crc="108189085" ref="earlyprevention"/>
+    <file name="google_play_btn-u139097-fr_2x4.png" crc="132651477" ref="earlyprevention"/>
+    <file name="dash diet-u141930-fr.png" crc="3823545535" ref="earlyprevention"/>
+    <file name="dash diet-u141930-fr_2x.png" crc="477014363" ref="earlyprevention"/>
+    <file name="wave_green-buttonu133421-fr4.png" crc="4010066944" ref="earlyprevention"/>
+    <file name="wave_green-buttonu133421-fr_2x4.png" crc="29123789" ref="earlyprevention"/>
+    <file name="mediterranean diet-u142343-fr2.png" crc="88051747" ref="earlyprevention"/>
+    <file name="mediterranean diet-u142343-fr_2x2.png" crc="224498547" ref="earlyprevention"/>
+    <file name="pyramid-u138499-fr4.png" crc="471112171" ref="earlyprevention"/>
+    <file name="pyramid-u138499-fr_2x4.png" crc="4288878415" ref="earlyprevention"/>
+    <file name="hiking-u138626-fr2.png" crc="457199780" ref="earlyprevention"/>
+    <file name="hiking-u138626-fr_2x2.png" crc="3828836871" ref="earlyprevention"/>
+    <file name="dancing-u138625-fr2.png" crc="300795177" ref="earlyprevention"/>
+    <file name="dancing-u138625-fr_2x2.png" crc="4079600554" ref="earlyprevention"/>
+    <file name="football-u138624-fr2.png" crc="4238676601" ref="earlyprevention"/>
+    <file name="football-u138624-fr_2x2.png" crc="3839871725" ref="earlyprevention"/>
+    <file name="running-u138623-fr2.png" crc="285972930" ref="earlyprevention"/>
+    <file name="running-u138623-fr_2x2.png" crc="3882791047" ref="earlyprevention"/>
+    <file name="biking-u138622-fr2.png" crc="409692540" ref="earlyprevention"/>
+    <file name="biking-u138622-fr_2x2.png" crc="3970273761" ref="earlyprevention"/>
+    <file name="watch tv-u138594-fr2.png" crc="4194032266" ref="earlyprevention"/>
+    <file name="watch tv-u138594-fr_2x2.png" crc="25065867" ref="earlyprevention"/>
+    <file name="phone-u138595-fr2.png" crc="4164283385" ref="earlyprevention"/>
+    <file name="phone-u138595-fr_2x2.png" crc="398760475" ref="earlyprevention"/>
+    <file name="stair climbing 1-u137704-fr.png" crc="418699895" ref="earlyprevention"/>
+    <file name="stair climbing 1-u137704-fr_2x.png" crc="398228749" ref="earlyprevention"/>
+    <file name="park equipment-u137719-fr2.png" crc="464776694" ref="earlyprevention"/>
+    <file name="park equipment-u137719-fr_2x2.png" crc="3829647979" ref="earlyprevention"/>
+    <file name="walking 1-u137720-fr2.png" crc="3946014558" ref="earlyprevention"/>
+    <file name="walking 1-u137720-fr_2x2.png" crc="4153515836" ref="earlyprevention"/>
+    <file name="ball game-u137703-fr2.png" crc="347621844" ref="earlyprevention"/>
+    <file name="ball game-u137703-fr_2x2.png" crc="3790407968" ref="earlyprevention"/>
+    <file name="remote-u137783-fr2.png" crc="3862563531" ref="earlyprevention"/>
+    <file name="remote-u137783-fr_2x2.png" crc="3887252369" ref="earlyprevention"/>
+    <file name="walking 2-u137784-fr2.png" crc="3977087143" ref="earlyprevention"/>
+    <file name="walking 2-u137784-fr_2x2.png" crc="3903792943" ref="earlyprevention"/>
+    <file name="stair climbing 2-u137831-fr2.png" crc="4070882172" ref="earlyprevention"/>
+    <file name="stair climbing 2-u137831-fr_2x2.png" crc="4171703639" ref="earlyprevention"/>
+    <file name="housework-u137768-fr2.png" crc="3838035740" ref="earlyprevention"/>
+    <file name="housework-u137768-fr_2x2.png" crc="4224592784" ref="earlyprevention"/>
+    <file name="caregiver-u137767-fr2.png" crc="362049800" ref="earlyprevention"/>
+    <file name="caregiver-u137767-fr_2x2.png" crc="217642281" ref="earlyprevention"/>
+    <file name="google_play_btn-u139097-fr5.png" crc="100448866" ref="earlyprevention"/>
+    <file name="google_play_btn-u139097-fr_2x5.png" crc="143917488" ref="earlyprevention"/>
+    <file name="dash diet-u141930-fr2.png" crc="122565613" ref="earlyprevention"/>
+    <file name="dash diet-u141930-fr_2x2.png" crc="229670248" ref="earlyprevention"/>
     <file name="treatmentplan-favicon.ico" crc="3891198573" ref="treatmentplan"/>
     <file name="teatment.png" crc="3885306184" ref="treatmentplan">
       <caption webpage="treatmentplan" alt=""/>
@@ -319,9 +597,6 @@
     <file name="aboutus-favicon.ico" crc="3891198573" ref="aboutus"/>
     <file name="pic_teamwork.jpg" crc="4160172047" ref="aboutus">
       <caption webpage="aboutus" alt=""/>
-    </file>
-    <file name="wave_green.png" crc="272047350" ref="index">
-      <caption webpage="index" alt=""/>
     </file>
     <file name="wave_white.png" crc="166148788" ref="index">
       <caption webpage="index" alt=""/>
@@ -443,8 +718,6 @@
     <file name="arrow_r-u105657-3-fr.png" crc="415595832" ref="index"/>
     <file name="arrow_r-u105657-3-fr_2x.png" crc="486171130" ref="index"/>
     <file name="loading.gif" crc="3815509949" ref="index"/>
-    <file name="wave_green-buttonu95360-fr.png" crc="29123789" ref="index"/>
-    <file name="wave_green-buttonu95360-fr_2x.png" crc="4008102356" ref="index"/>
     <file name="hkvmtipad_white-u98917-fr.png" crc="3861575709" ref="index"/>
     <file name="hkvmtipad_white-u98917-fr_2x.png" crc="4072953006" ref="index"/>
     <file name="wave_white-u102459-fr.png" crc="3823023364" ref="index"/>
@@ -467,8 +740,6 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="wave_green-buttonu95360-fr2.png" crc="4224577850" ref="index"/>
-    <file name="wave_green-buttonu95360-fr_2x2.png" crc="363466457" ref="index"/>
     <file name="wave_white-u102459-fr2.png" crc="423110614" ref="index"/>
     <file name="wave_white-u102459-fr_2x2.png" crc="4047513657" ref="index"/>
     <file name="hkvmtipad_white-u98917-fr2.png" crc="9545419" ref="index"/>
@@ -533,14 +804,14 @@
     <file name="healthinfo_02_2-u124495-fr.png" crc="3772211128" ref="healthinfo_stages"/>
     <file name="healthinfo_02_2-u124495-fr_2x.png" crc="185160364" ref="healthinfo_stages"/>
   </folder>
-  <file name="healthinfo_intro.html" crc="361879948" seo="true" mt="1619070935979" redirect="true"/>
-  <file name="healthinfo_resources.html" crc="4247742674" seo="true" mt="1619575398892" redirect="true"/>
-  <file name="earlyprevention.html" crc="4177836589" seo="true" mt="1619575617972" redirect="true"/>
-  <file name="treatmentplan.html" crc="86665529" seo="true" mt="1619575825233" redirect="true"/>
-  <file name="aboutus.html" crc="346544492" seo="true" mt="1619575393248" redirect="true"/>
-  <file name="index.html" crc="374620930" seo="true" mt="1619072496016" redirect="true"/>
-  <file name="activities.html" crc="3932890741" seo="true" mt="1619072138340" redirect="true"/>
-  <file name="contactus.html" crc="4000698247" seo="true" mt="1619072155412" redirect="true"/>
-  <file name="healthinfo_stages.html" crc="4126987417" seo="true" mt="1619070935979" redirect="true"/>
-  <file name="healthinfo_causes.html" crc="214603807" seo="true" mt="1619070935978" redirect="true"/>
+  <file name="healthinfo_intro.html" crc="3990375218" seo="true" mt="1619942712443" redirect="true"/>
+  <file name="healthinfo_resources.html" crc="3914634091" seo="true" mt="1619957472902" redirect="true"/>
+  <file name="earlyprevention.html" crc="409641216" seo="true" mt="1619957467725" redirect="true"/>
+  <file name="treatmentplan.html" crc="3989799222" seo="true" mt="1619904539589" redirect="true"/>
+  <file name="aboutus.html" crc="482827189" seo="true" mt="1619904539589" redirect="true"/>
+  <file name="index.html" crc="3918402247" seo="true" mt="1619904539589" redirect="true"/>
+  <file name="activities.html" crc="33603377" seo="true" mt="1619904539589" redirect="true"/>
+  <file name="contactus.html" crc="4245406726" seo="true" mt="1619904539589" redirect="true"/>
+  <file name="healthinfo_stages.html" crc="3864989998" seo="true" mt="1619070935979" redirect="true"/>
+  <file name="healthinfo_causes.html" crc="4013893769" seo="true" mt="1619070935978" redirect="true"/>
 </manifest>
