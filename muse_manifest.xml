@@ -1,46 +1,47 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://wwwuat.polyu.edu.hk/proj/hkvmt" resolutions="1x,2x" timestamp="1620002371175">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://www.polyu.edu.hk/proj/hkvmt" resolutions="1x,2x" timestamp="1621131453901">
   <folder name="css">
-    <file name="site_global.css" crc="3842947113"/>
-    <file name="master_storytelling-green.css" crc="167150905" ref="earlyprevention"/>
-    <file name="nomq_preview_master_storytelling-green.css" crc="356343435" ref="earlyprevention"/>
-    <file name="master_normal.css" crc="4041097058" ref="treatmentplan:activities:contactus:index:healthinfo_resources:aboutus"/>
-    <file name="nomq_preview_master_normal.css" crc="118527867" ref="treatmentplan:activities:contactus:index:healthinfo_resources:aboutus"/>
-    <file name="master_storytelling-yellow.css" crc="3954366982" ref="healthinfo_intro:healthinfo_causes:healthinfo_stages"/>
-    <file name="nomq_preview_master_storytelling-yellow.css" crc="4102606202" ref="healthinfo_intro:healthinfo_causes:healthinfo_stages"/>
-    <file name="healthinfo_intro.css" crc="186851305" ref="healthinfo_intro"/>
-    <file name="nomq_healthinfo_intro.css" crc="4135382640" ref="healthinfo_intro"/>
-    <file name="treatmentplan.css" crc="4001235577" ref="treatmentplan"/>
-    <file name="nomq_treatmentplan.css" crc="4167806357" ref="treatmentplan"/>
-    <file name="activities.css" crc="75608886" ref="activities"/>
-    <file name="nomq_activities.css" crc="3762056112" ref="activities"/>
-    <file name="healthinfo_causes.css" crc="204668150" ref="healthinfo_causes"/>
-    <file name="nomq_healthinfo_causes.css" crc="200700849" ref="healthinfo_causes"/>
-    <file name="contactus.css" crc="274581578" ref="contactus"/>
-    <file name="nomq_contactus.css" crc="212907584" ref="contactus"/>
-    <file name="earlyprevention.css" crc="4147920295" ref="earlyprevention"/>
-    <file name="nomq_earlyprevention.css" crc="4115706825" ref="earlyprevention"/>
-    <file name="index.css" crc="4269609394" ref="index"/>
-    <file name="nomq_index.css" crc="4039908170" ref="index"/>
-    <file name="healthinfo_stages.css" crc="205892172" ref="healthinfo_stages"/>
-    <file name="nomq_healthinfo_stages.css" crc="4241053834" ref="healthinfo_stages"/>
-    <file name="healthinfo_resources.css" crc="142599464" ref="healthinfo_resources"/>
-    <file name="nomq_healthinfo_resources.css" crc="423532417" ref="healthinfo_resources"/>
-    <file name="aboutus.css" crc="116459841" ref="aboutus"/>
-    <file name="nomq_aboutus.css" crc="202371484" ref="aboutus"/>
+    <file name="site_global.css" crc="505810368"/>
+    <file name="master_storytelling-yellow.css" crc="3954366982" ref="healthinfo_stages:healthinfo_causes:healthinfo_intro"/>
+    <file name="nomq_preview_master_storytelling-yellow.css" crc="4102606202" ref="healthinfo_stages:healthinfo_causes:healthinfo_intro"/>
+    <file name="master_normal.css" crc="358291910" ref="localresources:index:media-activities:healingplan:hk-vmt:contactus:aboutus"/>
+    <file name="nomq_preview_master_normal.css" crc="267953578" ref="localresources:index:media-activities:healingplan:hk-vmt:contactus:aboutus"/>
+    <file name="master_storytelling-green.css" crc="167150905" ref="brainhealth"/>
+    <file name="nomq_preview_master_storytelling-green.css" crc="356343435" ref="brainhealth"/>
+    <file name="localresources.css" crc="406749429" ref="localresources"/>
+    <file name="nomq_localresources.css" crc="4028007049" ref="localresources"/>
+    <file name="healthinfo_stages.css" crc="4262375104" ref="healthinfo_stages"/>
+    <file name="nomq_healthinfo_stages.css" crc="3776564822" ref="healthinfo_stages"/>
+    <file name="index.css" crc="4119527273" ref="index"/>
+    <file name="nomq_index.css" crc="528419948" ref="index"/>
+    <file name="brainhealth.css" crc="268720321" ref="brainhealth"/>
+    <file name="nomq_brainhealth.css" crc="3942445345" ref="brainhealth"/>
+    <file name="healthinfo_causes.css" crc="287915184" ref="healthinfo_causes"/>
+    <file name="nomq_healthinfo_causes.css" crc="4222260930" ref="healthinfo_causes"/>
+    <file name="media-activities.css" crc="4089636443" ref="media-activities"/>
+    <file name="nomq_media-activities.css" crc="207103261" ref="media-activities"/>
+    <file name="healingplan.css" crc="57199537" ref="healingplan"/>
+    <file name="nomq_healingplan.css" crc="3854455779" ref="healingplan"/>
+    <file name="healthinfo_intro.css" crc="343680120" ref="healthinfo_intro"/>
+    <file name="nomq_healthinfo_intro.css" crc="137209487" ref="healthinfo_intro"/>
+    <file name="hk-vmt.css" crc="4146353958" ref="hk-vmt"/>
+    <file name="nomq_hk-vmt.css" crc="3837492408" ref="hk-vmt"/>
+    <file name="contactus.css" crc="160801656" ref="contactus"/>
+    <file name="nomq_contactus.css" crc="3886246533" ref="contactus"/>
+    <file name="aboutus.css" crc="67496108" ref="aboutus"/>
+    <file name="nomq_aboutus.css" crc="4294175358" ref="aboutus"/>
   </folder>
   <folder name="fonts">
-    <file name="fakepearl-light.woff" crc="145533271"/>
-    <file name="fakepearl-light.eot" crc="3986492076"/>
-    <file name="fakepearl-light.svg" crc="13062958"/>
     <file name="fakepearl-regular.woff" crc="199010244"/>
     <file name="fakepearl-regular.eot" crc="3931012199"/>
     <file name="fakepearl-regular.svg" crc="4183474000"/>
+    <file name="fakepearl-light.woff" crc="145533271"/>
+    <file name="fakepearl-light.eot" crc="3986492076"/>
+    <file name="fakepearl-light.svg" crc="13062958"/>
     <file name="fakepearl-medium.woff" crc="4020622972"/>
     <file name="fakepearl-medium.eot" crc="520576861"/>
     <file name="fakepearl-medium.svg" crc="4134575811"/>
   </folder>
   <folder name="assets">
-    <file name="video.mp4" crc="535624812" seo="true" mt="1615553072000"/>
     <file name="footer_pullup.png" crc="4032338105" seo="true" mt="1617815516000"/>
     <file name="footer_pullup_s.png" crc="161315202" seo="true" mt="1617815522000"/>
     <file name="pullup_arrow.png" crc="4266001741" seo="true" mt="1617786719000"/>
@@ -56,7 +57,6 @@
     <file name="pic_partnership.jpg" crc="3812434967" seo="true" mt="1618235731000"/>
     <file name="healthinfo_01_2.svg" crc="419144058" seo="true" mt="1618421443000"/>
     <file name="healthinfo_02_1.svg" crc="106876728" seo="true" mt="1618421556000"/>
-    <file name="healthinfo_04_3.svg" crc="4107870553" seo="true" mt="1618498912000"/>
     <file name="hi_intro_p1_1.svg" crc="74545296" seo="true" mt="1618582154000"/>
     <file name="hi_intro_p2_1.svg" crc="152956246" seo="true" mt="1618598525000"/>
     <file name="hi_intro_p3_2.svg" crc="341089770" seo="true" mt="1618653443000"/>
@@ -66,29 +66,33 @@
     <file name="pic_kevin-chan.jpg" crc="4168401078" seo="true" mt="1619073758000"/>
     <file name="pic_newman-lau.jpg" crc="329432143" seo="true" mt="1615552941000"/>
     <file name="pic_alex-choy.jpg" crc="3888795333" seo="true" mt="1615552892000"/>
-    <file name="pexels-marcus-aurelius-6785214.mp4" crc="492596173" seo="true" mt="1615553156000"/>
     <file name="pic_poster01.png" crc="117486935" seo="true" mt="1620001707000"/>
     <file name="pic_poster02.png" crc="325834598" seo="true" mt="1620001782000"/>
+    <file name="healing.mp4" crc="492596173" seo="true" mt="1615553156000"/>
+    <file name="relax.mp4" crc="535624812" seo="true" mt="1615553072000"/>
+    <file name="hk-vmt-user.mp4" crc="4241067732" seo="true" mt="1621075503000"/>
+    <file name="pic_poster03.png" crc="4272614008" seo="true" mt="1621080743000"/>
+    <file name="pic_family.jpeg" crc="4102352093" seo="true" mt="1621089782000"/>
+    <file name="polyrnn-demo.gif" crc="4138285749" seo="true" mt="1615739575000"/>
+    <file name="healthinfo_04_2.svg" crc="261876480" seo="true" mt="1621124543000"/>
+    <file name="pic_resource.jpeg" crc="4212008383" seo="true" mt="1621128246000"/>
+    <file name="pic_media.jpg" crc="386590252" seo="true" mt="1621128042000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="healthinfo_intro:healthinfo_resources:earlyprevention:treatmentplan:aboutus:index:activities:contactus:healthinfo_stages:healthinfo_causes"/>
-    <file name="museutils.js" crc="3939489907" ref="healthinfo_intro:healthinfo_resources:earlyprevention:treatmentplan:aboutus:index:activities:contactus:healthinfo_stages:healthinfo_causes"/>
-    <file name="whatinput.js" crc="86476730" ref="healthinfo_intro:healthinfo_resources:earlyprevention:treatmentplan:aboutus:index:activities:contactus:healthinfo_stages:healthinfo_causes"/>
-    <file name="museconfig.js" crc="3936894949" ref="healthinfo_intro:healthinfo_resources:earlyprevention:treatmentplan:aboutus:index:activities:contactus:healthinfo_stages:healthinfo_causes"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="healthinfo_intro:healthinfo_resources:earlyprevention:treatmentplan:aboutus:index:healthinfo_stages:healthinfo_causes"/>
-    <file name="jquery.watch.js" crc="522499760" ref="healthinfo_intro:healthinfo_resources:earlyprevention:treatmentplan:aboutus:index:activities:contactus:healthinfo_stages:healthinfo_causes"/>
-    <file name="jquery.musemenu.js" crc="4139692962" ref="healthinfo_intro:healthinfo_resources:earlyprevention:treatmentplan:aboutus:index:activities:contactus:healthinfo_stages:healthinfo_causes"/>
-    <file name="html5shiv.js" crc="4241844378" ref="healthinfo_intro:healthinfo_resources:earlyprevention:treatmentplan:aboutus:index:activities:contactus:healthinfo_stages:healthinfo_causes"/>
-    <file name="jquery.museresponsive.js" crc="95814420" ref="healthinfo_intro:healthinfo_resources:earlyprevention:treatmentplan:aboutus:index:activities:contactus:healthinfo_stages:healthinfo_causes"/>
-    <file name="require.js" crc="4177726516" ref="healthinfo_intro:healthinfo_resources:earlyprevention:treatmentplan:aboutus:index:activities:contactus:healthinfo_stages:healthinfo_causes"/>
-    <file name="webpro.js" crc="3856315280" ref="index"/>
-    <file name="form_check.php" crc="4108222811" ref="index"/>
-    <file name="form_throttle.php" crc="503802655" ref="index"/>
-    <file name="form_process.php" crc="260214869" ref="index"/>
-    <file name="form-u105899.php" crc="223908125" ref="index"/>
-    <file name="musewpslideshow.js" crc="244150766" ref="index"/>
-    <file name="jquery.museoverlay.js" crc="3877667098" ref="index"/>
-    <file name="touchswipe.js" crc="3888935200" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="healthinfo_intro:localresources:brainhealth:healingplan:aboutus:index:media-activities:contactus:healthinfo_stages:healthinfo_causes:hk-vmt"/>
+    <file name="museutils.js" crc="3939489907" ref="healthinfo_intro:localresources:brainhealth:healingplan:aboutus:index:media-activities:contactus:healthinfo_stages:healthinfo_causes:hk-vmt"/>
+    <file name="whatinput.js" crc="86476730" ref="healthinfo_intro:localresources:brainhealth:healingplan:aboutus:index:media-activities:contactus:healthinfo_stages:healthinfo_causes:hk-vmt"/>
+    <file name="museconfig.js" crc="3936894949" ref="healthinfo_intro:localresources:brainhealth:healingplan:aboutus:index:media-activities:contactus:healthinfo_stages:healthinfo_causes:hk-vmt"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="healthinfo_intro:localresources:brainhealth:healingplan:aboutus:index:media-activities:healthinfo_stages:healthinfo_causes:hk-vmt"/>
+    <file name="jquery.watch.js" crc="522499760" ref="healthinfo_intro:localresources:brainhealth:healingplan:aboutus:index:media-activities:contactus:healthinfo_stages:healthinfo_causes:hk-vmt"/>
+    <file name="jquery.musemenu.js" crc="4139692962" ref="healthinfo_intro:localresources:brainhealth:healingplan:aboutus:index:media-activities:contactus:healthinfo_stages:healthinfo_causes:hk-vmt"/>
+    <file name="html5shiv.js" crc="4241844378" ref="healthinfo_intro:localresources:brainhealth:healingplan:aboutus:index:media-activities:contactus:healthinfo_stages:healthinfo_causes:hk-vmt"/>
+    <file name="jquery.museresponsive.js" crc="95814420" ref="healthinfo_intro:localresources:brainhealth:healingplan:aboutus:index:media-activities:contactus:healthinfo_stages:healthinfo_causes:hk-vmt"/>
+    <file name="require.js" crc="4177726516" ref="healthinfo_intro:localresources:brainhealth:healingplan:aboutus:index:media-activities:contactus:healthinfo_stages:healthinfo_causes:hk-vmt"/>
+    <file name="webpro.js" crc="3856315280" ref="media-activities"/>
+    <file name="musewpslideshow.js" crc="244150766" ref="media-activities"/>
+    <file name="jquery.museoverlay.js" crc="3877667098" ref="media-activities"/>
+    <file name="touchswipe.js" crc="3888935200" ref="media-activities"/>
   </folder>
   <folder name="images">
     <file name="storytelling-yellow-favicon.ico" crc="3891198573" ref="healthinfo_intro"/>
@@ -112,8 +116,12 @@
     <file name="hi_intro_p2_2_2x.png" crc="4195626755" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes">
       <caption webpage="healthinfo_intro" alt=""/>
     </file>
-    <file name="hi_imagebox-buttonu120805-fr.png" crc="196321536" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
-    <file name="hi_imagebox-buttonu120805-fr_2x.png" crc="514825533" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
+    <file name="hi_imagebox.png" crc="263295831" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes">
+      <caption webpage="healthinfo_intro" alt=""/>
+    </file>
+    <file name="hi_imagebox_2x.png" crc="514825533" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes">
+      <caption webpage="healthinfo_intro" alt=""/>
+    </file>
     <file name="hi_intro_p3_1.png" crc="3905899487" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes">
       <caption webpage="healthinfo_intro" alt=""/>
     </file>
@@ -141,24 +149,10 @@
     <file name="hi_intro_p6_3_2x.png" crc="3960785920" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes">
       <caption webpage="healthinfo_intro" alt=""/>
     </file>
-    <file name="hi_imagebox.png" crc="317107204" ref="healthinfo_intro">
+    <file name="home_btn.png" crc="246263674" ref="healthinfo_intro:brainhealth">
       <caption webpage="healthinfo_intro" alt=""/>
     </file>
-    <file name="hi_imagebox_2x.png" crc="297597876" ref="healthinfo_intro">
-      <caption webpage="healthinfo_intro" alt=""/>
-    </file>
-    <file name="hi_imagecircle_s-buttonu121314-r-fr.png" crc="3935813470" ref="healthinfo_intro"/>
-    <file name="hi_imagecircle_s-buttonu121314-r-fr_2x.png" crc="366598860" ref="healthinfo_intro"/>
-    <file name="h1_p2_btn-u121738-fr.png" crc="495484038" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
-    <file name="h1_p2_btn-u121738-fr_2x.png" crc="424846853" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
-    <file name="h1_s3_btn-u121889-fr.png" crc="3981877123" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
-    <file name="h1_s3_btn-u121889-fr_2x.png" crc="4029574101" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
-    <file name="h1_s4_btn-u121927-fr.png" crc="491473835" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
-    <file name="h1_s4_btn-u121927-fr_2x.png" crc="3911074830" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
-    <file name="home_btn.png" crc="246263674" ref="healthinfo_intro:earlyprevention">
-      <caption webpage="healthinfo_intro" alt=""/>
-    </file>
-    <file name="home_btn_2x.png" crc="4074314466" ref="healthinfo_intro:earlyprevention">
+    <file name="home_btn_2x.png" crc="4074314466" ref="healthinfo_intro:brainhealth">
       <caption webpage="healthinfo_intro" alt=""/>
     </file>
     <file name="hi_imagecircle-u120926-fr2.png" crc="3815361401" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
@@ -181,20 +175,8 @@
     <file name="healthinfo_01_3-u117270-fr_2x.png" crc="344293283" ref="healthinfo_intro:healthinfo_causes"/>
     <file name="hi_intro_p3_1-u120750-fr.png" crc="179967445" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
     <file name="hi_intro_p3_1-u120750-fr_2x.png" crc="3860168199" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
-    <file name="hi_imagebox-buttonu120805-fr2.png" crc="4003278231" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
-    <file name="hi_imagebox-buttonu120805-fr_2x2.png" crc="3889578895" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
-    <file name="hi_imagebox-buttonu121314-fr.png" crc="492694773" ref="healthinfo_intro"/>
-    <file name="hi_imagebox-buttonu121314-fr_2x.png" crc="512704113" ref="healthinfo_intro"/>
-    <file name="hi_imagecircle_s-buttonu121314-r-fr2.png" crc="3831567364" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
-    <file name="hi_imagecircle_s-buttonu121314-r-fr_2x2.png" crc="4169081765" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
-    <file name="h1_p2_btn-u121738-fr2.png" crc="4054069482" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
-    <file name="h1_p2_btn-u121738-fr_2x2.png" crc="167289261" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
     <file name="hi_intro_p6_3-u121775-fr.png" crc="4182445559" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
     <file name="hi_intro_p6_3-u121775-fr_2x.png" crc="4024025894" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
-    <file name="h1_s3_btn-u121889-fr2.png" crc="454100879" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
-    <file name="h1_s3_btn-u121889-fr_2x2.png" crc="495454679" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
-    <file name="h1_s4_btn-u121927-fr2.png" crc="520923897" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
-    <file name="h1_s4_btn-u121927-fr_2x2.png" crc="481648188" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
     <file name="hi_imagecircle-u120926-fr3.png" crc="60396091" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
     <file name="hi_imagecircle-u120926-fr_2x3.png" crc="224999949" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
     <file name="hi_imagecircle-u120893-fr2.png" crc="109661685" ref="healthinfo_intro:healthinfo_causes"/>
@@ -211,614 +193,742 @@
     <file name="healthinfo_01_3-u117270-fr_2x2.png" crc="121286246" ref="healthinfo_intro:healthinfo_causes"/>
     <file name="hi_intro_p3_1-u120750-fr2.png" crc="31159965" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
     <file name="hi_intro_p3_1-u120750-fr_2x2.png" crc="3916725981" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
-    <file name="hi_imagebox-buttonu120805-fr3.png" crc="4050375899" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
-    <file name="hi_imagebox-buttonu120805-fr_2x3.png" crc="217758817" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
-    <file name="h1_p2_btn-u121738-fr3.png" crc="254669946" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
-    <file name="h1_p2_btn-u121738-fr_2x3.png" crc="4072756146" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
+    <file name="hi_imagebox-buttonu120805-fr.png" crc="4155497839" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
+    <file name="hi_imagebox-buttonu120805-fr_2x.png" crc="3759230770" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
     <file name="hi_intro_p6_3-u121775-fr2.png" crc="4058792846" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
     <file name="hi_intro_p6_3-u121775-fr_2x2.png" crc="510791192" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
-    <file name="h1_s3_btn-u121889-fr3.png" crc="423615704" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
-    <file name="h1_s3_btn-u121889-fr_2x3.png" crc="468950282" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
-    <file name="h1_s4_btn-u121927-fr3.png" crc="486692725" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
-    <file name="h1_s4_btn-u121927-fr_2x3.png" crc="4037512022" ref="healthinfo_intro:healthinfo_stages:healthinfo_causes"/>
-    <file name="blank.gif" crc="4208392903" ref="healthinfo_intro:healthinfo_resources:earlyprevention:treatmentplan:aboutus:index:activities:contactus:healthinfo_stages:healthinfo_causes"/>
-    <file name="normal-favicon.ico" crc="3891198573" ref="healthinfo_resources"/>
-    <file name="logo-website-u70818.png" crc="4049180900" ref="healthinfo_resources:treatmentplan:aboutus:index:activities:contactus"/>
-    <file name="logo-website-u70818_2x.png" crc="3843027378" ref="healthinfo_resources:treatmentplan:aboutus:index:activities:contactus"/>
-    <file name="logo-website.png" crc="200669489" ref="healthinfo_resources:treatmentplan">
-      <caption webpage="healthinfo_resources" alt=""/>
+    <file name="blank.gif" crc="4208392903" ref="healthinfo_intro:localresources:brainhealth:healingplan:aboutus:index:media-activities:contactus:healthinfo_stages:healthinfo_causes:hk-vmt"/>
+    <file name="normal-favicon.ico" crc="3891198573" ref="localresources"/>
+    <file name="logo-website.png" crc="4032921665" ref="localresources:healingplan:hk-vmt">
+      <caption webpage="localresources" alt=""/>
     </file>
-    <file name="logo-website_2x.png" crc="4121552401" ref="healthinfo_resources:treatmentplan">
-      <caption webpage="healthinfo_resources" alt=""/>
+    <file name="logo-website_2x.png" crc="495508145" ref="localresources:healingplan:hk-vmt">
+      <caption webpage="localresources" alt=""/>
     </file>
-    <file name="storytelling-green-favicon.ico" crc="3891198573" ref="earlyprevention"/>
-    <file name="wave_green.png" crc="272047350" ref="earlyprevention:index">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="logo-website-u177427.png" crc="4217573611" ref="localresources:healingplan:aboutus:index:media-activities:contactus:hk-vmt"/>
+    <file name="logo-website-u177427_2x.png" crc="3802166901" ref="localresources:healingplan:aboutus:index:media-activities:contactus:hk-vmt"/>
+    <file name="storytelling-green-favicon.ico" crc="3891198573" ref="brainhealth"/>
+    <file name="wave_green.png" crc="272047350" ref="brainhealth:index:hk-vmt">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="prevention.png" crc="523896773" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="brainhealth-u133444-fr.png" crc="74493451" ref="brainhealth"/>
+    <file name="brainhealth-u133444-fr_2x.png" crc="255371946" ref="brainhealth"/>
+    <file name="heart-u46709-fr.png" crc="450255980" ref="brainhealth:index"/>
+    <file name="heart-u46709-fr_2x.png" crc="384331060" ref="brainhealth:index"/>
+    <file name="man-jumping-rope.png" crc="46601729" ref="brainhealth:index">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="heart-u46709-fr.png" crc="450255980" ref="earlyprevention"/>
-    <file name="heart-u46709-fr_2x.png" crc="384331060" ref="earlyprevention"/>
-    <file name="man-jumping-rope.png" crc="46601729" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="man-jumping-rope_2x.png" crc="4174370084" ref="brainhealth:index">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="man-jumping-rope_2x.png" crc="4174370084" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="community.png" crc="4025402584" ref="brainhealth:index">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="community.png" crc="4025402584" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="community_2x.png" crc="443193422" ref="brainhealth:index">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="community_2x.png" crc="443193422" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="emotions.png" crc="4251865290" ref="brainhealth:index">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="emotions.png" crc="4251865290" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="emotions_2x.png" crc="262841995" ref="brainhealth:index">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="emotions_2x.png" crc="262841995" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="healthy-food.png" crc="45458285" ref="brainhealth:index">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="healthy-food.png" crc="45458285" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="healthy-food_2x.png" crc="3926914512" ref="brainhealth:index">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="healthy-food_2x.png" crc="3926914512" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="head.png" crc="63310888" ref="brainhealth:index">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="head.png" crc="63310888" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="head_2x.png" crc="4256728339" ref="brainhealth:index">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="head_2x.png" crc="4256728339" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="earlyprevent02.png" crc="4074554393" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="earlyprevent02.png" crc="4074554393" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="earlyprevent02_2x.png" crc="427699322" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="earlyprevent02_2x.png" crc="427699322" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="earlyprevent01-u134469-fr.png" crc="308778006" ref="brainhealth"/>
+    <file name="earlyprevent01-u134469-fr_2x.png" crc="258259152" ref="brainhealth"/>
+    <file name="pyramid-u138499-fr.png" crc="3895519600" ref="brainhealth"/>
+    <file name="pyramid-u138499-fr_2x.png" crc="4261339083" ref="brainhealth"/>
+    <file name="hiking.png" crc="80106068" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="earlyprevent01-u134469-fr.png" crc="308778006" ref="earlyprevention"/>
-    <file name="earlyprevent01-u134469-fr_2x.png" crc="258259152" ref="earlyprevention"/>
-    <file name="pyramid-u138499-fr.png" crc="3895519600" ref="earlyprevention"/>
-    <file name="pyramid-u138499-fr_2x.png" crc="4261339083" ref="earlyprevention"/>
-    <file name="hiking.png" crc="80106068" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="hiking_2x.png" crc="335734529" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="hiking_2x.png" crc="335734529" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="dancing.png" crc="308176038" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="dancing.png" crc="308176038" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="dancing_2x.png" crc="164489505" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="dancing_2x.png" crc="164489505" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="football.png" crc="4130318723" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="football.png" crc="4130318723" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="football_2x.png" crc="296858846" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="football_2x.png" crc="296858846" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="running.png" crc="505620156" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="running.png" crc="505620156" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="running_2x.png" crc="340542662" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="running_2x.png" crc="340542662" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="biking.png" crc="354849602" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="biking.png" crc="354849602" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="biking_2x.png" crc="57938959" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="biking_2x.png" crc="57938959" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="watch tv.png" crc="192769212" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="watch tv.png" crc="192769212" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="watch tv_2x.png" crc="4109313515" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="watch tv_2x.png" crc="4109313515" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="phone.png" crc="4076229429" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="phone.png" crc="4076229429" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="phone_2x.png" crc="4079010042" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="phone_2x.png" crc="4079010042" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="remote.png" crc="3795225739" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="remote.png" crc="3795225739" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="remote_2x.png" crc="3863605008" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="remote_2x.png" crc="3863605008" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="walking 2.png" crc="157972504" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="walking 2.png" crc="157972504" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="walking 2_2x.png" crc="154197497" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="walking 2_2x.png" crc="154197497" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="stair climbing 2.png" crc="4256086653" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="stair climbing 2.png" crc="4256086653" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="stair climbing 2_2x.png" crc="275775565" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="stair climbing 2_2x.png" crc="275775565" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="housework.png" crc="360833770" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="housework.png" crc="360833770" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="housework_2x.png" crc="222319847" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="housework_2x.png" crc="222319847" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="caregiver.png" crc="4272895169" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="caregiver.png" crc="4272895169" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="caregiver_2x.png" crc="198682506" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="caregiver_2x.png" crc="198682506" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="stair climbing 1.png" crc="3787780868" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="stair climbing 1.png" crc="3787780868" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="stair climbing 1_2x.png" crc="3874344198" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="stair climbing 1_2x.png" crc="3874344198" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="park equipment.png" crc="3905395547" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="park equipment.png" crc="3905395547" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="park equipment_2x.png" crc="312386691" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="park equipment_2x.png" crc="312386691" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="walking 1.png" crc="4057562425" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="walking 1.png" crc="4057562425" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="walking 1_2x.png" crc="320786827" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="walking 1_2x.png" crc="320786827" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="ball game.png" crc="4115547279" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="ball game.png" crc="4115547279" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="ball game_2x.png" crc="210542617" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="ball game_2x.png" crc="210542617" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="pic_family.jpg" crc="3865288110" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="pic_family.jpg" crc="3865288110" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="pic_family_2x.jpg" crc="208600098" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="pic_family_2x.jpg" crc="208600098" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="pic_elderly exercise01.jpg" crc="448311440" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="pic_elderly exercise01.jpg" crc="448311440" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="pic_elderly exercise01_2x.jpg" crc="10017352" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="pic_elderly exercise01_2x.jpg" crc="10017352" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="pic_elderly dance-u46874-fr.jpg" crc="4051158357" ref="brainhealth"/>
+    <file name="pic_elderly dance-u46874-fr_2x.jpg" crc="247285683" ref="brainhealth"/>
+    <file name="pic_elderly yoga.jpg" crc="4225008073" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="pic_elderly dance-u46874-fr.jpg" crc="4051158357" ref="earlyprevention"/>
-    <file name="pic_elderly dance-u46874-fr_2x.jpg" crc="247285683" ref="earlyprevention"/>
-    <file name="pic_elderly yoga.jpg" crc="4225008073" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="pic_elderly yoga_2x.jpg" crc="3771760726" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="pic_elderly yoga_2x.jpg" crc="3771760726" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="elderapp01.png" crc="369731505" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="elderapp01.png" crc="369731505" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="elderapp01_2x.png" crc="409521707" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="elderapp01_2x.png" crc="409521707" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
+    <file name="app_store_btn.svg" crc="205710994" ref="brainhealth"/>
+    <file name="app_store_btn_poster_u139080.png" crc="4269226487" ref="brainhealth"/>
+    <file name="google_play_btn-u139097-fr.png" crc="3833108303" ref="brainhealth"/>
+    <file name="google_play_btn-u139097-fr_2x.png" crc="4220721082" ref="brainhealth"/>
+    <file name="pic_elderly reading.jpg" crc="3913855253" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="app_store_btn.svg" crc="205710994" ref="earlyprevention"/>
-    <file name="app_store_btn_poster_u139080.png" crc="4269226487" ref="earlyprevention"/>
-    <file name="google_play_btn-u139097-fr.png" crc="3833108303" ref="earlyprevention"/>
-    <file name="google_play_btn-u139097-fr_2x.png" crc="4220721082" ref="earlyprevention"/>
-    <file name="pic_elderly reading.jpg" crc="3913855253" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
-    </file>
-    <file name="pic_elderly reading_2x.jpg" crc="439024894" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
-    </file>
-    <file name="pic_calligraphy.jpg" crc="87145653" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
-    </file>
-    <file name="pic_calligraphy_2x.jpg" crc="4064391419" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
-    </file>
-    <file name="pic_mahjong.jpg" crc="419171754" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
-    </file>
-    <file name="pic_mahjong_2x.jpg" crc="105938914" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
-    </file>
-    <file name="elderapp03.png" crc="454423253" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
-    </file>
-    <file name="elderapp03_2x.png" crc="296739370" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
-    </file>
-    <file name="elderapp05.jpg" crc="22169728" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
-    </file>
-    <file name="elderapp06-u139275-fr.png" crc="47209626" ref="earlyprevention"/>
-    <file name="elderapp06-u139275-fr_2x.png" crc="4049893613" ref="earlyprevention"/>
-    <file name="pic_healthyfood.jpg" crc="3987092162" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
-    </file>
-    <file name="earilyprevent_healthyfoodbook-u141197-fr.png" crc="400056765" ref="earlyprevention"/>
-    <file name="arrow_green.png" crc="3854523882" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
-    </file>
-    <file name="arrow_green_2x.png" crc="424156880" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
-    </file>
-    <file name="mediterranean diet.png" crc="3923115882" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
-    </file>
-    <file name="dash diet.png" crc="376650716" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
-    </file>
-    <file name="earlyprevent03.png" crc="3805324261" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
-    </file>
-    <file name="earlyprevent03_2x.png" crc="3900474472" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
-    </file>
-    <file name="earlyprevent04.png" crc="4047638737" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
-    </file>
-    <file name="earlyprevent04_2x.png" crc="111394605" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
-    </file>
-    <file name="mind diet.png" crc="77670730" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
-    </file>
-    <file name="wave_green-buttonu133421-fr.png" crc="3931894385" ref="earlyprevention"/>
-    <file name="wave_green-buttonu133421-fr_2x.png" crc="4001871886" ref="earlyprevention"/>
-    <file name="heart-u46709-fr2.png" crc="4072111517" ref="earlyprevention"/>
-    <file name="heart-u46709-fr_2x2.png" crc="3797438904" ref="earlyprevention"/>
-    <file name="community-u46349-fr.png" crc="3826039995" ref="earlyprevention"/>
-    <file name="community-u46349-fr_2x.png" crc="124238828" ref="earlyprevention"/>
-    <file name="emotions-u46389-fr.png" crc="4255888786" ref="earlyprevention"/>
-    <file name="emotions-u46389-fr_2x.png" crc="19630280" ref="earlyprevention"/>
-    <file name="healthy-food-u46424-fr.png" crc="454443510" ref="earlyprevention"/>
-    <file name="healthy-food-u46424-fr_2x.png" crc="470162149" ref="earlyprevention"/>
-    <file name="man-jumping-rope-u46456-fr.png" crc="379715" ref="earlyprevention"/>
-    <file name="man-jumping-rope-u46456-fr_2x.png" crc="4062964886" ref="earlyprevention"/>
-    <file name="head-u46486-fr.png" crc="3766528953" ref="earlyprevention"/>
-    <file name="head-u46486-fr_2x.png" crc="3969550345" ref="earlyprevention"/>
-    <file name="earlyprevent01-u134469-fr2.png" crc="225813701" ref="earlyprevention"/>
-    <file name="earlyprevent01-u134469-fr_2x2.png" crc="318889083" ref="earlyprevention"/>
-    <file name="pyramid.png" crc="30615459" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
-    </file>
-    <file name="pyramid_2x.png" crc="405266724" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
-    </file>
-    <file name="watch tv-u138594-fr.png" crc="3946282804" ref="earlyprevention"/>
-    <file name="watch tv-u138594-fr_2x.png" crc="35822057" ref="earlyprevention"/>
-    <file name="phone-u138595-fr.png" crc="3913682005" ref="earlyprevention"/>
-    <file name="phone-u138595-fr_2x.png" crc="4146289922" ref="earlyprevention"/>
-    <file name="hiking-u138626-fr.png" crc="4168714638" ref="earlyprevention"/>
-    <file name="hiking-u138626-fr_2x.png" crc="3980996549" ref="earlyprevention"/>
-    <file name="dancing-u138625-fr.png" crc="4044445366" ref="earlyprevention"/>
-    <file name="dancing-u138625-fr_2x.png" crc="317699302" ref="earlyprevention"/>
-    <file name="running-u138623-fr.png" crc="229030728" ref="earlyprevention"/>
-    <file name="running-u138623-fr_2x.png" crc="4290841923" ref="earlyprevention"/>
-    <file name="football-u138624-fr.png" crc="3758305731" ref="earlyprevention"/>
-    <file name="football-u138624-fr_2x.png" crc="250690610" ref="earlyprevention"/>
-    <file name="biking-u138622-fr.png" crc="199499596" ref="earlyprevention"/>
-    <file name="biking-u138622-fr_2x.png" crc="411084329" ref="earlyprevention"/>
-    <file name="park equipment-u137719-fr.png" crc="320232670" ref="earlyprevention"/>
-    <file name="park equipment-u137719-fr_2x.png" crc="4021334020" ref="earlyprevention"/>
-    <file name="walking 1-u137720-fr.png" crc="4154283679" ref="earlyprevention"/>
-    <file name="walking 1-u137720-fr_2x.png" crc="4200512988" ref="earlyprevention"/>
-    <file name="walking 2-u137784-fr.png" crc="3864896537" ref="earlyprevention"/>
-    <file name="walking 2-u137784-fr_2x.png" crc="141706161" ref="earlyprevention"/>
-    <file name="stair climbing 2-u137831-fr.png" crc="348126990" ref="earlyprevention"/>
-    <file name="stair climbing 2-u137831-fr_2x.png" crc="87942210" ref="earlyprevention"/>
-    <file name="caregiver-u137767-fr.png" crc="4069434394" ref="earlyprevention"/>
-    <file name="caregiver-u137767-fr_2x.png" crc="4003320987" ref="earlyprevention"/>
-    <file name="housework-u137768-fr.png" crc="3897432598" ref="earlyprevention"/>
-    <file name="housework-u137768-fr_2x.png" crc="4110117254" ref="earlyprevention"/>
-    <file name="remote-u137783-fr.png" crc="3815103092" ref="earlyprevention"/>
-    <file name="remote-u137783-fr_2x.png" crc="321606065" ref="earlyprevention"/>
-    <file name="pic_family-u134060-fr.jpg" crc="3805218001" ref="earlyprevention"/>
-    <file name="pic_family-u134060-fr_2x.jpg" crc="107936156" ref="earlyprevention"/>
-    <file name="pic_elderly exercise01-u46869-fr.jpg" crc="432340057" ref="earlyprevention"/>
-    <file name="pic_elderly exercise01-u46869-fr_2x.jpg" crc="3895127568" ref="earlyprevention"/>
-    <file name="pic_elderly dance-u46874-fr2.jpg" crc="3964260854" ref="earlyprevention"/>
-    <file name="pic_elderly dance-u46874-fr_2x2.jpg" crc="278079855" ref="earlyprevention"/>
-    <file name="pic_elderly yoga-u46901-fr.jpg" crc="4262149541" ref="earlyprevention"/>
-    <file name="pic_elderly yoga-u46901-fr_2x.jpg" crc="458787959" ref="earlyprevention"/>
-    <file name="elderapp01-u46936-fr.png" crc="255022714" ref="earlyprevention"/>
-    <file name="elderapp01-u46936-fr_2x.png" crc="454189778" ref="earlyprevention"/>
-    <file name="google_play_btn-u139097-fr2.png" crc="3948310193" ref="earlyprevention"/>
-    <file name="google_play_btn-u139097-fr_2x2.png" crc="3930218422" ref="earlyprevention"/>
-    <file name="mediterranean diet2.png" crc="441315717" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
-    </file>
-    <file name="mediterranean diet_2x.png" crc="3923115882" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
-    </file>
-    <file name="mind diet2.png" crc="3916809353" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
-    </file>
-    <file name="mind diet_2x.png" crc="77670730" ref="earlyprevention">
-      <caption webpage="earlyprevention" alt=""/>
-    </file>
-    <file name="wave_green-buttonu133421-fr2.png" crc="29123789" ref="earlyprevention:index"/>
-    <file name="wave_green-buttonu133421-fr_2x2.png" crc="4008102356" ref="earlyprevention:index"/>
-    <file name="earlyprevent01-u134469-fr3.png" crc="4033738592" ref="earlyprevention"/>
-    <file name="earlyprevent01-u134469-fr_2x3.png" crc="4139755717" ref="earlyprevention"/>
-    <file name="watch tv-u138594-fr2.png" crc="25065867" ref="earlyprevention"/>
-    <file name="watch tv-u138594-fr_2x2.png" crc="114139658" ref="earlyprevention"/>
-    <file name="phone-u138595-fr2.png" crc="398760475" ref="earlyprevention"/>
-    <file name="phone-u138595-fr_2x2.png" crc="4144903315" ref="earlyprevention"/>
-    <file name="hiking-u138626-fr2.png" crc="3828836871" ref="earlyprevention"/>
-    <file name="hiking-u138626-fr_2x2.png" crc="4153916789" ref="earlyprevention"/>
-    <file name="dancing-u138625-fr2.png" crc="4079600554" ref="earlyprevention"/>
-    <file name="dancing-u138625-fr_2x2.png" crc="4273123224" ref="earlyprevention"/>
-    <file name="running-u138623-fr2.png" crc="3882791047" ref="earlyprevention"/>
-    <file name="running-u138623-fr_2x2.png" crc="4123202733" ref="earlyprevention"/>
-    <file name="football-u138624-fr2.png" crc="3839871725" ref="earlyprevention"/>
-    <file name="football-u138624-fr_2x2.png" crc="306395520" ref="earlyprevention"/>
-    <file name="biking-u138622-fr2.png" crc="3970273761" ref="earlyprevention"/>
-    <file name="biking-u138622-fr_2x2.png" crc="3707060" ref="earlyprevention"/>
-    <file name="park equipment-u137719-fr2.png" crc="3922492261" ref="earlyprevention"/>
-    <file name="park equipment-u137719-fr_2x2.png" crc="64543313" ref="earlyprevention"/>
-    <file name="walking 1-u137720-fr2.png" crc="51982852" ref="earlyprevention"/>
-    <file name="walking 1-u137720-fr_2x2.png" crc="360653103" ref="earlyprevention"/>
-    <file name="walking 2-u137784-fr2.png" crc="3903792943" ref="earlyprevention"/>
-    <file name="walking 2-u137784-fr_2x2.png" crc="3890244276" ref="earlyprevention"/>
-    <file name="stair climbing 2-u137831-fr2.png" crc="4171703639" ref="earlyprevention"/>
-    <file name="stair climbing 2-u137831-fr_2x2.png" crc="3964192379" ref="earlyprevention"/>
-    <file name="caregiver-u137767-fr2.png" crc="217642281" ref="earlyprevention"/>
-    <file name="caregiver-u137767-fr_2x2.png" crc="530548246" ref="earlyprevention"/>
-    <file name="housework-u137768-fr2.png" crc="4224592784" ref="earlyprevention"/>
-    <file name="housework-u137768-fr_2x2.png" crc="514223802" ref="earlyprevention"/>
-    <file name="remote-u137783-fr2.png" crc="245659725" ref="earlyprevention"/>
-    <file name="remote-u137783-fr_2x2.png" crc="4291999522" ref="earlyprevention"/>
-    <file name="wave_green-buttonu133421-fr3.png" crc="4224577850" ref="earlyprevention:index"/>
-    <file name="wave_green-buttonu133421-fr_2x3.png" crc="363466457" ref="earlyprevention:index"/>
-    <file name="earlyprevent02-u137562-fr.png" crc="4041857747" ref="earlyprevention"/>
-    <file name="earlyprevent02-u137562-fr_2x.png" crc="3966787628" ref="earlyprevention"/>
-    <file name="earlyprevent01-u134469-fr4.png" crc="4086383430" ref="earlyprevention"/>
-    <file name="earlyprevent01-u134469-fr_2x4.png" crc="519044056" ref="earlyprevention"/>
-    <file name="watch tv-u138594-fr3.png" crc="507975318" ref="earlyprevention"/>
-    <file name="watch tv-u138594-fr_2x3.png" crc="77669889" ref="earlyprevention"/>
-    <file name="phone-u138595-fr3.png" crc="3847009846" ref="earlyprevention"/>
-    <file name="phone-u138595-fr_2x3.png" crc="446734974" ref="earlyprevention"/>
-    <file name="hiking-u138626-fr3.png" crc="3985706722" ref="earlyprevention"/>
-    <file name="hiking-u138626-fr_2x3.png" crc="360064600" ref="earlyprevention"/>
-    <file name="dancing-u138625-fr3.png" crc="160839881" ref="earlyprevention"/>
-    <file name="dancing-u138625-fr_2x3.png" crc="489382675" ref="earlyprevention"/>
-    <file name="running-u138623-fr3.png" crc="270485191" ref="earlyprevention"/>
-    <file name="running-u138623-fr_2x3.png" crc="4012478168" ref="earlyprevention"/>
-    <file name="football-u138624-fr3.png" crc="4266656400" ref="earlyprevention"/>
-    <file name="football-u138624-fr_2x3.png" crc="432591710" ref="earlyprevention"/>
-    <file name="biking-u138622-fr3.png" crc="3900354548" ref="earlyprevention"/>
-    <file name="biking-u138622-fr_2x3.png" crc="77099936" ref="earlyprevention"/>
-    <file name="park equipment-u137719-fr3.png" crc="219336893" ref="earlyprevention"/>
-    <file name="park equipment-u137719-fr_2x3.png" crc="4284892297" ref="earlyprevention"/>
-    <file name="walking 1-u137720-fr3.png" crc="4029820708" ref="earlyprevention"/>
-    <file name="walking 1-u137720-fr_2x3.png" crc="4042308796" ref="earlyprevention"/>
-    <file name="ball game-u137703-fr.png" crc="158773784" ref="earlyprevention"/>
-    <file name="ball game-u137703-fr_2x.png" crc="335866052" ref="earlyprevention"/>
-    <file name="walking 2-u137784-fr3.png" crc="425326272" ref="earlyprevention"/>
-    <file name="walking 2-u137784-fr_2x3.png" crc="81850882" ref="earlyprevention"/>
-    <file name="stair climbing 2-u137831-fr3.png" crc="307442362" ref="earlyprevention"/>
-    <file name="stair climbing 2-u137831-fr_2x3.png" crc="3934921254" ref="earlyprevention"/>
-    <file name="caregiver-u137767-fr3.png" crc="4097186857" ref="earlyprevention"/>
-    <file name="caregiver-u137767-fr_2x3.png" crc="493087158" ref="earlyprevention"/>
-    <file name="housework-u137768-fr3.png" crc="4048393204" ref="earlyprevention"/>
-    <file name="housework-u137768-fr_2x3.png" crc="361840724" ref="earlyprevention"/>
-    <file name="remote-u137783-fr3.png" crc="405531318" ref="earlyprevention"/>
-    <file name="remote-u137783-fr_2x3.png" crc="164714162" ref="earlyprevention"/>
-    <file name="mediterranean diet-u140884-fr.png" crc="4002729866" ref="earlyprevention"/>
-    <file name="mediterranean diet-u140884-fr_2x.png" crc="230282445" ref="earlyprevention"/>
-    <file name="wave_green-buttonu133421-fr4.png" crc="4010066944" ref="earlyprevention"/>
-    <file name="wave_green-buttonu133421-fr_2x4.png" crc="29123789" ref="earlyprevention"/>
-    <file name="earlyprevent02-u137562-fr2.png" crc="103528562" ref="earlyprevention"/>
-    <file name="earlyprevent02-u137562-fr_2x2.png" crc="4227424575" ref="earlyprevention"/>
-    <file name="earlyprevent01-u134469-fr5.png" crc="347940384" ref="earlyprevention"/>
-    <file name="earlyprevent01-u134469-fr_2x5.png" crc="4033738592" ref="earlyprevention"/>
-    <file name="hiking-u138626-fr4.png" crc="457199780" ref="earlyprevention"/>
-    <file name="hiking-u138626-fr_2x4.png" crc="3828836871" ref="earlyprevention"/>
-    <file name="dancing-u138625-fr4.png" crc="300795177" ref="earlyprevention"/>
-    <file name="dancing-u138625-fr_2x4.png" crc="4079600554" ref="earlyprevention"/>
-    <file name="football-u138624-fr4.png" crc="4238676601" ref="earlyprevention"/>
-    <file name="football-u138624-fr_2x4.png" crc="3839871725" ref="earlyprevention"/>
-    <file name="running-u138623-fr4.png" crc="285972930" ref="earlyprevention"/>
-    <file name="running-u138623-fr_2x4.png" crc="3882791047" ref="earlyprevention"/>
-    <file name="biking-u138622-fr4.png" crc="409692540" ref="earlyprevention"/>
-    <file name="biking-u138622-fr_2x4.png" crc="3970273761" ref="earlyprevention"/>
-    <file name="watch tv-u138594-fr4.png" crc="4194032266" ref="earlyprevention"/>
-    <file name="watch tv-u138594-fr_2x4.png" crc="25065867" ref="earlyprevention"/>
-    <file name="phone-u138595-fr4.png" crc="4164283385" ref="earlyprevention"/>
-    <file name="phone-u138595-fr_2x4.png" crc="398760475" ref="earlyprevention"/>
-    <file name="remote-u137783-fr4.png" crc="3862563531" ref="earlyprevention"/>
-    <file name="remote-u137783-fr_2x4.png" crc="3887252369" ref="earlyprevention"/>
-    <file name="walking 2-u137784-fr4.png" crc="3977087143" ref="earlyprevention"/>
-    <file name="walking 2-u137784-fr_2x4.png" crc="3903792943" ref="earlyprevention"/>
-    <file name="stair climbing 2-u137831-fr4.png" crc="4070882172" ref="earlyprevention"/>
-    <file name="stair climbing 2-u137831-fr_2x4.png" crc="4171703639" ref="earlyprevention"/>
-    <file name="housework-u137768-fr4.png" crc="3838035740" ref="earlyprevention"/>
-    <file name="housework-u137768-fr_2x4.png" crc="4224592784" ref="earlyprevention"/>
-    <file name="caregiver-u137767-fr4.png" crc="362049800" ref="earlyprevention"/>
-    <file name="caregiver-u137767-fr_2x4.png" crc="217642281" ref="earlyprevention"/>
-    <file name="stair climbing 1-u137704-fr.png" crc="418699895" ref="earlyprevention"/>
-    <file name="stair climbing 1-u137704-fr_2x.png" crc="398228749" ref="earlyprevention"/>
-    <file name="park equipment-u137719-fr4.png" crc="464776694" ref="earlyprevention"/>
-    <file name="park equipment-u137719-fr_2x4.png" crc="3829647979" ref="earlyprevention"/>
-    <file name="walking 1-u137720-fr4.png" crc="3946014558" ref="earlyprevention"/>
-    <file name="walking 1-u137720-fr_2x4.png" crc="4153515836" ref="earlyprevention"/>
-    <file name="ball game-u137703-fr2.png" crc="347621844" ref="earlyprevention"/>
-    <file name="ball game-u137703-fr_2x2.png" crc="3790407968" ref="earlyprevention"/>
-    <file name="mediterranean diet-u140884-fr2.png" crc="3913266610" ref="earlyprevention"/>
-    <file name="mediterranean diet-u140884-fr_2x2.png" crc="3988275623" ref="earlyprevention"/>
-    <file name="treatmentplan-favicon.ico" crc="3891198573" ref="treatmentplan"/>
-    <file name="teatment.png" crc="3885306184" ref="treatmentplan">
-      <caption webpage="treatmentplan" alt=""/>
+    <file name="pic_elderly reading_2x.jpg" crc="439024894" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
+    </file>
+    <file name="pic_calligraphy.jpg" crc="87145653" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
+    </file>
+    <file name="pic_calligraphy_2x.jpg" crc="4064391419" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
+    </file>
+    <file name="pic_mahjong.jpg" crc="419171754" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
+    </file>
+    <file name="pic_mahjong_2x.jpg" crc="105938914" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
+    </file>
+    <file name="elderapp03.png" crc="454423253" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
+    </file>
+    <file name="elderapp03_2x.png" crc="296739370" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
+    </file>
+    <file name="elderapp05.jpg" crc="22169728" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
+    </file>
+    <file name="elderapp06-u139275-fr.png" crc="47209626" ref="brainhealth"/>
+    <file name="elderapp06-u139275-fr_2x.png" crc="4049893613" ref="brainhealth"/>
+    <file name="pic_healthyfood.jpg" crc="3987092162" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
+    </file>
+    <file name="earilyprevent_healthyfoodbook-u141197-fr.png" crc="400056765" ref="brainhealth"/>
+    <file name="arrow_green.png" crc="3854523882" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
+    </file>
+    <file name="arrow_green_2x.png" crc="424156880" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
+    </file>
+    <file name="mediterranean diet.png" crc="3923115882" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
+    </file>
+    <file name="dash diet.png" crc="376650716" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
+    </file>
+    <file name="earlyprevent03.png" crc="3805324261" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
+    </file>
+    <file name="earlyprevent03_2x.png" crc="3900474472" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
+    </file>
+    <file name="earlyprevent04.png" crc="4047638737" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
+    </file>
+    <file name="earlyprevent04_2x.png" crc="111394605" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
+    </file>
+    <file name="mind diet.png" crc="77670730" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
+    </file>
+    <file name="wave_green-buttonu133421-fr.png" crc="3931894385" ref="brainhealth"/>
+    <file name="wave_green-buttonu133421-fr_2x.png" crc="4001871886" ref="brainhealth"/>
+    <file name="heart-u46709-fr2.png" crc="4072111517" ref="brainhealth"/>
+    <file name="heart-u46709-fr_2x2.png" crc="3797438904" ref="brainhealth"/>
+    <file name="community-u46349-fr.png" crc="3826039995" ref="brainhealth"/>
+    <file name="community-u46349-fr_2x.png" crc="124238828" ref="brainhealth"/>
+    <file name="emotions-u46389-fr.png" crc="4255888786" ref="brainhealth"/>
+    <file name="emotions-u46389-fr_2x.png" crc="19630280" ref="brainhealth"/>
+    <file name="healthy-food-u46424-fr.png" crc="454443510" ref="brainhealth"/>
+    <file name="healthy-food-u46424-fr_2x.png" crc="470162149" ref="brainhealth"/>
+    <file name="man-jumping-rope-u46456-fr.png" crc="379715" ref="brainhealth"/>
+    <file name="man-jumping-rope-u46456-fr_2x.png" crc="4062964886" ref="brainhealth"/>
+    <file name="head-u46486-fr.png" crc="3766528953" ref="brainhealth"/>
+    <file name="head-u46486-fr_2x.png" crc="3969550345" ref="brainhealth"/>
+    <file name="earlyprevent01-u134469-fr2.png" crc="225813701" ref="brainhealth"/>
+    <file name="earlyprevent01-u134469-fr_2x2.png" crc="318889083" ref="brainhealth"/>
+    <file name="pyramid.png" crc="30615459" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
+    </file>
+    <file name="pyramid_2x.png" crc="405266724" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
+    </file>
+    <file name="watch tv-u138594-fr.png" crc="3946282804" ref="brainhealth"/>
+    <file name="watch tv-u138594-fr_2x.png" crc="35822057" ref="brainhealth"/>
+    <file name="phone-u138595-fr.png" crc="3913682005" ref="brainhealth"/>
+    <file name="phone-u138595-fr_2x.png" crc="4146289922" ref="brainhealth"/>
+    <file name="hiking-u138626-fr.png" crc="4168714638" ref="brainhealth"/>
+    <file name="hiking-u138626-fr_2x.png" crc="3980996549" ref="brainhealth"/>
+    <file name="dancing-u138625-fr.png" crc="4044445366" ref="brainhealth"/>
+    <file name="dancing-u138625-fr_2x.png" crc="317699302" ref="brainhealth"/>
+    <file name="running-u138623-fr.png" crc="229030728" ref="brainhealth"/>
+    <file name="running-u138623-fr_2x.png" crc="4290841923" ref="brainhealth"/>
+    <file name="football-u138624-fr.png" crc="3758305731" ref="brainhealth"/>
+    <file name="football-u138624-fr_2x.png" crc="250690610" ref="brainhealth"/>
+    <file name="biking-u138622-fr.png" crc="199499596" ref="brainhealth"/>
+    <file name="biking-u138622-fr_2x.png" crc="411084329" ref="brainhealth"/>
+    <file name="park equipment-u137719-fr.png" crc="320232670" ref="brainhealth"/>
+    <file name="park equipment-u137719-fr_2x.png" crc="4021334020" ref="brainhealth"/>
+    <file name="walking 1-u137720-fr.png" crc="4154283679" ref="brainhealth"/>
+    <file name="walking 1-u137720-fr_2x.png" crc="4200512988" ref="brainhealth"/>
+    <file name="walking 2-u137784-fr.png" crc="3864896537" ref="brainhealth"/>
+    <file name="walking 2-u137784-fr_2x.png" crc="141706161" ref="brainhealth"/>
+    <file name="stair climbing 2-u137831-fr.png" crc="348126990" ref="brainhealth"/>
+    <file name="stair climbing 2-u137831-fr_2x.png" crc="87942210" ref="brainhealth"/>
+    <file name="caregiver-u137767-fr.png" crc="4069434394" ref="brainhealth"/>
+    <file name="caregiver-u137767-fr_2x.png" crc="4003320987" ref="brainhealth"/>
+    <file name="housework-u137768-fr.png" crc="3897432598" ref="brainhealth"/>
+    <file name="housework-u137768-fr_2x.png" crc="4110117254" ref="brainhealth"/>
+    <file name="remote-u137783-fr.png" crc="3815103092" ref="brainhealth"/>
+    <file name="remote-u137783-fr_2x.png" crc="321606065" ref="brainhealth"/>
+    <file name="pic_family-u134060-fr.jpg" crc="3805218001" ref="brainhealth"/>
+    <file name="pic_family-u134060-fr_2x.jpg" crc="107936156" ref="brainhealth"/>
+    <file name="pic_elderly exercise01-u46869-fr.jpg" crc="432340057" ref="brainhealth"/>
+    <file name="pic_elderly exercise01-u46869-fr_2x.jpg" crc="3895127568" ref="brainhealth"/>
+    <file name="pic_elderly dance-u46874-fr2.jpg" crc="3964260854" ref="brainhealth"/>
+    <file name="pic_elderly dance-u46874-fr_2x2.jpg" crc="278079855" ref="brainhealth"/>
+    <file name="pic_elderly yoga-u46901-fr.jpg" crc="4262149541" ref="brainhealth"/>
+    <file name="pic_elderly yoga-u46901-fr_2x.jpg" crc="458787959" ref="brainhealth"/>
+    <file name="elderapp01-u46936-fr.png" crc="255022714" ref="brainhealth"/>
+    <file name="elderapp01-u46936-fr_2x.png" crc="454189778" ref="brainhealth"/>
+    <file name="google_play_btn-u139097-fr2.png" crc="3948310193" ref="brainhealth"/>
+    <file name="google_play_btn-u139097-fr_2x2.png" crc="3930218422" ref="brainhealth"/>
+    <file name="mediterranean diet2.png" crc="441315717" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
+    </file>
+    <file name="mediterranean diet_2x.png" crc="3923115882" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
+    </file>
+    <file name="mind diet2.png" crc="3916809353" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
+    </file>
+    <file name="mind diet_2x.png" crc="77670730" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
+    </file>
+    <file name="wave_green-buttonu133421-fr2.png" crc="29123789" ref="brainhealth:index:hk-vmt"/>
+    <file name="wave_green-buttonu133421-fr_2x2.png" crc="4008102356" ref="brainhealth:index:hk-vmt"/>
+    <file name="earlyprevent01-u134469-fr3.png" crc="4033738592" ref="brainhealth"/>
+    <file name="earlyprevent01-u134469-fr_2x3.png" crc="4139755717" ref="brainhealth"/>
+    <file name="watch tv-u138594-fr2.png" crc="25065867" ref="brainhealth"/>
+    <file name="watch tv-u138594-fr_2x2.png" crc="114139658" ref="brainhealth"/>
+    <file name="phone-u138595-fr2.png" crc="398760475" ref="brainhealth"/>
+    <file name="phone-u138595-fr_2x2.png" crc="4144903315" ref="brainhealth"/>
+    <file name="hiking-u138626-fr2.png" crc="3828836871" ref="brainhealth"/>
+    <file name="hiking-u138626-fr_2x2.png" crc="4153916789" ref="brainhealth"/>
+    <file name="dancing-u138625-fr2.png" crc="4079600554" ref="brainhealth"/>
+    <file name="dancing-u138625-fr_2x2.png" crc="4273123224" ref="brainhealth"/>
+    <file name="running-u138623-fr2.png" crc="3882791047" ref="brainhealth"/>
+    <file name="running-u138623-fr_2x2.png" crc="4123202733" ref="brainhealth"/>
+    <file name="football-u138624-fr2.png" crc="3839871725" ref="brainhealth"/>
+    <file name="football-u138624-fr_2x2.png" crc="306395520" ref="brainhealth"/>
+    <file name="biking-u138622-fr2.png" crc="3970273761" ref="brainhealth"/>
+    <file name="biking-u138622-fr_2x2.png" crc="3707060" ref="brainhealth"/>
+    <file name="park equipment-u137719-fr2.png" crc="3922492261" ref="brainhealth"/>
+    <file name="park equipment-u137719-fr_2x2.png" crc="64543313" ref="brainhealth"/>
+    <file name="walking 1-u137720-fr2.png" crc="51982852" ref="brainhealth"/>
+    <file name="walking 1-u137720-fr_2x2.png" crc="360653103" ref="brainhealth"/>
+    <file name="walking 2-u137784-fr2.png" crc="3903792943" ref="brainhealth"/>
+    <file name="walking 2-u137784-fr_2x2.png" crc="3890244276" ref="brainhealth"/>
+    <file name="stair climbing 2-u137831-fr2.png" crc="4171703639" ref="brainhealth"/>
+    <file name="stair climbing 2-u137831-fr_2x2.png" crc="3964192379" ref="brainhealth"/>
+    <file name="caregiver-u137767-fr2.png" crc="217642281" ref="brainhealth"/>
+    <file name="caregiver-u137767-fr_2x2.png" crc="530548246" ref="brainhealth"/>
+    <file name="housework-u137768-fr2.png" crc="4224592784" ref="brainhealth"/>
+    <file name="housework-u137768-fr_2x2.png" crc="514223802" ref="brainhealth"/>
+    <file name="remote-u137783-fr2.png" crc="245659725" ref="brainhealth"/>
+    <file name="remote-u137783-fr_2x2.png" crc="4291999522" ref="brainhealth"/>
+    <file name="wave_green-buttonu133421-fr3.png" crc="4224577850" ref="brainhealth:index:hk-vmt"/>
+    <file name="wave_green-buttonu133421-fr_2x3.png" crc="363466457" ref="brainhealth:index:hk-vmt"/>
+    <file name="earlyprevent02-u137562-fr.png" crc="4041857747" ref="brainhealth"/>
+    <file name="earlyprevent02-u137562-fr_2x.png" crc="3966787628" ref="brainhealth"/>
+    <file name="earlyprevent01-u134469-fr4.png" crc="4086383430" ref="brainhealth"/>
+    <file name="earlyprevent01-u134469-fr_2x4.png" crc="519044056" ref="brainhealth"/>
+    <file name="watch tv-u138594-fr3.png" crc="507975318" ref="brainhealth"/>
+    <file name="watch tv-u138594-fr_2x3.png" crc="77669889" ref="brainhealth"/>
+    <file name="phone-u138595-fr3.png" crc="3847009846" ref="brainhealth"/>
+    <file name="phone-u138595-fr_2x3.png" crc="446734974" ref="brainhealth"/>
+    <file name="hiking-u138626-fr3.png" crc="3985706722" ref="brainhealth"/>
+    <file name="hiking-u138626-fr_2x3.png" crc="360064600" ref="brainhealth"/>
+    <file name="dancing-u138625-fr3.png" crc="160839881" ref="brainhealth"/>
+    <file name="dancing-u138625-fr_2x3.png" crc="489382675" ref="brainhealth"/>
+    <file name="running-u138623-fr3.png" crc="270485191" ref="brainhealth"/>
+    <file name="running-u138623-fr_2x3.png" crc="4012478168" ref="brainhealth"/>
+    <file name="football-u138624-fr3.png" crc="4266656400" ref="brainhealth"/>
+    <file name="football-u138624-fr_2x3.png" crc="432591710" ref="brainhealth"/>
+    <file name="biking-u138622-fr3.png" crc="3900354548" ref="brainhealth"/>
+    <file name="biking-u138622-fr_2x3.png" crc="77099936" ref="brainhealth"/>
+    <file name="park equipment-u137719-fr3.png" crc="219336893" ref="brainhealth"/>
+    <file name="park equipment-u137719-fr_2x3.png" crc="4284892297" ref="brainhealth"/>
+    <file name="walking 1-u137720-fr3.png" crc="4029820708" ref="brainhealth"/>
+    <file name="walking 1-u137720-fr_2x3.png" crc="4042308796" ref="brainhealth"/>
+    <file name="ball game-u137703-fr.png" crc="158773784" ref="brainhealth"/>
+    <file name="ball game-u137703-fr_2x.png" crc="335866052" ref="brainhealth"/>
+    <file name="walking 2-u137784-fr3.png" crc="425326272" ref="brainhealth"/>
+    <file name="walking 2-u137784-fr_2x3.png" crc="81850882" ref="brainhealth"/>
+    <file name="stair climbing 2-u137831-fr3.png" crc="307442362" ref="brainhealth"/>
+    <file name="stair climbing 2-u137831-fr_2x3.png" crc="3934921254" ref="brainhealth"/>
+    <file name="caregiver-u137767-fr3.png" crc="4097186857" ref="brainhealth"/>
+    <file name="caregiver-u137767-fr_2x3.png" crc="493087158" ref="brainhealth"/>
+    <file name="housework-u137768-fr3.png" crc="4048393204" ref="brainhealth"/>
+    <file name="housework-u137768-fr_2x3.png" crc="361840724" ref="brainhealth"/>
+    <file name="remote-u137783-fr3.png" crc="405531318" ref="brainhealth"/>
+    <file name="remote-u137783-fr_2x3.png" crc="164714162" ref="brainhealth"/>
+    <file name="mediterranean diet-u140884-fr.png" crc="4002729866" ref="brainhealth"/>
+    <file name="mediterranean diet-u140884-fr_2x.png" crc="230282445" ref="brainhealth"/>
+    <file name="wave_green-buttonu133421-fr4.png" crc="4010066944" ref="brainhealth"/>
+    <file name="wave_green-buttonu133421-fr_2x4.png" crc="29123789" ref="brainhealth"/>
+    <file name="earlyprevent02-u137562-fr2.png" crc="103528562" ref="brainhealth"/>
+    <file name="earlyprevent02-u137562-fr_2x2.png" crc="4227424575" ref="brainhealth"/>
+    <file name="earlyprevent01-u134469-fr5.png" crc="347940384" ref="brainhealth"/>
+    <file name="earlyprevent01-u134469-fr_2x5.png" crc="4033738592" ref="brainhealth"/>
+    <file name="hiking-u138626-fr4.png" crc="457199780" ref="brainhealth"/>
+    <file name="hiking-u138626-fr_2x4.png" crc="3828836871" ref="brainhealth"/>
+    <file name="dancing-u138625-fr4.png" crc="300795177" ref="brainhealth"/>
+    <file name="dancing-u138625-fr_2x4.png" crc="4079600554" ref="brainhealth"/>
+    <file name="football-u138624-fr4.png" crc="4238676601" ref="brainhealth"/>
+    <file name="football-u138624-fr_2x4.png" crc="3839871725" ref="brainhealth"/>
+    <file name="running-u138623-fr4.png" crc="285972930" ref="brainhealth"/>
+    <file name="running-u138623-fr_2x4.png" crc="3882791047" ref="brainhealth"/>
+    <file name="biking-u138622-fr4.png" crc="409692540" ref="brainhealth"/>
+    <file name="biking-u138622-fr_2x4.png" crc="3970273761" ref="brainhealth"/>
+    <file name="watch tv-u138594-fr4.png" crc="4194032266" ref="brainhealth"/>
+    <file name="watch tv-u138594-fr_2x4.png" crc="25065867" ref="brainhealth"/>
+    <file name="phone-u138595-fr4.png" crc="4164283385" ref="brainhealth"/>
+    <file name="phone-u138595-fr_2x4.png" crc="398760475" ref="brainhealth"/>
+    <file name="remote-u137783-fr4.png" crc="3862563531" ref="brainhealth"/>
+    <file name="remote-u137783-fr_2x4.png" crc="3887252369" ref="brainhealth"/>
+    <file name="walking 2-u137784-fr4.png" crc="3977087143" ref="brainhealth"/>
+    <file name="walking 2-u137784-fr_2x4.png" crc="3903792943" ref="brainhealth"/>
+    <file name="stair climbing 2-u137831-fr4.png" crc="4070882172" ref="brainhealth"/>
+    <file name="stair climbing 2-u137831-fr_2x4.png" crc="4171703639" ref="brainhealth"/>
+    <file name="housework-u137768-fr4.png" crc="3838035740" ref="brainhealth"/>
+    <file name="housework-u137768-fr_2x4.png" crc="4224592784" ref="brainhealth"/>
+    <file name="caregiver-u137767-fr4.png" crc="362049800" ref="brainhealth"/>
+    <file name="caregiver-u137767-fr_2x4.png" crc="217642281" ref="brainhealth"/>
+    <file name="stair climbing 1-u137704-fr.png" crc="418699895" ref="brainhealth"/>
+    <file name="stair climbing 1-u137704-fr_2x.png" crc="398228749" ref="brainhealth"/>
+    <file name="park equipment-u137719-fr4.png" crc="464776694" ref="brainhealth"/>
+    <file name="park equipment-u137719-fr_2x4.png" crc="3829647979" ref="brainhealth"/>
+    <file name="walking 1-u137720-fr4.png" crc="3946014558" ref="brainhealth"/>
+    <file name="walking 1-u137720-fr_2x4.png" crc="4153515836" ref="brainhealth"/>
+    <file name="ball game-u137703-fr2.png" crc="347621844" ref="brainhealth"/>
+    <file name="ball game-u137703-fr_2x2.png" crc="3790407968" ref="brainhealth"/>
+    <file name="mediterranean diet-u140884-fr2.png" crc="3913266610" ref="brainhealth"/>
+    <file name="mediterranean diet-u140884-fr_2x2.png" crc="3988275623" ref="brainhealth"/>
+    <file name="healingplan-favicon.ico" crc="3891198573" ref="healingplan"/>
+    <file name="teatment.png" crc="3885306184" ref="healingplan">
+      <caption webpage="healingplan" alt=""/>
     </file>
     <file name="aboutus-favicon.ico" crc="3891198573" ref="aboutus"/>
     <file name="pic_teamwork.jpg" crc="4160172047" ref="aboutus">
       <caption webpage="aboutus" alt=""/>
     </file>
-    <file name="wave_white.png" crc="166148788" ref="index">
+    <file name="hi_imagecircle-u218262.png" crc="465494597" ref="index"/>
+    <file name="hi_imagecircle-u218262_2x.png" crc="383243762" ref="index"/>
+    <file name="hi_imagecircle-u218262-r.png" crc="226110395" ref="index"/>
+    <file name="hi_imagecircle-u218262-r_2x.png" crc="4060057638" ref="index"/>
+    <file name="healthinfo_01_3-u116683-fr.png" crc="492077681" ref="index"/>
+    <file name="healthinfo_01_3-u116683-fr_2x.png" crc="390996526" ref="index"/>
+    <file name="wave_white.png" crc="166148788" ref="index:hk-vmt">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="hkvmtipad_white.png" crc="1899080" ref="index">
+    <file name="hi_imagecircle-u221677.png" crc="465494597" ref="index"/>
+    <file name="hi_imagecircle-u221677_2x.png" crc="383243762" ref="index"/>
+    <file name="hi_imagecircle-u221677-r.png" crc="226110395" ref="index"/>
+    <file name="hi_imagecircle-u221677-r_2x.png" crc="4060057638" ref="index"/>
+    <file name="healthinfo_02_2-u116606-fr.png" crc="3977655714" ref="index"/>
+    <file name="healthinfo_02_2-u116606-fr_2x.png" crc="350886702" ref="index"/>
+    <file name="hi_imagecircle-u222259.png" crc="465494597" ref="index"/>
+    <file name="hi_imagecircle-u222259_2x.png" crc="383243762" ref="index"/>
+    <file name="hi_imagecircle-u222259-r.png" crc="226110395" ref="index"/>
+    <file name="hi_imagecircle-u222259-r_2x.png" crc="4060057638" ref="index"/>
+    <file name="healthinfo_03_3-u116568-fr.png" crc="495689897" ref="index"/>
+    <file name="healthinfo_03_3-u116568-fr_2x.png" crc="327578541" ref="index"/>
+    <file name="healthinfo_03_2-u116409-fr.png" crc="354784115" ref="index"/>
+    <file name="healthinfo_03_2-u116409-fr_2x.png" crc="333354114" ref="index"/>
+    <file name="hi_imagecircle-u223765.png" crc="465494597" ref="index"/>
+    <file name="hi_imagecircle-u223765_2x.png" crc="383243762" ref="index"/>
+    <file name="hi_imagecircle-u223765-r.png" crc="226110395" ref="index"/>
+    <file name="hi_imagecircle-u223765-r_2x.png" crc="4060057638" ref="index"/>
+    <file name="healthinfo_04_1-u223766-fr.png" crc="4061189444" ref="index"/>
+    <file name="healthinfo_04_1-u223766-fr_2x.png" crc="374591994" ref="index"/>
+    <file name="healthinfo_04_3-u223833-fr.png" crc="4275437984" ref="index"/>
+    <file name="healthinfo_04_3-u223833-fr_2x.png" crc="4108773574" ref="index"/>
+    <file name="wave_green_2.png" crc="4188615241" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="hkvmtipad_white_2x.png" crc="4280872603" ref="index">
+    <file name="earlyprevent01-u226326-fr.png" crc="255044578" ref="index"/>
+    <file name="earlyprevent01-u226326-fr_2x.png" crc="3872525777" ref="index"/>
+    <file name="wave_orange.png" crc="451713442" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="play-button.png" crc="159414559" ref="index">
+    <file name="hkvmtipad_white.png" crc="1899080" ref="index:hk-vmt">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="play-button_2x.png" crc="486802092" ref="index">
+    <file name="hkvmtipad_white_2x.png" crc="4280872603" ref="index:hk-vmt">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="play-button_s.png" crc="392726769" ref="index">
+    <file name="wave_green_3.png" crc="329299748" ref="index:hk-vmt">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="play-button_s_2x.png" crc="3760818980" ref="index">
+    <file name="wave_green2.png" crc="279139417" ref="index:hk-vmt">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="health centre for primary care.jpg" crc="493184963" ref="index">
+    <file name="wave_green_2x.png" crc="272047350" ref="index:hk-vmt">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="health centre for primary care_2x.jpg" crc="198932121" ref="index">
+    <file name="hi_imagecircle-u2182622.png" crc="465494597" ref="index"/>
+    <file name="hi_imagecircle-u218262_2x2.png" crc="383243762" ref="index"/>
+    <file name="hi_imagecircle-u218262-r2.png" crc="226110395" ref="index"/>
+    <file name="hi_imagecircle-u218262-r_2x2.png" crc="4060057638" ref="index"/>
+    <file name="wave_white2.png" crc="4164721609" ref="index:hk-vmt">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="kowloon chamber of commerce logo.jpg" crc="3762713419" ref="index">
+    <file name="wave_white_2x.png" crc="166148788" ref="index:hk-vmt">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="institute of active aging.png" crc="3992354888" ref="index">
+    <file name="hi_imagecircle-u2216772.png" crc="465494597" ref="index"/>
+    <file name="hi_imagecircle-u221677_2x2.png" crc="383243762" ref="index"/>
+    <file name="hi_imagecircle-u221677-r2.png" crc="226110395" ref="index"/>
+    <file name="hi_imagecircle-u221677-r_2x2.png" crc="4060057638" ref="index"/>
+    <file name="hi_imagecircle-u2222592.png" crc="465494597" ref="index"/>
+    <file name="hi_imagecircle-u222259_2x2.png" crc="383243762" ref="index"/>
+    <file name="hi_imagecircle-u222259-r2.png" crc="226110395" ref="index"/>
+    <file name="hi_imagecircle-u222259-r_2x2.png" crc="4060057638" ref="index"/>
+    <file name="hi_imagecircle-u2237652.png" crc="465494597" ref="index"/>
+    <file name="hi_imagecircle-u223765_2x2.png" crc="383243762" ref="index"/>
+    <file name="hi_imagecircle-u223765-r2.png" crc="226110395" ref="index"/>
+    <file name="hi_imagecircle-u223765-r_2x2.png" crc="4060057638" ref="index"/>
+    <file name="wave_green_22.png" crc="4207704046" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="institute of active aging_2x.png" crc="385199285" ref="index">
+    <file name="wave_green_2_2x.png" crc="4188615241" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="lccc.jpg" crc="197181340" ref="index">
+    <file name="earlyprevent01-u226326-fr2.png" crc="4236260761" ref="index"/>
+    <file name="earlyprevent01-u226326-fr_2x2.png" crc="513757903" ref="index"/>
+    <file name="wave_orange2.png" crc="356927445" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="lccc_2x.jpg" crc="4137158349" ref="index">
+    <file name="wave_orange_2x.png" crc="451713442" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="南葵涌社會服務處.png" crc="4256930584" ref="index">
+    <file name="wave_green_32.png" crc="4055493320" ref="index:hk-vmt">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="南葵涌社會服務處_2x.png" crc="485906564" ref="index">
+    <file name="wave_green_3_2x.png" crc="329299748" ref="index:hk-vmt">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="tai po dementia care-u102267-fr.jpg" crc="4221455749" ref="index"/>
-    <file name="tai po dementia care-u102267-fr_2x.jpg" crc="517476643" ref="index"/>
-    <file name="healthinfo_01_3-u116683-fr.png" crc="301963944" ref="index"/>
-    <file name="healthinfo_01_3-u116683-fr_2x.png" crc="333262743" ref="index"/>
+    <file name="hi_imagecircle-u2182623.png" crc="465494597" ref="index"/>
+    <file name="hi_imagecircle-u218262_2x3.png" crc="383243762" ref="index"/>
+    <file name="hi_imagecircle-u218262-r3.png" crc="226110395" ref="index"/>
+    <file name="hi_imagecircle-u218262-r_2x3.png" crc="4060057638" ref="index"/>
+    <file name="hi_imagecircle-u2216773.png" crc="465494597" ref="index"/>
+    <file name="hi_imagecircle-u221677_2x3.png" crc="383243762" ref="index"/>
+    <file name="hi_imagecircle-u221677-r3.png" crc="226110395" ref="index"/>
+    <file name="hi_imagecircle-u221677-r_2x3.png" crc="4060057638" ref="index"/>
+    <file name="hi_imagecircle-u2222593.png" crc="465494597" ref="index"/>
+    <file name="hi_imagecircle-u222259_2x3.png" crc="383243762" ref="index"/>
+    <file name="hi_imagecircle-u222259-r3.png" crc="226110395" ref="index"/>
+    <file name="hi_imagecircle-u222259-r_2x3.png" crc="4060057638" ref="index"/>
+    <file name="hi_imagecircle-u2237653.png" crc="465494597" ref="index"/>
+    <file name="hi_imagecircle-u223765_2x3.png" crc="383243762" ref="index"/>
+    <file name="hi_imagecircle-u223765-r3.png" crc="226110395" ref="index"/>
+    <file name="hi_imagecircle-u223765-r_2x3.png" crc="4060057638" ref="index"/>
+    <file name="earlyprevent01-u226326-fr3.png" crc="4232349063" ref="index"/>
+    <file name="earlyprevent01-u226326-fr_2x3.png" crc="15380358" ref="index"/>
+    <file name="hkvmtipad_white-u203749-fr.png" crc="240745762" ref="index:hk-vmt"/>
+    <file name="hkvmtipad_white-u203749-fr_2x.png" crc="339532935" ref="index:hk-vmt"/>
+    <file name="hi_imagecircle-u2182624.png" crc="465494597" ref="index"/>
+    <file name="hi_imagecircle-u218262_2x4.png" crc="383243762" ref="index"/>
+    <file name="hi_imagecircle-u218262-r4.png" crc="226110395" ref="index"/>
+    <file name="hi_imagecircle-u218262-r_2x4.png" crc="4060057638" ref="index"/>
+    <file name="wave_white-u102459-fr.png" crc="238674640" ref="index:hk-vmt"/>
+    <file name="wave_white-u102459-fr_2x.png" crc="283045851" ref="index:hk-vmt"/>
+    <file name="hi_imagecircle-u2216774.png" crc="465494597" ref="index"/>
+    <file name="hi_imagecircle-u221677_2x4.png" crc="383243762" ref="index"/>
+    <file name="hi_imagecircle-u221677-r4.png" crc="226110395" ref="index"/>
+    <file name="hi_imagecircle-u221677-r_2x4.png" crc="4060057638" ref="index"/>
+    <file name="hi_imagecircle-u2222594.png" crc="465494597" ref="index"/>
+    <file name="hi_imagecircle-u222259_2x4.png" crc="383243762" ref="index"/>
+    <file name="hi_imagecircle-u222259-r4.png" crc="226110395" ref="index"/>
+    <file name="hi_imagecircle-u222259-r_2x4.png" crc="4060057638" ref="index"/>
+    <file name="hi_imagecircle-u2237654.png" crc="465494597" ref="index"/>
+    <file name="hi_imagecircle-u223765_2x4.png" crc="383243762" ref="index"/>
+    <file name="hi_imagecircle-u223765-r4.png" crc="226110395" ref="index"/>
+    <file name="hi_imagecircle-u223765-r_2x4.png" crc="4060057638" ref="index"/>
+    <file name="wave_green_2-u108424-fr.png" crc="106980536" ref="index"/>
+    <file name="wave_green_2-u108424-fr_2x.png" crc="124445279" ref="index"/>
+    <file name="earlyprevent01-u226326-fr4.png" crc="3846241334" ref="index"/>
+    <file name="earlyprevent01-u226326-fr_2x4.png" crc="489404046" ref="index"/>
+    <file name="wave_orange-u222215-fr.png" crc="343687565" ref="index"/>
+    <file name="wave_orange-u222215-fr_2x.png" crc="4027253708" ref="index"/>
+    <file name="hkvmtipad_white-u203749-fr2.png" crc="3798945326" ref="index:hk-vmt"/>
+    <file name="hkvmtipad_white-u203749-fr_2x2.png" crc="324639742" ref="index:hk-vmt"/>
+    <file name="wave_green_3-u226427-fr.png" crc="3786600122" ref="index:hk-vmt"/>
+    <file name="wave_green_3-u226427-fr_2x.png" crc="4258265015" ref="index:hk-vmt"/>
+    <file name="wave_green-buttonu95360-fr.png" crc="4246854442" ref="index:hk-vmt"/>
+    <file name="wave_green-buttonu95360-fr_2x.png" crc="4085026717" ref="index:hk-vmt"/>
+    <file name="wave_white-u102459-fr2.png" crc="3823023364" ref="index:hk-vmt"/>
+    <file name="wave_white-u102459-fr_2x2.png" crc="178640019" ref="index:hk-vmt"/>
+    <file name="hkvmtipad_white-u203749-fr3.png" crc="383273058" ref="index:hk-vmt"/>
+    <file name="hkvmtipad_white-u203749-fr_2x3.png" crc="283236967" ref="index:hk-vmt"/>
+    <file name="wave_orange-u222215-fr2.png" crc="4192967669" ref="index"/>
+    <file name="wave_orange-u222215-fr_2x2.png" crc="3807391275" ref="index"/>
+    <file name="wave_green_3-u226427-fr2.png" crc="3847534516" ref="index:hk-vmt"/>
+    <file name="wave_green_3-u226427-fr_2x2.png" crc="82079457" ref="index:hk-vmt"/>
+    <file name="hi_imagecircle-u2182625.png" crc="4021080237" ref="index"/>
+    <file name="hi_imagecircle-u218262_2x5.png" crc="276785321" ref="index"/>
+    <file name="hi_imagecircle-u218262-r5.png" crc="3846354060" ref="index"/>
+    <file name="hi_imagecircle-u218262-r_2x5.png" crc="192086867" ref="index"/>
+    <file name="healthinfo_01_3-u116683-fr2.png" crc="301963944" ref="index"/>
+    <file name="healthinfo_01_3-u116683-fr_2x2.png" crc="333262743" ref="index"/>
+    <file name="hi_imagecircle-u2216775.png" crc="4021080237" ref="index"/>
+    <file name="hi_imagecircle-u221677_2x5.png" crc="276785321" ref="index"/>
+    <file name="hi_imagecircle-u221677-r5.png" crc="3846354060" ref="index"/>
+    <file name="hi_imagecircle-u221677-r_2x5.png" crc="192086867" ref="index"/>
     <file name="healthinfo_02_2.png" crc="471316011" ref="index:healthinfo_stages">
       <caption webpage="index" alt=""/>
     </file>
     <file name="healthinfo_02_2_2x.png" crc="216100665" ref="index:healthinfo_stages">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="healthinfo_03_2-u116409-fr.png" crc="354784115" ref="index"/>
-    <file name="healthinfo_03_2-u116409-fr_2x.png" crc="333354114" ref="index"/>
+    <file name="hi_imagecircle-u2222595.png" crc="4021080237" ref="index"/>
+    <file name="hi_imagecircle-u222259_2x5.png" crc="276785321" ref="index"/>
+    <file name="hi_imagecircle-u222259-r5.png" crc="3846354060" ref="index"/>
+    <file name="hi_imagecircle-u222259-r_2x5.png" crc="192086867" ref="index"/>
     <file name="healthinfo_03_3.png" crc="4074168952" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="healthinfo_03_3_2x.png" crc="3962404523" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="healthinfo_04_2-u116853-fr.png" crc="396224927" ref="index"/>
-    <file name="healthinfo_04_2-u116853-fr_2x.png" crc="345584659" ref="index"/>
-    <file name="healthinfo_04_1-u116875-fr.png" crc="4163265963" ref="index"/>
-    <file name="healthinfo_04_1-u116875-fr_2x.png" crc="203895797" ref="index"/>
-    <file name="profile-user.png" crc="249929104" ref="index">
-      <caption webpage="index" alt=""/>
+    <file name="healthinfo_03_2-u116409-fr2.png" crc="39357935" ref="index"/>
+    <file name="healthinfo_03_2-u116409-fr_2x2.png" crc="3971703241" ref="index"/>
+    <file name="hi_imagecircle-u2237655.png" crc="4021080237" ref="index"/>
+    <file name="hi_imagecircle-u223765_2x5.png" crc="276785321" ref="index"/>
+    <file name="hi_imagecircle-u223765-r5.png" crc="3846354060" ref="index"/>
+    <file name="hi_imagecircle-u223765-r_2x5.png" crc="192086867" ref="index"/>
+    <file name="healthinfo_04_1-u223766-fr2.png" crc="4023210617" ref="index"/>
+    <file name="healthinfo_04_1-u223766-fr_2x2.png" crc="3936950433" ref="index"/>
+    <file name="healthinfo_04_3-u223833-fr2.png" crc="172532584" ref="index"/>
+    <file name="healthinfo_04_3-u223833-fr_2x2.png" crc="4178682030" ref="index"/>
+    <file name="earlyprevent01-u226326-fr5.png" crc="467515682" ref="index"/>
+    <file name="earlyprevent01-u226326-fr_2x5.png" crc="489374997" ref="index"/>
+    <file name="wave_green_2-u108424-fr2.png" crc="3920724415" ref="index"/>
+    <file name="wave_green_2-u108424-fr_2x2.png" crc="395708307" ref="index"/>
+    <file name="wave_white-u102459-fr3.png" crc="4155253310" ref="index:hk-vmt"/>
+    <file name="wave_white-u102459-fr_2x3.png" crc="169282724" ref="index:hk-vmt"/>
+    <file name="wave_orange-u222215-fr3.png" crc="4073161363" ref="index"/>
+    <file name="wave_orange-u222215-fr_2x3.png" crc="3938724898" ref="index"/>
+    <file name="wave_green_3-u226427-fr3.png" crc="430339456" ref="index:hk-vmt"/>
+    <file name="wave_green_3-u226427-fr_2x3.png" crc="33740835" ref="index:hk-vmt"/>
+    <file name="wave_green-buttonu95360-fr2.png" crc="337091104" ref="index:hk-vmt"/>
+    <file name="wave_green-buttonu95360-fr_2x2.png" crc="353641906" ref="index:hk-vmt"/>
+    <file name="hi_imagecircle-u2182626.png" crc="4021080237" ref="index"/>
+    <file name="hi_imagecircle-u218262_2x6.png" crc="276785321" ref="index"/>
+    <file name="hi_imagecircle-u218262-r6.png" crc="3846354060" ref="index"/>
+    <file name="hi_imagecircle-u218262-r_2x6.png" crc="192086867" ref="index"/>
+    <file name="hi_imagecircle-u2216776.png" crc="201935945" ref="index"/>
+    <file name="hi_imagecircle-u221677_2x6.png" crc="3776241360" ref="index"/>
+    <file name="hi_imagecircle-u221677-r6.png" crc="4022155788" ref="index"/>
+    <file name="hi_imagecircle-u221677-r_2x6.png" crc="4145030320" ref="index"/>
+    <file name="hi_imagecircle-u2222596.png" crc="201935945" ref="index"/>
+    <file name="hi_imagecircle-u222259_2x6.png" crc="3776241360" ref="index"/>
+    <file name="hi_imagecircle-u222259-r6.png" crc="4022155788" ref="index"/>
+    <file name="hi_imagecircle-u222259-r_2x6.png" crc="4145030320" ref="index"/>
+    <file name="hi_imagecircle-u2237656.png" crc="201935945" ref="index"/>
+    <file name="hi_imagecircle-u223765_2x6.png" crc="3776241360" ref="index"/>
+    <file name="hi_imagecircle-u223765-r6.png" crc="4022155788" ref="index"/>
+    <file name="hi_imagecircle-u223765-r_2x6.png" crc="4145030320" ref="index"/>
+    <file name="earlyprevent01-u226326-fr6.png" crc="3846995768" ref="index"/>
+    <file name="earlyprevent01-u226326-fr_2x6.png" crc="89030580" ref="index"/>
+    <file name="wave_green_2-u108424-fr3.png" crc="3851630491" ref="index"/>
+    <file name="wave_green_2-u108424-fr_2x3.png" crc="4067105939" ref="index"/>
+    <file name="earlyprevent01-u226326-fr7.png" crc="42873575" ref="index"/>
+    <file name="earlyprevent01-u226326-fr_2x7.png" crc="4051662212" ref="index"/>
+    <file name="wave_white-u102459-fr4.png" crc="423110614" ref="index:hk-vmt"/>
+    <file name="wave_white-u102459-fr_2x4.png" crc="4047513657" ref="index:hk-vmt"/>
+    <file name="hkvmtipad_white-u203749-fr4.png" crc="9545419" ref="index:hk-vmt"/>
+    <file name="hkvmtipad_white-u203749-fr_2x4.png" crc="3794645874" ref="index:hk-vmt"/>
+    <file name="wave_orange-u222215-fr4.png" crc="442968183" ref="index"/>
+    <file name="wave_orange-u222215-fr_2x4.png" crc="364000548" ref="index"/>
+    <file name="wave_green_3-u226427-fr4.png" crc="3898868754" ref="index:hk-vmt"/>
+    <file name="wave_green_3-u226427-fr_2x4.png" crc="4219979747" ref="index:hk-vmt"/>
+    <file name="hi_imagecircle-u2182627.png" crc="4021080237" ref="index"/>
+    <file name="hi_imagecircle-u218262_2x7.png" crc="276785321" ref="index"/>
+    <file name="hi_imagecircle-u218262-r7.png" crc="3846354060" ref="index"/>
+    <file name="hi_imagecircle-u218262-r_2x7.png" crc="192086867" ref="index"/>
+    <file name="hi_imagecircle-u2216777.png" crc="4021080237" ref="index"/>
+    <file name="hi_imagecircle-u221677_2x7.png" crc="276785321" ref="index"/>
+    <file name="hi_imagecircle-u221677-r7.png" crc="3846354060" ref="index"/>
+    <file name="hi_imagecircle-u221677-r_2x7.png" crc="192086867" ref="index"/>
+    <file name="hi_imagecircle-u2222597.png" crc="4021080237" ref="index"/>
+    <file name="hi_imagecircle-u222259_2x7.png" crc="276785321" ref="index"/>
+    <file name="hi_imagecircle-u222259-r7.png" crc="3846354060" ref="index"/>
+    <file name="hi_imagecircle-u222259-r_2x7.png" crc="192086867" ref="index"/>
+    <file name="hi_imagecircle-u2237657.png" crc="4021080237" ref="index"/>
+    <file name="hi_imagecircle-u223765_2x7.png" crc="276785321" ref="index"/>
+    <file name="hi_imagecircle-u223765-r7.png" crc="3846354060" ref="index"/>
+    <file name="hi_imagecircle-u223765-r_2x7.png" crc="192086867" ref="index"/>
+    <file name="wave_green_2-u108424-fr4.png" crc="3876414671" ref="index"/>
+    <file name="wave_green_2-u108424-fr_2x4.png" crc="3980602077" ref="index"/>
+    <file name="media-activities-favicon.ico" crc="3891198573" ref="media-activities"/>
+    <file name="poster mpil.jpg" crc="3864179619" seo="true" ref="media-activities">
+      <caption webpage="media-activities" alt=""/>
+      <caption webpage="media-activities" alt=""/>
+      <caption webpage="media-activities" alt=""/>
+      <caption webpage="media-activities" alt=""/>
+      <caption webpage="media-activities" alt=""/>
+      <caption webpage="media-activities" alt=""/>
+      <caption webpage="media-activities" alt=""/>
+      <caption webpage="media-activities" alt=""/>
     </file>
-    <file name="profile-user_2x.png" crc="4173921672" ref="index">
-      <caption webpage="index" alt=""/>
+    <file name="poster mpil_2x.jpg" crc="147835603" seo="true" ref="media-activities">
+      <caption webpage="media-activities" alt=""/>
+      <caption webpage="media-activities" alt=""/>
+      <caption webpage="media-activities" alt=""/>
+      <caption webpage="media-activities" alt=""/>
+      <caption webpage="media-activities" alt=""/>
+      <caption webpage="media-activities" alt=""/>
+      <caption webpage="media-activities" alt=""/>
+      <caption webpage="media-activities" alt=""/>
     </file>
-    <file name="email.png" crc="4210621153" ref="index">
-      <caption webpage="index" alt=""/>
+    <file name="poster iatp.jpg" crc="212978089" seo="true" ref="media-activities">
+      <caption webpage="media-activities" alt=""/>
+      <caption webpage="media-activities" alt=""/>
+      <caption webpage="media-activities" alt=""/>
+      <caption webpage="media-activities" alt=""/>
+      <caption webpage="media-activities" alt=""/>
+      <caption webpage="media-activities" alt=""/>
+      <caption webpage="media-activities" alt=""/>
+      <caption webpage="media-activities" alt=""/>
     </file>
-    <file name="email_2x.png" crc="4219574991" ref="index">
-      <caption webpage="index" alt=""/>
+    <file name="poster iatp_2x.jpg" crc="4015032370" seo="true" ref="media-activities">
+      <caption webpage="media-activities" alt=""/>
+      <caption webpage="media-activities" alt=""/>
+      <caption webpage="media-activities" alt=""/>
+      <caption webpage="media-activities" alt=""/>
+      <caption webpage="media-activities" alt=""/>
+      <caption webpage="media-activities" alt=""/>
+      <caption webpage="media-activities" alt=""/>
+      <caption webpage="media-activities" alt=""/>
     </file>
-    <file name="speech-bubble.png" crc="6370021" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="speech-bubble_2x.png" crc="4010815988" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="house.png" crc="4156293637" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="house_2x.png" crc="3784176092" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="smartphone.png" crc="3951231169" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="smartphone_2x.png" crc="346934156" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="wave_green_2.png" crc="4188615241" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="arrow_l-u105667-3-fr.png" crc="179519300" ref="index"/>
-    <file name="arrow_l-u105667-3-fr_2x.png" crc="3926267728" ref="index"/>
-    <file name="poster mpil.jpg" crc="3864179619" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="poster mpil_2x.jpg" crc="147835603" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="poster iatp.jpg" crc="212978089" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="poster iatp_2x.jpg" crc="4015032370" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="arrow_r-u105657-3-fr.png" crc="415595832" ref="index"/>
-    <file name="arrow_r-u105657-3-fr_2x.png" crc="486171130" ref="index"/>
-    <file name="loading.gif" crc="3815509949" ref="index"/>
-    <file name="hkvmtipad_white-u98917-fr.png" crc="3861575709" ref="index"/>
-    <file name="hkvmtipad_white-u98917-fr_2x.png" crc="4072953006" ref="index"/>
-    <file name="wave_white-u102459-fr.png" crc="3823023364" ref="index"/>
-    <file name="wave_white-u102459-fr_2x.png" crc="178640019" ref="index"/>
-    <file name="wave_green_2-u108424-fr.png" crc="3920724415" ref="index"/>
-    <file name="wave_green_2-u108424-fr_2x.png" crc="395708307" ref="index"/>
-    <file name="poster mpil458x600.jpg" crc="498670442" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="poster mpil458x600_2x.jpg" crc="392152690" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="poster iatp458x600.jpg" crc="322254941" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="poster iatp458x600_2x.jpg" crc="3848136366" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="wave_white-u102459-fr2.png" crc="423110614" ref="index"/>
-    <file name="wave_white-u102459-fr_2x2.png" crc="4047513657" ref="index"/>
-    <file name="hkvmtipad_white-u98917-fr2.png" crc="9545419" ref="index"/>
-    <file name="hkvmtipad_white-u98917-fr_2x2.png" crc="3794645874" ref="index"/>
-    <file name="health centre for primary care-u102257-fr.jpg" crc="459017537" ref="index"/>
-    <file name="health centre for primary care-u102257-fr_2x.jpg" crc="4201419583" ref="index"/>
-    <file name="institute of active aging-u102343-fr.png" crc="4047332069" ref="index"/>
-    <file name="institute of active aging-u102343-fr_2x.png" crc="450743723" ref="index"/>
-    <file name="kowloon chamber of commerce logo-u102260-fr.jpg" crc="149021372" ref="index"/>
-    <file name="kowloon chamber of commerce logo-u102260-fr_2x.jpg" crc="286254591" ref="index"/>
-    <file name="南葵涌社會服務處-u102265-fr.png" crc="449214296" ref="index"/>
-    <file name="南葵涌社會服務處-u102265-fr_2x.png" crc="237275761" ref="index"/>
-    <file name="lccc-u102263-fr.jpg" crc="3897080536" ref="index"/>
-    <file name="lccc-u102263-fr_2x.jpg" crc="334042105" ref="index"/>
-    <file name="tai po dementia care-u102267-fr2.jpg" crc="442477068" ref="index"/>
-    <file name="tai po dementia care-u102267-fr_2x2.jpg" crc="4087974702" ref="index"/>
-    <file name="wave_green_2-u108424-fr2.png" crc="3876414671" ref="index"/>
-    <file name="wave_green_2-u108424-fr_2x2.png" crc="3980602077" ref="index"/>
-    <file name="activities-favicon.ico" crc="3891198573" ref="activities"/>
+    <file name="arrow_l-u205695-3-fr.png" crc="179519300" ref="media-activities"/>
+    <file name="arrow_l-u205695-3-fr_2x.png" crc="3926267728" ref="media-activities"/>
+    <file name="arrow_r-u205713-3-fr.png" crc="415595832" ref="media-activities"/>
+    <file name="arrow_r-u205713-3-fr_2x.png" crc="486171130" ref="media-activities"/>
+    <file name="loading.gif" crc="3815509949" ref="media-activities"/>
     <file name="contactus-favicon.ico" crc="3891198573" ref="contactus"/>
     <file name="hi_stages_p1_7.png" crc="477157511" ref="healthinfo_stages">
       <caption webpage="healthinfo_stages" alt=""/>
@@ -838,11 +948,15 @@
     <file name="hi_stages_p1_5.png" crc="4160136711" ref="healthinfo_stages">
       <caption webpage="healthinfo_stages" alt=""/>
     </file>
-    <file name="healthinfo_02_22.png" crc="216100665" ref="healthinfo_stages">
+    <file name="healthinfo_02_22.png" crc="216100665" ref="healthinfo_stages:healthinfo_causes">
       <caption webpage="healthinfo_stages" alt=""/>
     </file>
     <file name="hi_imagecircle_s-buttonu122434-r-fr.png" crc="140159566" ref="healthinfo_stages:healthinfo_causes"/>
     <file name="hi_imagecircle_s-buttonu122434-r-fr_2x.png" crc="411257118" ref="healthinfo_stages:healthinfo_causes"/>
+    <file name="h1_s3_btn-u122445-fr.png" crc="3981877123" ref="healthinfo_stages:healthinfo_causes"/>
+    <file name="h1_s3_btn-u122445-fr_2x.png" crc="4029574101" ref="healthinfo_stages:healthinfo_causes"/>
+    <file name="h1_s4_btn-u122439-fr.png" crc="491473835" ref="healthinfo_stages:healthinfo_causes"/>
+    <file name="h1_s4_btn-u122439-fr_2x.png" crc="3911074830" ref="healthinfo_stages:healthinfo_causes"/>
     <file name="hi_stages_p1_2-u124597-fr.png" crc="4116580526" ref="healthinfo_stages"/>
     <file name="hi_stages_p1_2-u124597-fr_2x.png" crc="3996920290" ref="healthinfo_stages"/>
     <file name="hi_stages_p1_3-u124644-fr.png" crc="4028714443" ref="healthinfo_stages"/>
@@ -853,6 +967,14 @@
     <file name="hi_stages_p1_5-u124676-fr_2x.png" crc="4258633555" ref="healthinfo_stages"/>
     <file name="hi_imagecircle-buttonu122434-fr.png" crc="3895496586" ref="healthinfo_stages:healthinfo_causes"/>
     <file name="hi_imagecircle-buttonu122434-fr_2x.png" crc="3884014087" ref="healthinfo_stages:healthinfo_causes"/>
+    <file name="hi_imagecircle_s-buttonu122434-r-fr2.png" crc="3831567364" ref="healthinfo_stages:healthinfo_causes"/>
+    <file name="hi_imagecircle_s-buttonu122434-r-fr_2x2.png" crc="4169081765" ref="healthinfo_stages:healthinfo_causes"/>
+    <file name="healthinfo_02_2-u122436-fr.png" crc="3892834898" ref="healthinfo_stages:healthinfo_causes"/>
+    <file name="healthinfo_02_2-u122436-fr_2x.png" crc="504833173" ref="healthinfo_stages:healthinfo_causes"/>
+    <file name="h1_s3_btn-u122445-fr2.png" crc="454100879" ref="healthinfo_stages:healthinfo_causes"/>
+    <file name="h1_s3_btn-u122445-fr_2x2.png" crc="495454679" ref="healthinfo_stages:healthinfo_causes"/>
+    <file name="h1_s4_btn-u122439-fr2.png" crc="520923897" ref="healthinfo_stages:healthinfo_causes"/>
+    <file name="h1_s4_btn-u122439-fr_2x2.png" crc="481648188" ref="healthinfo_stages:healthinfo_causes"/>
     <file name="hi_stages_p1_2-u124597-fr2.png" crc="165307231" ref="healthinfo_stages"/>
     <file name="hi_stages_p1_2-u124597-fr_2x2.png" crc="467790168" ref="healthinfo_stages"/>
     <file name="hi_stages_p1_3-u124644-fr2.png" crc="284773304" ref="healthinfo_stages"/>
@@ -861,17 +983,112 @@
     <file name="hi_stages_p1_4-u124660-fr_2x2.png" crc="38225336" ref="healthinfo_stages"/>
     <file name="hi_stages_p1_5-u124676-fr2.png" crc="189467006" ref="healthinfo_stages"/>
     <file name="hi_stages_p1_5-u124676-fr_2x2.png" crc="505266344" ref="healthinfo_stages"/>
+    <file name="healthinfo_02_2-u122436-fr2.png" crc="34982725" ref="healthinfo_stages:healthinfo_causes"/>
+    <file name="healthinfo_02_2-u122436-fr_2x2.png" crc="3789435540" ref="healthinfo_stages:healthinfo_causes"/>
+    <file name="h1_s3_btn-u122445-fr3.png" crc="423615704" ref="healthinfo_stages:healthinfo_causes"/>
+    <file name="h1_s3_btn-u122445-fr_2x3.png" crc="468950282" ref="healthinfo_stages:healthinfo_causes"/>
+    <file name="h1_s4_btn-u122439-fr3.png" crc="486692725" ref="healthinfo_stages:healthinfo_causes"/>
+    <file name="h1_s4_btn-u122439-fr_2x3.png" crc="4037512022" ref="healthinfo_stages:healthinfo_causes"/>
     <file name="healthinfo_02_2-u124495-fr.png" crc="3772211128" ref="healthinfo_stages"/>
     <file name="healthinfo_02_2-u124495-fr_2x.png" crc="185160364" ref="healthinfo_stages"/>
+    <file name="chrome-u194192-fr.png" crc="3869886656" ref="hk-vmt"/>
+    <file name="chrome-u194192-fr_2x.png" crc="446957462" ref="hk-vmt"/>
+    <file name="safari.png" crc="3775934392" ref="hk-vmt">
+      <caption webpage="hk-vmt" alt=""/>
+    </file>
+    <file name="safari_2x.png" crc="4211142804" ref="hk-vmt">
+      <caption webpage="hk-vmt" alt=""/>
+    </file>
+    <file name="tick-u194595-fr.png" crc="3788998114" ref="hk-vmt"/>
+    <file name="tick-u194595-fr_2x.png" crc="420889105" ref="hk-vmt"/>
+    <file name="tick - white.png" crc="3989606180" ref="hk-vmt">
+      <caption webpage="hk-vmt" alt=""/>
+    </file>
+    <file name="tick - white_2x.png" crc="243703333" ref="hk-vmt">
+      <caption webpage="hk-vmt" alt=""/>
+    </file>
+    <file name="health centre for primary care.jpg" crc="493184963" ref="hk-vmt">
+      <caption webpage="hk-vmt" alt=""/>
+    </file>
+    <file name="health centre for primary care_2x.jpg" crc="198932121" ref="hk-vmt">
+      <caption webpage="hk-vmt" alt=""/>
+    </file>
+    <file name="lccc.jpg" crc="197181340" ref="hk-vmt">
+      <caption webpage="hk-vmt" alt=""/>
+    </file>
+    <file name="lccc_2x.jpg" crc="4137158349" ref="hk-vmt">
+      <caption webpage="hk-vmt" alt=""/>
+    </file>
+    <file name="南葵涌社會服務處.png" crc="4256930584" ref="hk-vmt">
+      <caption webpage="hk-vmt" alt=""/>
+    </file>
+    <file name="南葵涌社會服務處_2x.png" crc="485906564" ref="hk-vmt">
+      <caption webpage="hk-vmt" alt=""/>
+    </file>
+    <file name="tai po dementia care-u176257-fr.jpg" crc="4221455749" ref="hk-vmt"/>
+    <file name="tai po dementia care-u176257-fr_2x.jpg" crc="517476643" ref="hk-vmt"/>
+    <file name="kowloon chamber of commerce logo.jpg" crc="3840624584" ref="hk-vmt">
+      <caption webpage="hk-vmt" alt=""/>
+    </file>
+    <file name="kowloon chamber of commerce logo_2x.jpg" crc="3762713419" ref="hk-vmt">
+      <caption webpage="hk-vmt" alt=""/>
+    </file>
+    <file name="tick-u194595-fr2.png" crc="3788058664" ref="hk-vmt"/>
+    <file name="tick-u194595-fr_2x2.png" crc="4005177093" ref="hk-vmt"/>
+    <file name="tick-u194595-fr3.png" crc="138362233" ref="hk-vmt"/>
+    <file name="tick-u194595-fr_2x3.png" crc="3825283175" ref="hk-vmt"/>
+    <file name="logo-website-u194585-fr.png" crc="357702918" ref="hk-vmt"/>
+    <file name="logo-website-u194585-fr_2x.png" crc="4054897612" ref="hk-vmt"/>
+    <file name="tick-u194595-fr4.png" crc="70964316" ref="hk-vmt"/>
+    <file name="tick-u194595-fr_2x4.png" crc="189171708" ref="hk-vmt"/>
+    <file name="tick - white-u194680-fr.png" crc="4254143313" ref="hk-vmt"/>
+    <file name="tick - white-u194680-fr_2x.png" crc="3910916973" ref="hk-vmt"/>
+    <file name="chrome.png" crc="4120394312" ref="hk-vmt">
+      <caption webpage="hk-vmt" alt=""/>
+    </file>
+    <file name="chrome_2x.png" crc="365624893" ref="hk-vmt">
+      <caption webpage="hk-vmt" alt=""/>
+    </file>
+    <file name="logo-website-u194585-fr2.png" crc="47038069" ref="hk-vmt"/>
+    <file name="logo-website-u194585-fr_2x2.png" crc="136829177" ref="hk-vmt"/>
+    <file name="tick-u194595-fr5.png" crc="4095979355" ref="hk-vmt"/>
+    <file name="tick-u194595-fr_2x5.png" crc="3973554087" ref="hk-vmt"/>
+    <file name="tick - white-u194680-fr2.png" crc="3875123353" ref="hk-vmt"/>
+    <file name="tick - white-u194680-fr_2x2.png" crc="457145213" ref="hk-vmt"/>
+    <file name="logo-website-u194585-fr3.png" crc="32813185" ref="hk-vmt"/>
+    <file name="logo-website-u194585-fr_2x3.png" crc="3779390638" ref="hk-vmt"/>
+    <file name="tick-u194595-fr6.png" crc="3816694370" ref="hk-vmt"/>
+    <file name="tick-u194595-fr_2x6.png" crc="516410351" ref="hk-vmt"/>
+    <file name="tick - white-u194680-fr3.png" crc="4144272242" ref="hk-vmt"/>
+    <file name="tick - white-u194680-fr_2x3.png" crc="4151079501" ref="hk-vmt"/>
+    <file name="logo-website-u194585-fr4.png" crc="80956640" ref="hk-vmt"/>
+    <file name="logo-website-u194585-fr_2x4.png" crc="446329660" ref="hk-vmt"/>
+    <file name="health centre for primary care-u176197-fr.jpg" crc="459017537" ref="hk-vmt"/>
+    <file name="health centre for primary care-u176197-fr_2x.jpg" crc="4201419583" ref="hk-vmt"/>
+    <file name="南葵涌社會服務處-u176236-fr.png" crc="449214296" ref="hk-vmt"/>
+    <file name="南葵涌社會服務處-u176236-fr_2x.png" crc="237275761" ref="hk-vmt"/>
+    <file name="lccc-u176224-fr.jpg" crc="3897080536" ref="hk-vmt"/>
+    <file name="lccc-u176224-fr_2x.jpg" crc="334042105" ref="hk-vmt"/>
+    <file name="tai po dementia care-u176257-fr2.jpg" crc="442477068" ref="hk-vmt"/>
+    <file name="tai po dementia care-u176257-fr_2x2.jpg" crc="4087974702" ref="hk-vmt"/>
+    <file name="kowloon chamber of commerce logo-u195400-fr.jpg" crc="3820343385" ref="hk-vmt"/>
+    <file name="kowloon chamber of commerce logo-u195400-fr_2x.jpg" crc="109820065" ref="hk-vmt"/>
+    <file name="safari-u194204-fr.png" crc="273045251" ref="hk-vmt"/>
+    <file name="safari-u194204-fr_2x.png" crc="4179400473" ref="hk-vmt"/>
+    <file name="tick-u194626-fr.png" crc="474981562" ref="hk-vmt"/>
+    <file name="tick-u194626-fr_2x.png" crc="3943322783" ref="hk-vmt"/>
+    <file name="tick - white-u194680-fr4.png" crc="456029486" ref="hk-vmt"/>
+    <file name="tick - white-u194680-fr_2x4.png" crc="35786149" ref="hk-vmt"/>
   </folder>
-  <file name="healthinfo_intro.html" crc="3948378804" seo="true" mt="1619968418415" redirect="true"/>
-  <file name="healthinfo_resources.html" crc="152315681" seo="true" mt="1619904539589" redirect="true"/>
-  <file name="earlyprevention.html" crc="455544981" seo="true" mt="1620002216967" redirect="true"/>
-  <file name="treatmentplan.html" crc="126401803" seo="true" mt="1619904539589" redirect="true"/>
-  <file name="aboutus.html" crc="4131560905" seo="true" mt="1619904539589" redirect="true"/>
-  <file name="index.html" crc="80091159" seo="true" mt="1620002299137" redirect="true"/>
-  <file name="activities.html" crc="3986666392" seo="true" mt="1619904539589" redirect="true"/>
-  <file name="contactus.html" crc="3813427214" seo="true" mt="1619904539589" redirect="true"/>
-  <file name="healthinfo_stages.html" crc="215233756" seo="true" mt="1619968418415" redirect="true"/>
-  <file name="healthinfo_causes.html" crc="283573738" seo="true" mt="1619968418415" redirect="true"/>
+  <file name="healthinfo_intro.html" crc="296385199" seo="true" mt="1621131266568" redirect="true"/>
+  <file name="localresources.html" crc="4122336944" seo="true" mt="1621131218996" redirect="true"/>
+  <file name="brainhealth.html" crc="4001465268" seo="true" mt="1621126197436" redirect="true"/>
+  <file name="healingplan.html" crc="490948764" seo="true" mt="1621131218996" redirect="true"/>
+  <file name="aboutus.html" crc="4205204662" seo="true" mt="1621131218996" redirect="true"/>
+  <file name="index.html" crc="272431998" seo="true" mt="1621131218996" redirect="true"/>
+  <file name="media-activities.html" crc="172733157" seo="true" mt="1621131218996" redirect="true"/>
+  <file name="contactus.html" crc="183994821" seo="true" mt="1621131218996" redirect="true"/>
+  <file name="healthinfo_stages.html" crc="528601543" seo="true" mt="1621131266566" redirect="true"/>
+  <file name="healthinfo_causes.html" crc="10345673" seo="true" mt="1621131266569" redirect="true"/>
+  <file name="hk-vmt.html" crc="3945240370" seo="true" mt="1621131218996" redirect="true"/>
 </manifest>
