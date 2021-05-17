@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/index.html</loc>
-    <lastmod>2021-05-16</lastmod>
+    <lastmod>2021-05-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/hk-vmt.html</loc>
-    <lastmod>2021-05-16</lastmod>
+    <lastmod>2021-05-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/healthinfo_causes.html</loc>
-    <lastmod>2021-05-16</lastmod>
+    <lastmod>2021-05-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/healthinfo_stages.html</loc>
-    <lastmod>2021-05-16</lastmod>
+    <lastmod>2021-05-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/contactus.html</loc>
-    <lastmod>2021-05-16</lastmod>
+    <lastmod>2021-05-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/media-activities.html</loc>
-    <lastmod>2021-05-16</lastmod>
+    <lastmod>2021-05-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -50,31 +50,31 @@
   </url>
   <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/aboutus.html</loc>
-    <lastmod>2021-05-16</lastmod>
+    <lastmod>2021-05-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.polyu.edu.hk/proj/hkvmt/healingplan.html</loc>
-    <lastmod>2021-05-16</lastmod>
+    <loc>https://www.polyu.edu.hk/proj/hkvmt/healthinfo_healing.html</loc>
+    <lastmod>2021-05-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/brainhealth.html</loc>
-    <lastmod>2021-05-16</lastmod>
+    <lastmod>2021-05-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/localresources.html</loc>
-    <lastmod>2021-05-16</lastmod>
+    <lastmod>2021-05-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/healthinfo_intro.html</loc>
-    <lastmod>2021-05-16</lastmod>
+    <lastmod>2021-05-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -133,14 +133,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.polyu.edu.hk/proj/hkvmt/assets/pic_ada-fung.jpg</loc>
-    <lastmod>2021-03-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://www.polyu.edu.hk/proj/hkvmt/assets/pic_kevin-chan.jpg</loc>
-    <lastmod>2021-04-22</lastmod>
+    <loc>https://www.polyu.edu.hk/proj/hkvmt/assets/pic_poster01.png</loc>
+    <lastmod>2021-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -153,24 +147,6 @@
   <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/assets/pic_teamwork.jpeg</loc>
     <lastmod>2021-03-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://www.polyu.edu.hk/proj/hkvmt/assets/pic_poster01.png</loc>
-    <lastmod>2021-05-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://www.polyu.edu.hk/proj/hkvmt/assets/pic_poster02.png</loc>
-    <lastmod>2021-05-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://www.polyu.edu.hk/proj/hkvmt/assets/healing.mp4</loc>
-    <lastmod>2021-03-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -219,6 +195,18 @@
   <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/assets/pic_media.jpg</loc>
     <lastmod>2021-05-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.polyu.edu.hk/proj/hkvmt/assets/smart.mp4</loc>
+    <lastmod>2021-03-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.polyu.edu.hk/proj/hkvmt/assets/pic_eldercare02.jpeg</loc>
+    <lastmod>2021-05-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -277,13 +265,13 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.polyu.edu.hk/proj/hkvmt/assets/pic_newman-lau.jpg</loc>
-    <lastmod>2021-03-12</lastmod>
+    <loc>https://www.polyu.edu.hk/proj/hkvmt/assets/pic_poster02.png</loc>
+    <lastmod>2021-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.polyu.edu.hk/proj/hkvmt/assets/pic_alex-choy.jpg</loc>
+    <loc>https://www.polyu.edu.hk/proj/hkvmt/assets/healing.mp4</loc>
     <lastmod>2021-03-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
