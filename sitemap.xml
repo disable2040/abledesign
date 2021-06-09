@@ -2,97 +2,457 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/index.html</loc>
-    <lastmod>2021-06-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://www.polyu.edu.hk/proj/hkvmt/brainhealth_emotions.html</loc>
-    <lastmod>2021-06-03</lastmod>
+    <lastmod>2021-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/brainhealth_social.html</loc>
-    <lastmod>2021-06-03</lastmod>
+    <lastmod>2021-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.polyu.edu.hk/proj/hkvmt/brainhealth_emotions.html</loc>
+    <lastmod>2021-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/brainhealth_diet.html</loc>
-    <lastmod>2021-06-03</lastmod>
+    <lastmod>2021-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/brainhealth_cognitive.html</loc>
-    <lastmod>2021-06-03</lastmod>
+    <lastmod>2021-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/brainhealth_exercises.html</loc>
-    <lastmod>2021-06-03</lastmod>
+    <lastmod>2021-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/dementia_causes.html</loc>
-    <lastmod>2021-06-03</lastmod>
+    <lastmod>2021-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/dementia_stages.html</loc>
-    <lastmod>2021-06-03</lastmod>
+    <lastmod>2021-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/partnership.html</loc>
-    <lastmod>2021-06-02</lastmod>
+    <lastmod>2021-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/media-activities.html</loc>
-    <lastmod>2021-06-02</lastmod>
+    <lastmod>2021-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_poster031004x562.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_poster031004x562_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event04.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event04_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event03-crop-u435628.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event03-crop-u435628_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event02-crop-u435684.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event02-crop-u435684_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event01-crop-u435737.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event01-crop-u435737_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_poster03-crop-u435813.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_poster03-crop-u435813_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event02302x226.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event02302x226_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event04-crop-u435366.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event04-crop-u435366_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event01302x226.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event01302x226_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event03302x226.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event03302x226_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_poster03898x503.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_poster03898x503_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event04860x485.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event04860x485_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event03-crop-u4356282.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event03-crop-u435628_2x2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event02-crop-u4356842.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event02-crop-u435684_2x2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event01-crop-u4357372.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event01-crop-u435737_2x2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_poster03-crop-u4358132.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_poster03-crop-u435813_2x2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event02270x202.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event02270x202_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event04-crop-u4353662.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event04-crop-u435366_2x2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event01270x202.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event01270x202_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event03270x202.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event03270x202_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_poster03-crop-u4358133.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_poster03-crop-u435813_2x3.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event03173x130.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event03173x130_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event01173x130.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event01173x130_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event04-crop-u4353663.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event04-crop-u435366_2x3.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event02173x130.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event02173x130_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_poster03512x287.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_poster03512x287_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event04512x289.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event04512x289_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event03512x384.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event03512x384_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event02512x384.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event02512x384_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event01512x384.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event01512x384_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_poster03-crop-u4358134.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_poster03-crop-u435813_2x4.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event03156x117.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event03156x117_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event01156x117.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event01156x117_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event04-crop-u4353664.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event04-crop-u435366_2x4.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event02156x117.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event02156x117_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_poster03460x258.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_poster03460x258_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event04460x260.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event04460x260_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event03460x345.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event03460x345_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event02460x345.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event02460x345_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event01460x345.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event01460x345_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_poster03-crop-u4358135.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_poster03-crop-u435813_2x5.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event03122x92.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event03122x92_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event01122x92.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event01122x92_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event04-crop-u4353665.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event04-crop-u435366_2x5.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event02122x92.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event02122x92_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_poster03360x202.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_poster03360x202_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event04360x203.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event04360x203_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event03360x270.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event03360x270_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event02360x270.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event02360x270_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event01360x270.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event01360x270_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_poster03-crop-u4358136.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_poster03-crop-u435813_2x6.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event0381x61.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event0381x61_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event0181x61.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event0181x61_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event04-crop-u4353666.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event04-crop-u435366_2x6.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event0281x61.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event0281x61_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_poster03240x135.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_poster03240x135_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event04240x136.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event04240x136_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event03240x180.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event03240x180_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event02240x180.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event02240x180_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event01240x180.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.polyu.edu.hk/proj/hkvmt/images/pic_event01240x180_2x.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/backup.html</loc>
-    <lastmod>2021-06-02</lastmod>
+    <lastmod>2021-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/aboutus.html</loc>
-    <lastmod>2021-06-02</lastmod>
+    <lastmod>2021-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/dementia_healing.html</loc>
-    <lastmod>2021-06-03</lastmod>
+    <lastmod>2021-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/brainhealth_intro.html</loc>
-    <lastmod>2021-06-02</lastmod>
+    <lastmod>2021-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/resources.html</loc>
-    <lastmod>2021-06-03</lastmod>
+    <lastmod>2021-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/dementia_intro.html</loc>
-    <lastmod>2021-06-03</lastmod>
+    <lastmod>2021-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -139,6 +499,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://www.polyu.edu.hk/proj/hkvmt/assets/healthinfo_04_2.svg</loc>
+    <lastmod>2021-05-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/assets/healthinfo_02_1.svg</loc>
     <lastmod>2021-04-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -147,12 +513,6 @@
   <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/assets/hi_intro_p1_1.svg</loc>
     <lastmod>2021-04-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://www.polyu.edu.hk/proj/hkvmt/assets/close-white.png</loc>
-    <lastmod>2021-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -195,6 +555,12 @@
   <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/assets/pic_event04.jpg</loc>
     <lastmod>2021-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.polyu.edu.hk/proj/hkvmt/assets/hi_intro_p6_1.svg</loc>
+    <lastmod>2021-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -277,12 +643,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.polyu.edu.hk/proj/hkvmt/assets/healthinfo_04_2.svg</loc>
-    <lastmod>2021-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/assets/footer_pullup.png</loc>
     <lastmod>2021-04-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -291,6 +651,12 @@
   <url>
     <loc>https://www.polyu.edu.hk/proj/hkvmt/assets/pic_resource.jpeg</loc>
     <lastmod>2021-05-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.polyu.edu.hk/proj/hkvmt/assets/close-white.png</loc>
+    <lastmod>2021-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
