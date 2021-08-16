@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://www.polyu.edu.hk/proj/hkvmt" resolutions="1x,2x" timestamp="1629090098936">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://www.polyu.edu.hk/proj/hkvmt" resolutions="1x,2x" timestamp="1629090449624">
   <folder name="css">
     <file name="site_global.css" crc="377542806"/>
     <file name="master_storytelling-yellow.css" crc="156382718" ref="dementia_causes:dementia_healing:dementia_intro:dementia_stages"/>
@@ -23,8 +23,8 @@
     <file name="nomq_brainhealth_cognitive.css" crc="242637727" ref="brainhealth_cognitive"/>
     <file name="media_activities.css" crc="37073055" ref="media_activities"/>
     <file name="nomq_media_activities.css" crc="488664179" ref="media_activities"/>
-    <file name="brainhealth_diet.css" crc="4214575087" ref="brainhealth_diet"/>
-    <file name="nomq_brainhealth_diet.css" crc="4230388995" ref="brainhealth_diet"/>
+    <file name="brainhealth_diet.css" crc="292067815" ref="brainhealth_diet"/>
+    <file name="nomq_brainhealth_diet.css" crc="3939996450" ref="brainhealth_diet"/>
     <file name="partnership.css" crc="426030" ref="partnership"/>
     <file name="nomq_partnership.css" crc="4226073324" ref="partnership"/>
     <file name="dementia_intro.css" crc="161759703" ref="dementia_intro"/>
@@ -1749,7 +1749,7 @@
   <file name="index.html" crc="3905941703" seo="true" mt="1628953936396" redirect="true"/>
   <file name="brainhealth_exercises.html" crc="3987419222" seo="true" mt="1629089991302" redirect="true"/>
   <file name="brainhealth_cognitive.html" crc="192912100" seo="true" mt="1629040132470" redirect="true"/>
-  <file name="brainhealth_diet.html" crc="4127386612" seo="true" mt="1629089991845" redirect="true"/>
+  <file name="brainhealth_diet.html" crc="70503867" seo="true" mt="1629090258446" redirect="true"/>
   <file name="brainhealth_emotions.html" crc="4219793786" seo="true" mt="1629040934733" redirect="true"/>
   <file name="brainhealth_social.html" crc="86608595" seo="true" mt="1629041445633" redirect="true"/>
 </manifest>
