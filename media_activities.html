@@ -11,7 +11,7 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.musemenu.js", "jquery.watch.js", "jquery.museresponsive.js", "require.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "media_activities.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.musemenu.js", "jquery.watch.js", "jquery.museresponsive.js", "require.js", "media_activities.css"], "outOfDate":[]};
 </script>
   
   <link rel="shortcut icon" href="images/normal-favicon.ico?crc=3891198573"/>
@@ -19,11 +19,11 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3777718271"/>
   <link rel="stylesheet" type="text/css" href="css/master_normal.css?crc=3936018715"/>
-  <link rel="stylesheet" type="text/css" href="css/media_activities.css?crc=4106509724" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/media_activities.css?crc=4214192321" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_normal.css?crc=226054560"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_media_activities.css?crc=472965668" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_media_activities.css?crc=4247375262" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- JS includes -->
   <!--[if lt IE 9]>
@@ -31,6 +31,31 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <![endif]-->
     <!--HTML Widget code-->
   
+<style>
+.lg-sub-html,.lg-toolbar{background-color:rgba(0,0,0,.45)}@font-face{font-family:lg;src:url(https://cdn.jsdelivr.net/npm/lightgallery@1.6.0/dist/fonts/lg.eot?n1z373);src:url(https://cdn.jsdelivr.net/npm/lightgallery@1.6.0/dist/fonts/lg.eot?#iefixn1z373) format("embedded-opentype"),url(https://cdn.jsdelivr.net/npm/lightgallery@1.6.0/dist/fonts/lg.woff?n1z373) format("woff"),url(https://cdn.jsdelivr.net/npm/lightgallery@1.6.0/dist/fonts/lg.ttf?n1z373) format("truetype"),url(https://cdn.jsdelivr.net/npm/lightgallery@1.6.0/dist/fonts/lg.svg?n1z373#lg) format("svg");font-weight:400;font-style:normal}.lg-icon{font-family:lg;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.lg-actions .lg-next,.lg-actions .lg-prev{background-color:rgba(0,0,0,.45);border-radius:2px;color:#999;cursor:pointer;display:block;font-size:22px;margin-top:-10px;padding:8px 10px 9px;position:absolute;top:50%;z-index:1080;border:none;outline:0}.lg-actions .lg-next.disabled,.lg-actions .lg-prev.disabled{pointer-events:none;opacity:.5}.lg-actions .lg-next:hover,.lg-actions .lg-prev:hover{color:#FFF}.lg-actions .lg-next{right:20px}.lg-actions .lg-next:before{content:"\e095"}.lg-actions .lg-prev{left:20px}.lg-actions .lg-prev:after{content:"\e094"}@-webkit-keyframes lg-right-end{0%,100%{left:0}50%{left:-30px}}@-moz-keyframes lg-right-end{0%,100%{left:0}50%{left:-30px}}@-ms-keyframes lg-right-end{0%,100%{left:0}50%{left:-30px}}@keyframes lg-right-end{0%,100%{left:0}50%{left:-30px}}@-webkit-keyframes lg-left-end{0%,100%{left:0}50%{left:30px}}@-moz-keyframes lg-left-end{0%,100%{left:0}50%{left:30px}}@-ms-keyframes lg-left-end{0%,100%{left:0}50%{left:30px}}@keyframes lg-left-end{0%,100%{left:0}50%{left:30px}}.lg-outer.lg-right-end .lg-object{-webkit-animation:lg-right-end .3s;-o-animation:lg-right-end .3s;animation:lg-right-end .3s;position:relative}.lg-outer.lg-left-end .lg-object{-webkit-animation:lg-left-end .3s;-o-animation:lg-left-end .3s;animation:lg-left-end .3s;position:relative}.lg-toolbar{z-index:1082;left:0;position:absolute;top:0;width:100%}.lg-toolbar .lg-icon{color:#999;cursor:pointer;float:right;font-size:24px;height:47px;line-height:27px;padding:10px 0;text-align:center;width:50px;text-decoration:none!important;outline:0;-webkit-transition:color .2s linear;-o-transition:color .2s linear;transition:color .2s linear}.lg-toolbar .lg-icon:hover{color:#FFF}.lg-toolbar .lg-close:after{content:"\e070"}.lg-toolbar .lg-download:after{content:"\e0f2"}.lg-sub-html{bottom:0;color:#EEE;font-size:16px;left:0;padding:10px 40px;position:fixed;right:0;text-align:center;z-index:1080}.lg-sub-html h4{margin:0;font-size:13px;font-weight:700}.lg-sub-html p{font-size:12px;margin:5px 0 0}#lg-counter{color:#999;display:inline-block;font-size:16px;padding-left:20px;padding-top:12px;vertical-align:middle}.lg-next,.lg-prev,.lg-toolbar{opacity:1;-webkit-transition:-webkit-transform .35s cubic-bezier(0,0,.25,1) 0s,opacity .35s cubic-bezier(0,0,.25,1) 0s,color .2s linear;-moz-transition:-moz-transform .35s cubic-bezier(0,0,.25,1) 0s,opacity .35s cubic-bezier(0,0,.25,1) 0s,color .2s linear;-o-transition:-o-transform .35s cubic-bezier(0,0,.25,1) 0s,opacity .35s cubic-bezier(0,0,.25,1) 0s,color .2s linear;transition:transform .35s cubic-bezier(0,0,.25,1) 0s,opacity .35s cubic-bezier(0,0,.25,1) 0s,color .2s linear}.lg-hide-items .lg-prev{opacity:0;-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}.lg-hide-items .lg-next{opacity:0;-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}.lg-hide-items .lg-toolbar{opacity:0;-webkit-transform:translate3d(0,-10px,0);transform:translate3d(0,-10px,0)}body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-object{-webkit-transform:scale3d(.5,.5,.5);transform:scale3d(.5,.5,.5);opacity:0;-webkit-transition:-webkit-transform 250ms cubic-bezier(0,0,.25,1) 0s,opacity 250ms cubic-bezier(0,0,.25,1)!important;-moz-transition:-moz-transform 250ms cubic-bezier(0,0,.25,1) 0s,opacity 250ms cubic-bezier(0,0,.25,1)!important;-o-transition:-o-transform 250ms cubic-bezier(0,0,.25,1) 0s,opacity 250ms cubic-bezier(0,0,.25,1)!important;transition:transform 250ms cubic-bezier(0,0,.25,1) 0s,opacity 250ms cubic-bezier(0,0,.25,1)!important;-webkit-transform-origin:50% 50%;-moz-transform-origin:50% 50%;-ms-transform-origin:50% 50%;transform-origin:50% 50%}body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1);opacity:1}.lg-outer .lg-thumb-outer{background-color:#0D0A0A;bottom:0;position:absolute;width:100%;z-index:1080;max-height:350px;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0);-webkit-transition:-webkit-transform .25s cubic-bezier(0,0,.25,1) 0s;-moz-transition:-moz-transform .25s cubic-bezier(0,0,.25,1) 0s;-o-transition:-o-transform .25s cubic-bezier(0,0,.25,1) 0s;transition:transform .25s cubic-bezier(0,0,.25,1) 0s}.lg-outer .lg-thumb-outer.lg-grab .lg-thumb-item{cursor:-webkit-grab;cursor:-moz-grab;cursor:-o-grab;cursor:-ms-grab;cursor:grab}.lg-outer .lg-thumb-outer.lg-grabbing .lg-thumb-item{cursor:move;cursor:-webkit-grabbing;cursor:-moz-grabbing;cursor:-o-grabbing;cursor:-ms-grabbing;cursor:grabbing}.lg-outer .lg-thumb-outer.lg-dragging .lg-thumb{-webkit-transition-duration:0s!important;transition-duration:0s!important}.lg-outer.lg-thumb-open .lg-thumb-outer{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.lg-outer .lg-thumb{padding:10px 0;height:100%;margin-bottom:-5px}.lg-outer .lg-thumb-item{cursor:pointer;float:left;overflow:hidden;height:100%;border:2px solid #FFF;border-radius:4px;margin-bottom:5px}@media (min-width:1025px){.lg-outer .lg-thumb-item{-webkit-transition:border-color .25s ease;-o-transition:border-color .25s ease;transition:border-color .25s ease}}.lg-outer .lg-thumb-item.active,.lg-outer .lg-thumb-item:hover{border-color:#a90707}.lg-outer .lg-thumb-item img{width:100%;height:100%;object-fit:cover}.lg-outer.lg-has-thumb .lg-item{padding-bottom:120px}.lg-outer.lg-can-toggle .lg-item{padding-bottom:0}.lg-outer.lg-pull-caption-up .lg-sub-html{-webkit-transition:bottom .25s ease;-o-transition:bottom .25s ease;transition:bottom .25s ease}.lg-outer.lg-pull-caption-up.lg-thumb-open .lg-sub-html{bottom:100px}.lg-outer .lg-toogle-thumb{background-color:#0D0A0A;border-radius:2px 2px 0 0;color:#999;cursor:pointer;font-size:24px;height:39px;line-height:27px;padding:5px 0;position:absolute;right:20px;text-align:center;top:-39px;width:50px}.lg-outer .lg-toogle-thumb:hover,.lg-outer.lg-dropdown-active #lg-share{color:#FFF}.lg-outer .lg-toogle-thumb:after{content:"\e1ff"}.lg-outer .lg-video-cont{display:inline-block;vertical-align:middle;max-width:1140px;max-height:100%;width:100%;padding:0 5px}.lg-outer .lg-video{width:100%;height:0;padding-bottom:56.25%;overflow:hidden;position:relative}.lg-outer .lg-video .lg-object{display:inline-block;position:absolute;top:0;left:0;width:100%!important;height:100%!important}.lg-outer .lg-video .lg-video-play{width:84px;height:59px;position:absolute;left:50%;top:50%;margin-left:-42px;margin-top:-30px;z-index:1080;cursor:pointer}.lg-outer .lg-has-vimeo .lg-video-play{background:url(https://cdn.jsdelivr.net/npm/lightgallery@1.6.0/dist/img/vimeo-play.png) no-repeat}.lg-outer .lg-has-vimeo:hover .lg-video-play{background:url(https://cdn.jsdelivr.net/npm/lightgallery@1.6.0/dist/img/vimeo-play.png) 0 -58px no-repeat}.lg-outer .lg-has-html5 .lg-video-play{background:url(https://cdn.jsdelivr.net/npm/lightgallery@1.6.0/dist/img/video-play.png) no-repeat;height:64px;margin-left:-32px;margin-top:-32px;width:64px;opacity:.8}.lg-outer .lg-has-html5:hover .lg-video-play{opacity:1}.lg-outer .lg-has-youtube .lg-video-play{background:url(https://cdn.jsdelivr.net/npm/lightgallery@1.6.0/dist/img/youtube-play.png) no-repeat}.lg-outer .lg-has-youtube:hover .lg-video-play{background:url(https://cdn.jsdelivr.net/npm/lightgallery@1.6.0/dist/img/youtube-play.png) 0 -60px no-repeat}.lg-outer .lg-video-object{width:100%!important;height:100%!important;position:absolute;top:0;left:0}.lg-outer .lg-has-video .lg-video-object{visibility:hidden}.lg-outer .lg-has-video.lg-video-playing .lg-object,.lg-outer .lg-has-video.lg-video-playing .lg-video-play{display:none}.lg-outer .lg-has-video.lg-video-playing .lg-video-object{visibility:visible}.lg-progress-bar{background-color:#333;height:5px;left:0;position:absolute;top:0;width:100%;z-index:1083;opacity:0;-webkit-transition:opacity 80ms ease 0s;-moz-transition:opacity 80ms ease 0s;-o-transition:opacity 80ms ease 0s;transition:opacity 80ms ease 0s}.lg-progress-bar .lg-progress{background-color:#a90707;height:5px;width:0}.lg-progress-bar.lg-start .lg-progress{width:100%}.lg-show-autoplay .lg-progress-bar{opacity:1}.lg-autoplay-button:after{content:"\e01d"}.lg-show-autoplay .lg-autoplay-button:after{content:"\e01a"}.lg-outer.lg-css3.lg-zoom-dragging .lg-item.lg-complete.lg-zoomable .lg-image,.lg-outer.lg-css3.lg-zoom-dragging .lg-item.lg-complete.lg-zoomable .lg-img-wrap{-webkit-transition-duration:0s;transition-duration:0s}.lg-outer.lg-use-transition-for-zoom .lg-item.lg-complete.lg-zoomable .lg-img-wrap{-webkit-transition:-webkit-transform .3s cubic-bezier(0,0,.25,1) 0s;-moz-transition:-moz-transform .3s cubic-bezier(0,0,.25,1) 0s;-o-transition:-o-transform .3s cubic-bezier(0,0,.25,1) 0s;transition:transform .3s cubic-bezier(0,0,.25,1) 0s}.lg-outer.lg-use-left-for-zoom .lg-item.lg-complete.lg-zoomable .lg-img-wrap{-webkit-transition:left .3s cubic-bezier(0,0,.25,1) 0s,top .3s cubic-bezier(0,0,.25,1) 0s;-moz-transition:left .3s cubic-bezier(0,0,.25,1) 0s,top .3s cubic-bezier(0,0,.25,1) 0s;-o-transition:left .3s cubic-bezier(0,0,.25,1) 0s,top .3s cubic-bezier(0,0,.25,1) 0s;transition:left .3s cubic-bezier(0,0,.25,1) 0s,top .3s cubic-bezier(0,0,.25,1) 0s}.lg-outer .lg-item.lg-complete.lg-zoomable .lg-img-wrap{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;backface-visibility:hidden}.lg-outer .lg-item.lg-complete.lg-zoomable .lg-image{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1);-webkit-transition:-webkit-transform .3s cubic-bezier(0,0,.25,1) 0s,opacity .15s!important;-moz-transition:-moz-transform .3s cubic-bezier(0,0,.25,1) 0s,opacity .15s!important;-o-transition:-o-transform .3s cubic-bezier(0,0,.25,1) 0s,opacity .15s!important;transition:transform .3s cubic-bezier(0,0,.25,1) 0s,opacity .15s!important;-webkit-transform-origin:0 0;-moz-transform-origin:0 0;-ms-transform-origin:0 0;transform-origin:0 0;-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;backface-visibility:hidden}#lg-zoom-in:after{content:"\e311"}#lg-actual-size{font-size:20px}#lg-actual-size:after{content:"\e033"}#lg-zoom-out{opacity:.5;pointer-events:none}#lg-zoom-out:after{content:"\e312"}.lg-zoomed #lg-zoom-out{opacity:1;pointer-events:auto}.lg-outer .lg-pager-outer{bottom:60px;left:0;position:absolute;right:0;text-align:center;z-index:1080;height:10px}.lg-outer .lg-pager-outer.lg-pager-hover .lg-pager-cont{overflow:visible}.lg-outer .lg-pager-cont{cursor:pointer;display:inline-block;overflow:hidden;position:relative;vertical-align:top;margin:0 5px}.lg-outer .lg-pager-cont:hover .lg-pager-thumb-cont{opacity:1;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.lg-outer .lg-pager-cont.lg-pager-active .lg-pager{box-shadow:0 0 0 2px #fff inset}.lg-outer .lg-pager-thumb-cont{background-color:#fff;color:#FFF;bottom:100%;height:83px;left:0;margin-bottom:20px;margin-left:-60px;opacity:0;padding:5px;position:absolute;width:120px;border-radius:3px;-webkit-transition:opacity .15s ease 0s,-webkit-transform .15s ease 0s;-moz-transition:opacity .15s ease 0s,-moz-transform .15s ease 0s;-o-transition:opacity .15s ease 0s,-o-transform .15s ease 0s;transition:opacity .15s ease 0s,transform .15s ease 0s;-webkit-transform:translate3d(0,5px,0);transform:translate3d(0,5px,0)}.lg-outer .lg-pager-thumb-cont img{width:100%;height:100%}.lg-outer .lg-pager{background-color:rgba(255,255,255,.5);border-radius:50%;box-shadow:0 0 0 8px rgba(255,255,255,.7) inset;display:block;height:12px;-webkit-transition:box-shadow .3s ease 0s;-o-transition:box-shadow .3s ease 0s;transition:box-shadow .3s ease 0s;width:12px}.lg-outer .lg-pager:focus,.lg-outer .lg-pager:hover{box-shadow:0 0 0 8px #fff inset}.lg-outer .lg-caret{border-left:10px solid transparent;border-right:10px solid transparent;border-top:10px dashed;bottom:-10px;display:inline-block;height:0;left:50%;margin-left:-5px;position:absolute;vertical-align:middle;width:0}.lg-fullscreen:after{content:"\e20c"}.lg-fullscreen-on .lg-fullscreen:after{content:"\e20d"}.lg-outer #lg-dropdown-overlay{background-color:rgba(0,0,0,.25);bottom:0;cursor:default;left:0;position:fixed;right:0;top:0;z-index:1081;opacity:0;visibility:hidden;-webkit-transition:visibility 0s linear .18s,opacity .18s linear 0s;-o-transition:visibility 0s linear .18s,opacity .18s linear 0s;transition:visibility 0s linear .18s,opacity .18s linear 0s}.lg-outer.lg-dropdown-active #lg-dropdown-overlay,.lg-outer.lg-dropdown-active .lg-dropdown{-webkit-transition-delay:0s;transition-delay:0s;-moz-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);opacity:1;visibility:visible}.lg-outer .lg-dropdown{background-color:#fff;border-radius:2px;font-size:14px;list-style-type:none;margin:0;padding:10px 0;position:absolute;right:0;text-align:left;top:50px;opacity:0;visibility:hidden;-moz-transform:translate3d(0,5px,0);-o-transform:translate3d(0,5px,0);-ms-transform:translate3d(0,5px,0);-webkit-transform:translate3d(0,5px,0);transform:translate3d(0,5px,0);-webkit-transition:-webkit-transform .18s linear 0s,visibility 0s linear .5s,opacity .18s linear 0s;-moz-transition:-moz-transform .18s linear 0s,visibility 0s linear .5s,opacity .18s linear 0s;-o-transition:-o-transform .18s linear 0s,visibility 0s linear .5s,opacity .18s linear 0s;transition:transform .18s linear 0s,visibility 0s linear .5s,opacity .18s linear 0s}.lg-outer .lg-dropdown:after{content:"";display:block;height:0;width:0;position:absolute;border:8px solid transparent;border-bottom-color:#FFF;right:16px;top:-16px}.lg-outer .lg-dropdown>li:last-child{margin-bottom:0}.lg-outer .lg-dropdown>li:hover .lg-icon,.lg-outer .lg-dropdown>li:hover a{color:#333}.lg-outer .lg-dropdown a{color:#333;display:block;white-space:pre;padding:4px 12px;font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:12px}.lg-outer .lg-dropdown a:hover{background-color:rgba(0,0,0,.07)}.lg-outer .lg-dropdown .lg-dropdown-text{display:inline-block;line-height:1;margin-top:-3px;vertical-align:middle}.lg-outer .lg-dropdown .lg-icon{color:#333;display:inline-block;float:none;font-size:20px;height:auto;line-height:1;margin-right:8px;padding:0;vertical-align:middle;width:auto}.lg-outer,.lg-outer .lg,.lg-outer .lg-inner{width:100%;height:100%}.lg-outer #lg-share{position:relative}.lg-outer #lg-share:after{content:"\e80d"}.lg-outer #lg-share-facebook .lg-icon{color:#3b5998}.lg-outer #lg-share-facebook .lg-icon:after{content:"\e901"}.lg-outer #lg-share-twitter .lg-icon{color:#00aced}.lg-outer #lg-share-twitter .lg-icon:after{content:"\e904"}.lg-outer #lg-share-googleplus .lg-icon{color:#dd4b39}.lg-outer #lg-share-googleplus .lg-icon:after{content:"\e902"}.lg-outer #lg-share-pinterest .lg-icon{color:#cb2027}.lg-outer #lg-share-pinterest .lg-icon:after{content:"\e903"}.lg-group:after{content:"";display:table;clear:both}.lg-outer{position:fixed;top:0;left:0;z-index:1050;text-align:left;opacity:0;-webkit-transition:opacity .15s ease 0s;-o-transition:opacity .15s ease 0s;transition:opacity .15s ease 0s}.lg-outer *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.lg-outer.lg-visible{opacity:1}.lg-outer.lg-css3 .lg-item.lg-current,.lg-outer.lg-css3 .lg-item.lg-next-slide,.lg-outer.lg-css3 .lg-item.lg-prev-slide{-webkit-transition-duration:inherit!important;transition-duration:inherit!important;-webkit-transition-timing-function:inherit!important;transition-timing-function:inherit!important}.lg-outer.lg-css3.lg-dragging .lg-item.lg-current,.lg-outer.lg-css3.lg-dragging .lg-item.lg-next-slide,.lg-outer.lg-css3.lg-dragging .lg-item.lg-prev-slide{-webkit-transition-duration:0s!important;transition-duration:0s!important;opacity:1}.lg-outer.lg-grab img.lg-object{cursor:-webkit-grab;cursor:-moz-grab;cursor:-o-grab;cursor:-ms-grab;cursor:grab}.lg-outer.lg-grabbing img.lg-object{cursor:move;cursor:-webkit-grabbing;cursor:-moz-grabbing;cursor:-o-grabbing;cursor:-ms-grabbing;cursor:grabbing}.lg-outer .lg{position:relative;overflow:hidden;margin-left:auto;margin-right:auto;max-width:100%;max-height:100%}.lg-outer .lg-inner{position:absolute;left:0;top:0;white-space:nowrap}.lg-outer .lg-item{background:url(https://cdn.jsdelivr.net/npm/lightgallery@1.6.0/dist/img/loading.gif) center center no-repeat;display:none!important}.lg-outer.lg-css .lg-current,.lg-outer.lg-css3 .lg-current,.lg-outer.lg-css3 .lg-next-slide,.lg-outer.lg-css3 .lg-prev-slide{display:inline-block!important}.lg-outer .lg-img-wrap,.lg-outer .lg-item{display:inline-block;text-align:center;position:absolute;width:100%;height:100%}.lg-outer .lg-img-wrap:before,.lg-outer .lg-item:before{content:"";display:inline-block;height:50%;width:1px;margin-right:-1px}.lg-outer .lg-img-wrap{position:absolute;padding:0 5px;left:0;right:0;top:0;bottom:0}.lg-outer .lg-item.lg-complete{background-image:none}.lg-outer .lg-item.lg-current{z-index:1060}.lg-outer .lg-image{display:inline-block;vertical-align:middle;max-width:100%;max-height:100%;width:auto!important;height:auto!important}.lg-outer.lg-show-after-load .lg-item .lg-object,.lg-outer.lg-show-after-load .lg-item .lg-video-play{opacity:0;-webkit-transition:opacity .15s ease 0s;-o-transition:opacity .15s ease 0s;transition:opacity .15s ease 0s}.lg-outer.lg-show-after-load .lg-item.lg-complete .lg-object,.lg-outer.lg-show-after-load .lg-item.lg-complete .lg-video-play{opacity:1}.lg-outer .lg-empty-html,.lg-outer.lg-hide-download #lg-download{display:none}.lg-backdrop{position:fixed;top:0;left:0;right:0;bottom:0;z-index:1040;background-color:#000;opacity:0;-webkit-transition:opacity .15s ease 0s;-o-transition:opacity .15s ease 0s;transition:opacity .15s ease 0s}.lg-backdrop.in{opacity:1}.lg-css3.lg-no-trans .lg-current,.lg-css3.lg-no-trans .lg-next-slide,.lg-css3.lg-no-trans .lg-prev-slide{-webkit-transition:none 0s ease 0s!important;-moz-transition:none 0s ease 0s!important;-o-transition:none 0s ease 0s!important;transition:none 0s ease 0s!important}.lg-css3.lg-use-css3 .lg-item,.lg-css3.lg-use-left .lg-item{-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;backface-visibility:hidden}.lg-css3.lg-fade .lg-item{opacity:0}.lg-css3.lg-fade .lg-item.lg-current{opacity:1}.lg-css3.lg-fade .lg-item.lg-current,.lg-css3.lg-fade .lg-item.lg-next-slide,.lg-css3.lg-fade .lg-item.lg-prev-slide{-webkit-transition:opacity .1s ease 0s;-moz-transition:opacity .1s ease 0s;-o-transition:opacity .1s ease 0s;transition:opacity .1s ease 0s}.lg-css3.lg-slide.lg-use-css3 .lg-item{opacity:0}.lg-css3.lg-slide.lg-use-css3 .lg-item.lg-prev-slide{-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}.lg-css3.lg-slide.lg-use-css3 .lg-item.lg-next-slide{-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}.lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);opacity:1}.lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current,.lg-css3.lg-slide.lg-use-css3 .lg-item.lg-next-slide,.lg-css3.lg-slide.lg-use-css3 .lg-item.lg-prev-slide{-webkit-transition:-webkit-transform 1s cubic-bezier(0,0,.25,1) 0s,opacity .1s ease 0s;-moz-transition:-moz-transform 1s cubic-bezier(0,0,.25,1) 0s,opacity .1s ease 0s;-o-transition:-o-transform 1s cubic-bezier(0,0,.25,1) 0s,opacity .1s ease 0s;transition:transform 1s cubic-bezier(0,0,.25,1) 0s,opacity .1s ease 0s}.lg-css3.lg-slide.lg-use-left .lg-item{opacity:0;position:absolute;left:0}.lg-css3.lg-slide.lg-use-left .lg-item.lg-prev-slide{left:-100%}.lg-css3.lg-slide.lg-use-left .lg-item.lg-next-slide{left:100%}.lg-css3.lg-slide.lg-use-left .lg-item.lg-current{left:0;opacity:1}.lg-css3.lg-slide.lg-use-left .lg-item.lg-current,.lg-css3.lg-slide.lg-use-left .lg-item.lg-next-slide,.lg-css3.lg-slide.lg-use-left .lg-item.lg-prev-slide{-webkit-transition:left 1s cubic-bezier(0,0,.25,1) 0s,opacity .1s ease 0s;-moz-transition:left 1s cubic-bezier(0,0,.25,1) 0s,opacity .1s ease 0s;-o-transition:left 1s cubic-bezier(0,0,.25,1) 0s,opacity .1s ease 0s;transition:left 1s cubic-bezier(0,0,.25,1) 0s,opacity .1s ease 0s}
+
+.demo-gallery img {
+  margin-bottom: -5px;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  -o-transform-origin: center;
+  transform-origin: center;
+}
+.lg-outer div {
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  -o-transform-origin: center;
+  transform-origin: center;
+}
+.lg-outer .lg-thumb-item img {
+  object-fit: cover;
+}
+.demo-gallery > ul {
+  margin-bottom: 0;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.0/dist/css/lg-transitions.min.css">
+
 <style>
 .gs{
   background-color: #0E1E28;
@@ -164,6 +189,115 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 
 <style>
 .Show{-webkit-transform-origin:center;-ms-transform-origin:center;-o-transform-origin:center;transform-origin:center}
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+<script>
+  WebFont.load({
+    google: {
+      families: ['Open Sans']
+    }
+  });
+</script>
+<style>
+.demo-gallery > ul > li a > img {
+  -webkit-transition: -webkit-transform 0.15s ease 0s;
+  -moz-transition: -moz-transform 0.15s ease 0s;
+  -o-transition: -o-transform 0.15s ease 0s;
+  transition: transform 0.15s ease 0s;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  font-family: 'object-fit:cover; object-position:center;'
+}
+.rlg1 > ul > li a:hover  > img {
+  -webkit-transform: scale3d(1.1, 1.1, 1.1);
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+.rlg1 {
+  width: 100%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.rlg1 > ul > li {
+  margin-bottom: 15px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+  list-style: outside none none;
+}
+.rlg1 > ul > li a {
+  border: 1px solid #2CA867;
+  border-radius: 5px;
+  width: 300px;
+  height: 250px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  float: left;
+}
+/*Colors*/
+.lg-backdrop{
+  background-color: #F78C00;
+}
+.lg-backdrop.in{
+  opacity: 1;
+}
+.lg-outer .lg-thumb-outer{
+  background-color: #000000;
+}
+.lg-actions .lg-next, .lg-actions .lg-prev, .lg-sub-html, .lg-toolbar{
+  background-color: rgba(0,0,0,0.45);
+}
+.lg-toolbar .lg-icon:hover, .lg-actions .lg-next:hover, .lg-actions .lg-prev:hover, .lg-outer .lg-toogle-thumb:hover{
+  color: #FFFFFF;
+}
+.lg-outer .lg-thumb-item{
+  border: 2px solid #FFFFFF;
+}
+.lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover{
+  border-color: #FFE6CC;
+}
+.lg-toolbar .lg-icon{
+  color: #999999;
+}
+.lg-actions .lg-next, .lg-actions .lg-prev{
+  color: #999999;
+}
+.lg-outer .lg-toogle-thumb{
+  background-color: #0D0A0A;
+  color: #999999;
+}
+.lg-progress-bar .lg-progress{
+  background-color: #F7B04C;
+}
+#lg-counter{
+  color: #999999;
+  font-family: 'Open Sans', sans-serif;
+}
+.lg-sub-html a{
+  text-decoration: none !important;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.lg-sub-html h4{
+  color: #21824B;
+}
+.lg-sub-html p{
+  color: #FFFFFF;
+}
+.outside{
+  width: 100%;
+}
+
+.lg-thumb-item > img {
+  object-fit: cover;
+  font-family: 'object-fit:cover; object-position:center;'
+}
 </style>
 
 <style>
@@ -672,21 +806,25 @@ body {
   
   <div class="breakpoint active" id="bp_infinity" data-min-width="1201"><!-- responsive breakpoint node -->
    <div class="clearfix borderbox" id="page"><!-- group -->
-    <div class="clearfix grpelem shared_content" id="ppu101236" data-content-guid="ppu101236_content"><!-- column -->
+    <div class="size_fixed grpelem shared_content" id="u521260" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u521260_content"><!-- custom html -->
+     
+
+    </div>
+    <div class="clearfix grpelem" id="ppu101236"><!-- column -->
      <div class="clearfix colelem shared_content" id="pu101236" data-content-guid="pu101236_content"><!-- group -->
-      <div class="size_fixed grpelem" id="u101236" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- custom html -->
+      <div class="size_fixed grpelem shared_content" id="u101236" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u101236_content"><!-- custom html -->
        
 
       </div>
-      <div class="size_fixed grpelem" id="u99725" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- custom html -->
+      <div class="size_fixed grpelem shared_content" id="u99725" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u99725_content"><!-- custom html -->
        
 
       </div>
-      <div class="size_fixed grpelem" id="u101015" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- custom html -->
+      <div class="size_fixed grpelem shared_content" id="u101015" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u101015_content"><!-- custom html -->
        
 
       </div>
-      <div class="clearfix grpelem" id="pu100988"><!-- column -->
+      <div class="clearfix grpelem shared_content" id="pu100988" data-content-guid="pu100988_content"><!-- column -->
        <div class="size_fixed colelem" id="u100988" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- custom html -->
         
 
@@ -791,85 +929,36 @@ body {
        <div id="u279930"><!-- simple frame --></div>
       </div>
       <div class="browser_width grpelem" id="u280429-bw">
-       <div class="museBGSize" id="u280429"><!-- column -->
+       <div class="museBGSize" id="u280429"><!-- group -->
         <div class="clearfix" id="u280429_align_to_page">
-         <div class="clearfix colelem shared_content" id="u513659" data-content-guid="u513659_content"><!-- column -->
-          <div class="rounded-corners colelem" id="u513660" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- simple frame --></div>
-          <div class="clearfix colelem" id="u513661-4" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- content -->
-           <p id="u513661-2"><span class="body" id="u513661">照片集</span></p>
-          </div>
-          <div class="rounded-corners colelem" id="u513662" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- simple frame --></div>
-         </div>
-         <div class="SlideShowWidget clearfix widget_invisible colelem" id="slideshowu435354" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- none box -->
-          <div class="clearfix" id="pu435373"><!-- group -->
-           <div class="popup_anchor" data-col-pos="0" id="u435373popup">
-            <div class="SlideShowContentPanel gradient clearfix" data-col-pos="0" id="u435373" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- stack box -->
-             <div class="SSSlide clip_frame grpelem" data-col-pos="0" id="u435378" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- image -->
-              <img class="block ImageInclude" data-col-pos="0" id="u435378_img" data-src="images/pic_event04.jpg?crc=522464413" data-hidpi-src="images/pic_event04_2x.jpg?crc=26737200" src="images/blank.gif?crc=4208392903" alt="" data-width="961" data-height="542"/>
-             </div>
-             <div class="SSSlide invi clip_frame clearfix grpelem" data-col-pos="1" id="u435628" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- image -->
-              <img class="ImageInclude position_content" data-col-pos="1" id="u435628_img" data-src="images/pic_event03.jpg?crc=3992084581" data-hidpi-src="images/pic_event03_2x.jpg?crc=4018857970" src="images/blank.gif?crc=4208392903" alt="" data-width="1240" data-height="930"/>
-             </div>
-             <div class="SSSlide invi clip_frame clearfix grpelem" data-col-pos="2" id="u435684" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- image -->
-              <img class="ImageInclude position_content" data-col-pos="2" id="u435684_img" data-src="images/pic_event02.jpg?crc=170902933" data-hidpi-src="images/pic_event02_2x.jpg?crc=217220801" src="images/blank.gif?crc=4208392903" alt="" data-width="1240" data-height="930"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem" data-col-pos="3" id="u518412" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- image -->
-              <img class="block ImageInclude" data-col-pos="3" id="u518412_img" data-src="images/select01.jpg?crc=3758219503" data-hidpi-src="images/select01_2x.jpg?crc=410962962" src="images/blank.gif?crc=4208392903" alt="" data-width="1000" data-height="563"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem" data-col-pos="4" id="u518475" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- image -->
-              <img class="block ImageInclude" data-col-pos="4" id="u518475_img" data-src="images/select02.jpg?crc=4204182203" data-hidpi-src="images/select02_2x.jpg?crc=4288178121" src="images/blank.gif?crc=4208392903" alt="" data-width="1000" data-height="563"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem" data-col-pos="5" id="u518538" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- image -->
-              <img class="block ImageInclude" data-col-pos="5" id="u518538_img" data-src="images/select03.jpg?crc=415819964" data-hidpi-src="images/select03_2x.jpg?crc=4054694593" src="images/blank.gif?crc=4208392903" alt="" data-width="424" data-height="753"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem" data-col-pos="6" id="u518601" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- image -->
-              <img class="block ImageInclude" data-col-pos="6" id="u518601_img" data-src="images/select04.jpg?crc=4084645057" data-hidpi-src="images/select04_2x.jpg?crc=396751187" src="images/blank.gif?crc=4208392903" alt="" data-width="424" data-height="753"/>
-             </div>
-             <div class="SSSlide invi clip_frame clearfix grpelem" data-col-pos="7" id="u435737" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- image -->
-              <img class="ImageInclude position_content" data-col-pos="7" id="u435737_img" data-src="images/pic_event01.jpg?crc=432905455" data-hidpi-src="images/pic_event01_2x.jpg?crc=258369169" src="images/blank.gif?crc=4208392903" alt="" data-width="1240" data-height="930"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem" data-col-pos="8" id="u451180" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- image -->
-              <img class="block ImageInclude" data-col-pos="8" id="u451180_img" data-src="images/pic_poster031024x573.jpg?crc=4105966083" data-hidpi-src="images/pic_poster031024x573_2x.jpg?crc=194071887" src="images/blank.gif?crc=4208392903" alt="" data-width="1024" data-height="573"/>
-             </div>
-            </div>
+         <a class="anchor_item grpelem shared_content" id="socialmedia" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="socialmedia_content"></a>
+         <div class="clearfix grpelem" id="pu513659"><!-- column -->
+          <div class="clearfix colelem shared_content" id="u513659" data-content-guid="u513659_content"><!-- column -->
+           <div class="rounded-corners colelem" id="u513660" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- simple frame --></div>
+           <div class="clearfix colelem" id="u513661-4" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- content -->
+            <p id="u513661-2"><span class="body" id="u513661">照片集</span></p>
            </div>
+           <div class="rounded-corners colelem" id="u513662" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- simple frame --></div>
           </div>
-          <div class="popup_anchor" data-col-pos="1" id="u435363popup">
-           <div class="SSSlideLinks clearfix" data-col-pos="1" id="u435363" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- horizontal-rows box -->
-            <div class="clearfix grpelem" id="pu435366"><!-- column -->
-             <div class="SSSlideLink rounded-corners clip_frame colelem" data-col-pos="0" id="u435366" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- image -->
-              <img class="block temp_no_img_src" data-col-pos="0" id="u435366_img" data-orig-src="images/pic_event04-crop-u435366.jpg?crc=4283395247" data-hidpi-src="images/pic_event04-crop-u435366_2x.jpg?crc=3904315774" alt="" width="329" height="233" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame colelem" data-col-pos="3" id="u518430" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- image -->
-              <img class="block temp_no_img_src" data-col-pos="3" id="u518430_img" data-orig-src="images/select01-crop-u518430.jpg?crc=4018812989" data-hidpi-src="images/select01-crop-u518430_2x.jpg?crc=4087947183" alt="" width="329" height="233" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame colelem" data-col-pos="6" id="u518619" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- image -->
-              <img class="block temp_no_img_src" data-col-pos="6" id="u518619_img" data-orig-src="images/select04-crop-u518619.jpg?crc=96732971" data-hidpi-src="images/select04-crop-u518619_2x.jpg?crc=4135265866" alt="" width="329" height="233" src="images/blank.gif?crc=4208392903"/>
-             </div>
-            </div>
-            <div class="clearfix grpelem" id="pu435646"><!-- column -->
-             <div class="SSSlideLink rounded-corners clip_frame clearfix colelem" data-col-pos="1" id="u435646" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- image -->
-              <img class="position_content temp_no_img_src" data-col-pos="1" id="u435646_img" data-orig-src="images/pic_event03329x247.jpg?crc=4084565752" data-hidpi-src="images/pic_event03329x247_2x.jpg?crc=269608564" alt="" width="329" height="247" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame colelem" data-col-pos="4" id="u518493" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- image -->
-              <img class="block temp_no_img_src" data-col-pos="4" id="u518493_img" data-orig-src="images/select02-crop-u518493.jpg?crc=4174655478" data-hidpi-src="images/select02-crop-u518493_2x.jpg?crc=4156922851" alt="" width="329" height="233" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame clearfix colelem" data-col-pos="7" id="u435752" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- image -->
-              <img class="position_content temp_no_img_src" data-col-pos="7" id="u435752_img" data-orig-src="images/pic_event01329x247.jpg?crc=479543825" data-hidpi-src="images/pic_event01329x247_2x.jpg?crc=4293330018" alt="" width="329" height="247" src="images/blank.gif?crc=4208392903"/>
-             </div>
-            </div>
-            <div class="clearfix grpelem" id="pu435699"><!-- column -->
-             <div class="SSSlideLink rounded-corners clip_frame clearfix colelem" data-col-pos="2" id="u435699" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- image -->
-              <img class="position_content temp_no_img_src" data-col-pos="2" id="u435699_img" data-orig-src="images/pic_event02329x247.jpg?crc=458785757" data-hidpi-src="images/pic_event02329x247_2x.jpg?crc=494630057" alt="" width="329" height="247" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame colelem" data-col-pos="5" id="u518556" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- image -->
-              <img class="block temp_no_img_src" data-col-pos="5" id="u518556_img" data-orig-src="images/select03-crop-u518556.jpg?crc=23674891" data-hidpi-src="images/select03-crop-u518556_2x.jpg?crc=107919275" alt="" width="329" height="233" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame colelem" data-col-pos="8" id="u451198" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- image -->
-              <img class="block temp_no_img_src" data-col-pos="8" id="u451198_img" data-orig-src="images/pic_poster03-crop-u451198.jpg?crc=353855177" data-hidpi-src="images/pic_poster03-crop-u451198_2x.jpg?crc=32498307" alt="" width="329" height="233" src="images/blank.gif?crc=4208392903"/>
-             </div>
-            </div>
-           </div>
+          <div class="size_fixed colelem shared_content" id="u521271" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-content-guid="u521271_content"><!-- custom html -->
+           
+<div class="demo-gallery rlg1">
+    <ul id="lightgallery1">
+    </ul>
+</div>
+<div id="c11" style="display:none"><a href="#" target="_self"><h4>體驗活動</h4><p>照片1</p></a></div>
+<div id="c21" style="display:none"><a href="#" target="_self"><h4>體驗活動</h4><p>照片2</p></a></div>
+<div id="c31" style="display:none"><a href="#" target="_self"><h4>體驗活動</h4><p>照片3</p></a></div>
+<div id="c41" style="display:none"><a href="#" target="_self"><h4>體驗活動</h4><p>照片4</p></a></div>
+<div id="c51" style="display:none"><a href="#" target="_self"><h4>體驗活動</h4><p>照片5</p></a></div>
+<div id="c61" style="display:none"><a href="#" target="_self"><h4>研發團隊</h4><p>照片1</p></a></div>
+<div id="c71" style="display:none"><a href="#" target="_self"><h4>研發團隊</h4><p>照片2</p></a></div>
+<div id="c81" style="display:none"><a href="#" target="_self"><h4>研發團隊</h4><p>照片3</p></a></div>
+<div id="c91" style="display:none"><a href="#" target="_self"><h4>研發團隊</h4><p>照片4</p></a></div>
+<div id="c101" style="display:none"><a href="#" target="_self"><h4>Title</h4><p>Description</p></a></div>
+<div id="c111" style="display:none"><a href="#" target="_self"><h4>Title</h4><p>Description</p></a></div>
+<div id="c121" style="display:none"><a href="#" target="_self"><h4>Title</h4><p>Description</p></a></div>
+
           </div>
          </div>
         </div>
@@ -904,7 +993,6 @@ body {
        <div class="LJumping grpelem" id="u434588" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- simple frame --></div>
       </div>
      </div>
-     <a class="anchor_item colelem shared_content" id="socialmedia" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="socialmedia_content"></a>
      <div class="clearfix colelem shared_content" id="pu496122" data-content-guid="pu496122_content"><!-- group -->
       <div class="clearfix grpelem shared_content" id="u496122" data-content-guid="u496122_content"><!-- group -->
        <div class="rounded-corners grpelem" id="u487655" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- simple frame --></div>
@@ -1026,7 +1114,7 @@ body {
      </nav>
      <a class="nonblock nontext shared_content" id="u319686" href="index.html" data-content-guid="u319686_content"><!-- simple frame --></a>
     </div>
-    <div class="verticalspacer" data-offset-top="4577" data-content-above-spacer="4573" data-content-below-spacer="88" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="verticalspacer" data-offset-top="4591" data-content-above-spacer="4588" data-content-below-spacer="88" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
     <div class="clearfix grpelem shared_content" id="pu72154" data-content-guid="pu72154_content"><!-- group -->
      <div class="browser_width grpelem" id="u72154-bw">
       <div id="u72154"><!-- group -->
@@ -1067,7 +1155,18 @@ body {
   </div>
   <div class="breakpoint" id="bp_1200" data-min-width="1025" data-max-width="1200"><!-- responsive breakpoint node -->
    <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
-    <span class="clearfix grpelem placeholder" data-placeholder-for="ppu101236_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="ppu101236"><!-- column -->
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu101236_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu505701_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu506040_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem" id="pu521260"><!-- group -->
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u521260_content"><!-- placeholder node --></span>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="pu408228_content"><!-- placeholder node --></span>
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u508093_content"><!-- placeholder node --></span>
+     </div>
+     <span class="size_fixed colelem placeholder" data-placeholder-for="u408355_content"><!-- placeholder node --></span>
+     <span class="size_fixed colelem placeholder" data-placeholder-for="u434625_content"><!-- placeholder node --></span>
+    </div>
     <div class="browser_width shared_content" id="u382673-bw" data-content-guid="u382673-bw_content">
      <div id="u382673"><!-- simple frame --></div>
     </div>
@@ -1080,78 +1179,8 @@ body {
        <div class="museBGSize temp_no_id" data-orig-id="u280429"><!-- column -->
         <div class="clearfix temp_no_id" data-orig-id="u280429_align_to_page">
          <span class="clearfix colelem placeholder" data-placeholder-for="u513659_content"><!-- placeholder node --></span>
-         <div class="SlideShowWidget clearfix widget_invisible colelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="slideshowu435354"><!-- none box -->
-          <div class="clearfix temp_no_id" data-orig-id="pu435373"><!-- group -->
-           <div class="popup_anchor temp_no_id" data-col-pos="0" data-orig-id="u435373popup">
-            <div class="SlideShowContentPanel gradient clearfix temp_no_id" data-col-pos="0" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u435373"><!-- stack box -->
-             <div class="SSSlide clip_frame grpelem temp_no_id" data-col-pos="0" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u435378"><!-- image -->
-              <img class="block ImageInclude temp_no_id" data-col-pos="0" data-src="images/pic_event04.jpg?crc=522464413" data-hidpi-src="images/pic_event04_2x.jpg?crc=26737200" src="images/blank.gif?crc=4208392903" alt="" data-width="961" data-height="542" data-orig-id="u435378_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame clearfix grpelem temp_no_id" data-col-pos="1" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u435628"><!-- image -->
-              <img class="ImageInclude position_content temp_no_id" data-col-pos="1" data-src="images/pic_event03.jpg?crc=3992084581" data-hidpi-src="images/pic_event03_2x.jpg?crc=4018857970" src="images/blank.gif?crc=4208392903" alt="" data-width="1240" data-height="930" data-orig-id="u435628_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame clearfix grpelem temp_no_id" data-col-pos="2" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u435684"><!-- image -->
-              <img class="ImageInclude position_content temp_no_id" data-col-pos="2" data-src="images/pic_event02.jpg?crc=170902933" data-hidpi-src="images/pic_event02_2x.jpg?crc=217220801" src="images/blank.gif?crc=4208392903" alt="" data-width="1240" data-height="930" data-orig-id="u435684_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="3" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u518412"><!-- image -->
-              <img class="block ImageInclude temp_no_id" data-col-pos="3" data-src="images/select01.jpg?crc=3758219503" data-hidpi-src="images/select01_2x.jpg?crc=410962962" src="images/blank.gif?crc=4208392903" alt="" data-width="1000" data-height="563" data-orig-id="u518412_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u518475"><!-- image -->
-              <img class="block ImageInclude temp_no_id" data-col-pos="4" data-src="images/select02.jpg?crc=4204182203" data-hidpi-src="images/select02_2x.jpg?crc=4288178121" src="images/blank.gif?crc=4208392903" alt="" data-width="1000" data-height="563" data-orig-id="u518475_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="5" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u518538"><!-- image -->
-              <img class="block ImageInclude temp_no_id" data-col-pos="5" data-src="images/select03.jpg?crc=415819964" data-hidpi-src="images/select03_2x.jpg?crc=4054694593" src="images/blank.gif?crc=4208392903" alt="" data-width="424" data-height="753" data-orig-id="u518538_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="6" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u518601"><!-- image -->
-              <img class="block ImageInclude temp_no_id" data-col-pos="6" data-src="images/select04.jpg?crc=4084645057" data-hidpi-src="images/select04_2x.jpg?crc=396751187" src="images/blank.gif?crc=4208392903" alt="" data-width="424" data-height="753" data-orig-id="u518601_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame clearfix grpelem temp_no_id" data-col-pos="7" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u435737"><!-- image -->
-              <img class="ImageInclude position_content temp_no_id" data-col-pos="7" data-src="images/pic_event01.jpg?crc=432905455" data-hidpi-src="images/pic_event01_2x.jpg?crc=258369169" src="images/blank.gif?crc=4208392903" alt="" data-width="1240" data-height="930" data-orig-id="u435737_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="8" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u451180"><!-- image -->
-              <img class="block ImageInclude temp_no_id" data-col-pos="8" data-src="images/pic_poster031024x573.jpg?crc=4105966083" data-hidpi-src="images/pic_poster031024x573_2x.jpg?crc=194071887" src="images/blank.gif?crc=4208392903" alt="" data-width="1024" data-height="573" data-orig-id="u451180_img"/>
-             </div>
-            </div>
-           </div>
-          </div>
-          <div class="popup_anchor temp_no_id" data-col-pos="1" data-orig-id="u435363popup">
-           <div class="SSSlideLinks clearfix temp_no_id" data-col-pos="1" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u435363"><!-- horizontal-rows box -->
-            <div class="clearfix grpelem temp_no_id" data-orig-id="pu435366"><!-- column -->
-             <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="0" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u435366"><!-- image -->
-              <img class="block temp_no_id temp_no_img_src" data-col-pos="0" data-orig-src="images/pic_event04-crop-u4353662.jpg?crc=4283395247" data-hidpi-src="images/pic_event04-crop-u435366_2x2.jpg?crc=3904315774" alt="" width="329" height="233" data-orig-id="u435366_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="3" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u518430"><!-- image -->
-              <img class="block temp_no_id temp_no_img_src" data-col-pos="3" data-orig-src="images/select01-crop-u5184302.jpg?crc=4018812989" data-hidpi-src="images/select01-crop-u518430_2x2.jpg?crc=4087947183" alt="" width="329" height="233" data-orig-id="u518430_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="6" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u518619"><!-- image -->
-              <img class="block temp_no_id temp_no_img_src" data-col-pos="6" data-orig-src="images/select04-crop-u5186192.jpg?crc=96732971" data-hidpi-src="images/select04-crop-u518619_2x2.jpg?crc=4135265866" alt="" width="329" height="233" data-orig-id="u518619_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-            </div>
-            <div class="clearfix grpelem temp_no_id" data-orig-id="pu435646"><!-- column -->
-             <div class="SSSlideLink rounded-corners clip_frame clearfix colelem temp_no_id" data-col-pos="1" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u435646"><!-- image -->
-              <img class="position_content temp_no_id temp_no_img_src" data-col-pos="1" data-orig-src="images/pic_event03329x247.jpg?crc=4084565752" data-hidpi-src="images/pic_event03329x247_2x.jpg?crc=269608564" alt="" width="329" height="247" data-orig-id="u435646_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u518493"><!-- image -->
-              <img class="block temp_no_id temp_no_img_src" data-col-pos="4" data-orig-src="images/select02-crop-u5184932.jpg?crc=4174655478" data-hidpi-src="images/select02-crop-u518493_2x2.jpg?crc=4156922851" alt="" width="329" height="233" data-orig-id="u518493_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame clearfix colelem temp_no_id" data-col-pos="7" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u435752"><!-- image -->
-              <img class="position_content temp_no_id temp_no_img_src" data-col-pos="7" data-orig-src="images/pic_event01329x247.jpg?crc=479543825" data-hidpi-src="images/pic_event01329x247_2x.jpg?crc=4293330018" alt="" width="329" height="247" data-orig-id="u435752_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-            </div>
-            <div class="clearfix grpelem temp_no_id" data-orig-id="pu435699"><!-- column -->
-             <div class="SSSlideLink rounded-corners clip_frame clearfix colelem temp_no_id" data-col-pos="2" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u435699"><!-- image -->
-              <img class="position_content temp_no_id temp_no_img_src" data-col-pos="2" data-orig-src="images/pic_event02329x247.jpg?crc=458785757" data-hidpi-src="images/pic_event02329x247_2x.jpg?crc=494630057" alt="" width="329" height="247" data-orig-id="u435699_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="5" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u518556"><!-- image -->
-              <img class="block temp_no_id temp_no_img_src" data-col-pos="5" data-orig-src="images/select03-crop-u5185562.jpg?crc=23674891" data-hidpi-src="images/select03-crop-u518556_2x2.jpg?crc=107919275" alt="" width="329" height="233" data-orig-id="u518556_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="8" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u451198"><!-- image -->
-              <img class="block temp_no_id temp_no_img_src" data-col-pos="8" data-orig-src="images/pic_poster03-crop-u4511982.jpg?crc=353855177" data-hidpi-src="images/pic_poster03-crop-u451198_2x2.jpg?crc=32498307" alt="" width="329" height="233" data-orig-id="u451198_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-            </div>
-           </div>
-          </div>
-         </div>
+         <span class="size_fixed colelem placeholder" data-placeholder-for="u521271_content"><!-- placeholder node --></span>
+         <span class="anchor_item colelem placeholder" data-placeholder-for="socialmedia_content"><!-- placeholder node --></span>
         </div>
        </div>
       </div>
@@ -1160,7 +1189,6 @@ body {
       <span class="Button SFadeUp rounded-corners clearfix grpelem placeholder" data-placeholder-for="buttonu408437_content"><!-- placeholder node --></span>
       <span class="ScrolldownM grpelem placeholder" data-placeholder-for="u434586_content"><!-- placeholder node --></span>
      </div>
-     <span class="anchor_item colelem placeholder" data-placeholder-for="socialmedia_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="pu496122_content"><!-- placeholder node --></span>
      <span class="anchor_item colelem placeholder" data-placeholder-for="news_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="pu406651_content"><!-- placeholder node --></span>
@@ -1241,7 +1269,7 @@ body {
      </nav>
      <span class="nonblock nontext placeholder" data-placeholder-for="u319686_content"><!-- placeholder node --></span>
     </div>
-    <div class="verticalspacer" data-offset-top="4577" data-content-above-spacer="4573" data-content-below-spacer="92" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="verticalspacer" data-offset-top="4591" data-content-above-spacer="4588" data-content-below-spacer="92" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
     <span class="clearfix grpelem placeholder" data-placeholder-for="pu72154_content"><!-- placeholder node --></span>
    </div>
    <div class="preload_images">
@@ -1265,7 +1293,8 @@ body {
       <span class="size_fixed grpelem placeholder" data-placeholder-for="u434522_content"><!-- placeholder node --></span>
       <span class="size_fixed grpelem placeholder" data-placeholder-for="u434520_content"><!-- placeholder node --></span>
      </div>
-     <div class="clearfix colelem" id="pu508093"><!-- group -->
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu521260"><!-- group -->
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u521260_content"><!-- placeholder node --></span>
       <span class="size_fixed grpelem placeholder" data-placeholder-for="u508093_content"><!-- placeholder node --></span>
       <div class="clearfix grpelem" id="pu434625"><!-- column -->
        <span class="size_fixed colelem placeholder" data-placeholder-for="u434625_content"><!-- placeholder node --></span>
@@ -1279,7 +1308,21 @@ body {
     <div class="clearfix grpelem temp_no_id" data-orig-id="pactivities"><!-- column -->
      <span class="anchor_item colelem placeholder" data-placeholder-for="activities_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="u508081-4_content"><!-- placeholder node --></span>
-     <div class="clearfix colelem" id="pu406680"><!-- group -->
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu279930"><!-- group -->
+      <div class="browser_width grpelem temp_no_id" data-orig-id="u279930-bw">
+       <div class="temp_no_id" data-orig-id="u279930"><!-- group -->
+        <div class="clearfix" id="u279930_align_to_page">
+         <span class="clearfix grpelem placeholder" data-placeholder-for="u513659_content"><!-- placeholder node --></span>
+        </div>
+       </div>
+      </div>
+      <div class="browser_width grpelem temp_no_id" data-orig-id="u280429-bw">
+       <div class="museBGSize temp_no_id" data-orig-id="u280429"><!-- group -->
+        <div class="clearfix temp_no_id" data-orig-id="u280429_align_to_page">
+         <span class="anchor_item grpelem placeholder" data-placeholder-for="socialmedia_content"><!-- placeholder node --></span>
+        </div>
+       </div>
+      </div>
       <div class="browser_width grpelem temp_no_id" data-orig-id="u406680-bw">
        <div class="museBGSize temp_no_id" data-orig-id="u406680"><!-- group -->
         <div class="clearfix temp_no_id" data-orig-id="u406680_align_to_page">
@@ -1293,97 +1336,13 @@ body {
        </div>
       </div>
       <span class="nonblock nontext museBGSize shadow rounded-corners Event01 grpelem placeholder" data-placeholder-for="u408395_content"><!-- placeholder node --></span>
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u521271_content"><!-- placeholder node --></span>
       <span class="ScrolldownM grpelem placeholder" data-placeholder-for="u434586_content"><!-- placeholder node --></span>
      </div>
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu279930"><!-- group -->
-      <div class="browser_width grpelem temp_no_id" data-orig-id="u279930-bw">
-       <div class="temp_no_id" data-orig-id="u279930"><!-- group -->
-        <div class="clearfix" id="u279930_align_to_page">
-         <span class="clearfix grpelem placeholder" data-placeholder-for="u513659_content"><!-- placeholder node --></span>
-        </div>
-       </div>
-      </div>
-      <div class="browser_width grpelem temp_no_id" data-orig-id="u280429-bw">
-       <div class="museBGSize temp_no_id" data-orig-id="u280429"><!-- simple frame --></div>
-      </div>
-      <div class="SlideShowWidget clearfix widget_invisible grpelem temp_no_id" data-visibility="changed" style="visibility:hidden" data-orig-id="slideshowu435354"><!-- none box -->
-       <div class="clearfix temp_no_id" data-orig-id="pu435373"><!-- group -->
-        <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="0" data-orig-id="u435373popup">
-         <div class="SlideShowContentPanel gradient clearfix temp_no_id" data-col-pos="0" data-orig-id="u435373"><!-- stack box -->
-          <div class="SSSlide clip_frame grpelem temp_no_id" data-col-pos="0" data-orig-id="u435378"><!-- image -->
-           <img class="block ImageInclude temp_no_id" data-col-pos="0" data-src="images/pic_event04770x434.jpg?crc=4216254595" data-hidpi-src="images/pic_event04770x434_2x.jpg?crc=3916909697" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="0.5630689206762028" data-image-width="769" data-image-height="433" data-orig-id="u435378_img"/>
-          </div>
-          <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="1" data-orig-id="u435628"><!-- image -->
-           <img class="block ImageInclude temp_no_id" data-col-pos="1" data-src="images/pic_event03-crop-u435628.jpg?crc=3903955936" data-hidpi-src="images/pic_event03-crop-u435628_2x.jpg?crc=118469098" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="0.6078629032258065" data-image-width="992" data-image-height="603" data-orig-id="u435628_img"/>
-          </div>
-          <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="2" data-orig-id="u435684"><!-- image -->
-           <img class="block ImageInclude temp_no_id" data-col-pos="2" data-src="images/pic_event02-crop-u435684.jpg?crc=3983012958" data-hidpi-src="images/pic_event02-crop-u435684_2x.jpg?crc=3799366694" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="0.6078629032258065" data-image-width="992" data-image-height="603" data-orig-id="u435684_img"/>
-          </div>
-          <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="3" data-orig-id="u518412"><!-- image -->
-           <img class="block ImageInclude temp_no_id" data-col-pos="3" data-src="images/select01992x558.jpg?crc=43046756" data-hidpi-src="images/select01992x558_2x.jpg?crc=434252483" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="0.5625" data-image-width="992" data-image-height="558" data-orig-id="u518412_img"/>
-          </div>
-          <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="4" data-orig-id="u518475"><!-- image -->
-           <img class="block ImageInclude temp_no_id" data-col-pos="4" data-src="images/select02992x558.jpg?crc=78530095" data-hidpi-src="images/select02992x558_2x.jpg?crc=150490241" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="0.5625" data-image-width="992" data-image-height="558" data-orig-id="u518475_img"/>
-          </div>
-          <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="5" data-orig-id="u518538"><!-- image -->
-           <img class="block ImageInclude temp_no_id" data-col-pos="5" data-src="images/select03339x603.jpg?crc=4284173833" data-hidpi-src="images/select03339x603_2x.jpg?crc=3970127999" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="1.775811209439528" data-image-width="339" data-image-height="602" data-orig-id="u518538_img"/>
-          </div>
-          <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="6" data-orig-id="u518601"><!-- image -->
-           <img class="block ImageInclude temp_no_id" data-col-pos="6" data-src="images/select04339x603.jpg?crc=244907749" data-hidpi-src="images/select04339x603_2x.jpg?crc=4266393352" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="1.775811209439528" data-image-width="339" data-image-height="602" data-orig-id="u518601_img"/>
-          </div>
-          <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="7" data-orig-id="u435737"><!-- image -->
-           <img class="block ImageInclude temp_no_id" data-col-pos="7" data-src="images/pic_event01-crop-u435737.jpg?crc=277928623" data-hidpi-src="images/pic_event01-crop-u435737_2x.jpg?crc=3993264405" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="0.6078629032258065" data-image-width="992" data-image-height="603" data-orig-id="u435737_img"/>
-          </div>
-          <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="8" data-orig-id="u451180"><!-- image -->
-           <img class="block ImageInclude temp_no_id" data-col-pos="8" data-src="images/pic_poster03820x459.jpg?crc=4173649504" data-hidpi-src="images/pic_poster03820x459_2x.jpg?crc=3964694147" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="0.5592185592185592" data-image-width="819" data-image-height="458" data-orig-id="u451180_img"/>
-          </div>
-         </div>
-        </div>
-       </div>
-       <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="1" data-orig-id="u435363popup">
-        <div class="SSSlideLinks clearfix temp_no_id" data-col-pos="1" data-orig-id="u435363"><!-- horizontal-rows box -->
-         <div class="clearfix grpelem temp_no_id" data-orig-id="pu435366"><!-- column -->
-          <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="0" data-orig-id="u435366"><!-- image -->
-           <img class="block temp_no_id temp_no_img_src" data-col-pos="0" data-orig-src="images/pic_event04-crop-u4353663.jpg?crc=4167460156" data-hidpi-src="images/pic_event04-crop-u435366_2x3.jpg?crc=4172920191" alt="" data-heightwidthratio="0.7508650519031141" data-image-width="289" data-image-height="217" data-orig-id="u435366_img" src="images/blank.gif?crc=4208392903"/>
-          </div>
-          <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="3" data-orig-id="u518430"><!-- image -->
-           <img class="block temp_no_id temp_no_img_src" data-col-pos="3" data-orig-src="images/select01-crop-u5184303.jpg?crc=251526222" data-hidpi-src="images/select01-crop-u518430_2x3.jpg?crc=3823882010" alt="" data-heightwidthratio="0.7508650519031141" data-image-width="289" data-image-height="217" data-orig-id="u518430_img" src="images/blank.gif?crc=4208392903"/>
-          </div>
-          <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="6" data-orig-id="u518619"><!-- image -->
-           <img class="block temp_no_id temp_no_img_src" data-col-pos="6" data-orig-src="images/select04-crop-u5186193.jpg?crc=3772932804" data-hidpi-src="images/select04-crop-u518619_2x3.jpg?crc=29710137" alt="" data-heightwidthratio="0.7508650519031141" data-image-width="289" data-image-height="217" data-orig-id="u518619_img" src="images/blank.gif?crc=4208392903"/>
-          </div>
-         </div>
-         <div class="clearfix grpelem temp_no_id" data-orig-id="pu435646"><!-- column -->
-          <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="1" data-orig-id="u435646"><!-- image -->
-           <img class="block temp_no_id temp_no_img_src" data-col-pos="1" data-orig-src="images/pic_event03289x217.jpg?crc=352049691" data-hidpi-src="images/pic_event03289x217_2x.jpg?crc=4132095186" alt="" data-heightwidthratio="0.75" data-image-width="288" data-image-height="216" data-orig-id="u435646_img" src="images/blank.gif?crc=4208392903"/>
-          </div>
-          <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="4" data-orig-id="u518493"><!-- image -->
-           <img class="block temp_no_id temp_no_img_src" data-col-pos="4" data-orig-src="images/select02-crop-u5184933.jpg?crc=4249890648" data-hidpi-src="images/select02-crop-u518493_2x3.jpg?crc=383881254" alt="" data-heightwidthratio="0.7508650519031141" data-image-width="289" data-image-height="217" data-orig-id="u518493_img" src="images/blank.gif?crc=4208392903"/>
-          </div>
-          <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="7" data-orig-id="u435752"><!-- image -->
-           <img class="block temp_no_id temp_no_img_src" data-col-pos="7" data-orig-src="images/pic_event01289x217.jpg?crc=309726941" data-hidpi-src="images/pic_event01289x217_2x.jpg?crc=3866616995" alt="" data-heightwidthratio="0.75" data-image-width="288" data-image-height="216" data-orig-id="u435752_img" src="images/blank.gif?crc=4208392903"/>
-          </div>
-         </div>
-         <div class="clearfix grpelem temp_no_id" data-orig-id="pu435699"><!-- column -->
-          <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="2" data-orig-id="u435699"><!-- image -->
-           <img class="block temp_no_id temp_no_img_src" data-col-pos="2" data-orig-src="images/pic_event02289x217.jpg?crc=124204771" data-hidpi-src="images/pic_event02289x217_2x.jpg?crc=222187029" alt="" data-heightwidthratio="0.75" data-image-width="288" data-image-height="216" data-orig-id="u435699_img" src="images/blank.gif?crc=4208392903"/>
-          </div>
-          <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="5" data-orig-id="u518556"><!-- image -->
-           <img class="block temp_no_id temp_no_img_src" data-col-pos="5" data-orig-src="images/select03-crop-u5185563.jpg?crc=3981885741" data-hidpi-src="images/select03-crop-u518556_2x3.jpg?crc=107211141" alt="" data-heightwidthratio="0.7508650519031141" data-image-width="289" data-image-height="217" data-orig-id="u518556_img" src="images/blank.gif?crc=4208392903"/>
-          </div>
-          <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="8" data-orig-id="u451198"><!-- image -->
-           <img class="block temp_no_id temp_no_img_src" data-col-pos="8" data-orig-src="images/pic_poster03-crop-u4511983.jpg?crc=3763612908" data-hidpi-src="images/pic_poster03-crop-u451198_2x3.jpg?crc=4260238370" alt="" data-heightwidthratio="0.7508650519031141" data-image-width="289" data-image-height="217" data-orig-id="u451198_img" src="images/blank.gif?crc=4208392903"/>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-     <span class="anchor_item colelem placeholder" data-placeholder-for="socialmedia_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="u406718-4_content"><!-- placeholder node --></span>
      <div class="clearfix colelem temp_no_id" data-orig-id="pu496122"><!-- group -->
       <span class="clearfix grpelem placeholder" data-placeholder-for="u496122_content"><!-- placeholder node --></span>
       <span class="SFadeUp size_fixed grpelem placeholder" data-placeholder-for="u487544_content"><!-- placeholder node --></span>
-      <span class="clearfix grpelem placeholder" data-placeholder-for="u406718-4_content"><!-- placeholder node --></span>
       <span class="clearfix grpelem placeholder" data-placeholder-for="u487694-9_content"><!-- placeholder node --></span>
       <span class="grpelem placeholder" data-placeholder-for="u487036_content"><!-- placeholder node --></span>
       <span class="nonblock nontext Show museBGSize grpelem placeholder" data-placeholder-for="u499059_content"><!-- placeholder node --></span>
@@ -1471,7 +1430,7 @@ body {
      </nav>
      <span class="nonblock nontext placeholder" data-placeholder-for="u319686_content"><!-- placeholder node --></span>
     </div>
-    <div class="verticalspacer" data-offset-top="4483" data-content-above-spacer="4480" data-content-below-spacer="92" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="verticalspacer" data-offset-top="4671" data-content-above-spacer="4668" data-content-below-spacer="92" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
     <span class="clearfix grpelem placeholder" data-placeholder-for="pu72154_content"><!-- placeholder node --></span>
    </div>
    <div class="preload_images">
@@ -1482,22 +1441,42 @@ body {
   <div class="breakpoint" id="bp_920" data-min-width="721" data-max-width="920"><!-- responsive breakpoint node -->
    <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
     <div class="clearfix grpelem temp_no_id" data-orig-id="ppu101236"><!-- column -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="pu101236_content"><!-- placeholder node --></span>
-     <span class="clearfix colelem placeholder" data-placeholder-for="pu505701_content"><!-- placeholder node --></span>
-     <span class="clearfix colelem placeholder" data-placeholder-for="pu506040_content"><!-- placeholder node --></span>
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu408228"><!-- group -->
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu101236"><!-- group -->
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u101236_content"><!-- placeholder node --></span>
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u99725_content"><!-- placeholder node --></span>
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u101015_content"><!-- placeholder node --></span>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="pu100988_content"><!-- placeholder node --></span>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="pactivities"><!-- column -->
+       <span class="anchor_item colelem placeholder" data-placeholder-for="activities_content"><!-- placeholder node --></span>
+       <span class="nonblock nontext colelem placeholder" data-placeholder-for="u319686_content"><!-- placeholder node --></span>
+      </div>
+     </div>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu99724"><!-- group -->
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u99724_content"><!-- placeholder node --></span>
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u99726_content"><!-- placeholder node --></span>
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u434520_content"><!-- placeholder node --></span>
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u434522_content"><!-- placeholder node --></span>
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u505701_content"><!-- placeholder node --></span>
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u506040_content"><!-- placeholder node --></span>
       <span class="size_fixed grpelem placeholder" data-placeholder-for="u408228_content"><!-- placeholder node --></span>
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u408344_content"><!-- placeholder node --></span>
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u408355_content"><!-- placeholder node --></span>
       <span class="size_fixed grpelem placeholder" data-placeholder-for="u434625_content"><!-- placeholder node --></span>
       <span class="size_fixed grpelem placeholder" data-placeholder-for="u508093_content"><!-- placeholder node --></span>
-     </div>
-     <span class="size_fixed colelem placeholder" data-placeholder-for="u408344_content"><!-- placeholder node --></span>
-     <span class="size_fixed colelem placeholder" data-placeholder-for="u408355_content"><!-- placeholder node --></span>
-    </div>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pactivities"><!-- column -->
-     <span class="anchor_item colelem placeholder" data-placeholder-for="activities_content"><!-- placeholder node --></span>
-     <span class="nonblock nontext colelem placeholder" data-placeholder-for="u319686_content"><!-- placeholder node --></span>
-     <span class="clearfix colelem placeholder" data-placeholder-for="u508081-4_content"><!-- placeholder node --></span>
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu406680"><!-- group -->
+      <div class="browser_width grpelem temp_no_id" data-orig-id="u279930-bw">
+       <div class="temp_no_id" data-orig-id="u279930"><!-- group -->
+        <div class="clearfix temp_no_id" data-orig-id="u279930_align_to_page">
+         <span class="clearfix grpelem placeholder" data-placeholder-for="u513659_content"><!-- placeholder node --></span>
+        </div>
+       </div>
+      </div>
+      <div class="browser_width grpelem temp_no_id" data-orig-id="u280429-bw">
+       <div class="museBGSize temp_no_id" data-orig-id="u280429"><!-- group -->
+        <div class="clearfix temp_no_id" data-orig-id="u280429_align_to_page">
+         <span class="anchor_item grpelem placeholder" data-placeholder-for="socialmedia_content"><!-- placeholder node --></span>
+        </div>
+       </div>
+      </div>
       <div class="browser_width grpelem temp_no_id" data-orig-id="u406680-bw">
        <div class="museBGSize temp_no_id" data-orig-id="u406680"><!-- group -->
         <div class="clearfix temp_no_id" data-orig-id="u406680_align_to_page">
@@ -1511,97 +1490,19 @@ body {
        </div>
       </div>
       <span class="nonblock nontext museBGSize shadow rounded-corners Event01 grpelem placeholder" data-placeholder-for="u408395_content"><!-- placeholder node --></span>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u508081-4_content"><!-- placeholder node --></span>
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u521260_content"><!-- placeholder node --></span>
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u521271_content"><!-- placeholder node --></span>
       <span class="ScrolldownM grpelem placeholder" data-placeholder-for="u434586_content"><!-- placeholder node --></span>
      </div>
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu279930"><!-- group -->
-      <div class="browser_width grpelem temp_no_id" data-orig-id="u279930-bw">
-       <div class="temp_no_id" data-orig-id="u279930"><!-- group -->
-        <div class="clearfix temp_no_id" data-orig-id="u279930_align_to_page">
-         <span class="clearfix grpelem placeholder" data-placeholder-for="u513659_content"><!-- placeholder node --></span>
-        </div>
-       </div>
-      </div>
-      <div class="browser_width grpelem temp_no_id" data-orig-id="u280429-bw">
-       <div class="museBGSize temp_no_id" data-orig-id="u280429"><!-- group -->
-        <div class="clearfix temp_no_id" data-orig-id="u280429_align_to_page">
-         <div class="SlideShowWidget clearfix widget_invisible grpelem temp_no_id" data-visibility="changed" style="visibility:hidden" data-orig-id="slideshowu435354"><!-- none box -->
-          <div class="clearfix temp_no_id" data-orig-id="pu435373"><!-- group -->
-           <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="0" data-orig-id="u435373popup">
-            <div class="SlideShowContentPanel gradient clearfix temp_no_id" data-col-pos="0" data-orig-id="u435373"><!-- stack box -->
-             <div class="SSSlide clip_frame grpelem temp_no_id" data-col-pos="0" data-orig-id="u435378"><!-- image -->
-              <img class="block ImageInclude temp_no_id" data-col-pos="0" data-src="images/pic_event04691x390.jpg?crc=3881922863" data-hidpi-src="images/pic_event04691x390_2x.jpg?crc=4275897596" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="0.5629522431259045" data-image-width="691" data-image-height="389" data-orig-id="u435378_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="1" data-orig-id="u435628"><!-- image -->
-              <img class="block ImageInclude temp_no_id" data-col-pos="1" data-src="images/pic_event03-crop-u4356282.jpg?crc=306895392" data-hidpi-src="images/pic_event03-crop-u435628_2x2.jpg?crc=3894289400" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="0.6076233183856502" data-image-width="892" data-image-height="542" data-orig-id="u435628_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="2" data-orig-id="u435684"><!-- image -->
-              <img class="block ImageInclude temp_no_id" data-col-pos="2" data-src="images/pic_event02-crop-u4356842.jpg?crc=3908130544" data-hidpi-src="images/pic_event02-crop-u435684_2x2.jpg?crc=3996090982" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="0.6076233183856502" data-image-width="892" data-image-height="542" data-orig-id="u435684_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="3" data-orig-id="u518412"><!-- image -->
-              <img class="block ImageInclude temp_no_id" data-col-pos="3" data-src="images/select01892x502.jpg?crc=4012147998" data-hidpi-src="images/select01892x502_2x.jpg?crc=4167244723" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="0.5622895622895623" data-image-width="891" data-image-height="501" data-orig-id="u518412_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="4" data-orig-id="u518475"><!-- image -->
-              <img class="block ImageInclude temp_no_id" data-col-pos="4" data-src="images/select02892x502.jpg?crc=423465223" data-hidpi-src="images/select02892x502_2x.jpg?crc=509079546" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="0.5622895622895623" data-image-width="891" data-image-height="501" data-orig-id="u518475_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="5" data-orig-id="u518538"><!-- image -->
-              <img class="block ImageInclude temp_no_id" data-col-pos="5" data-src="images/select03305x542.jpg?crc=3893333106" data-hidpi-src="images/select03305x542_2x.jpg?crc=4200597873" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="1.7796052631578947" data-image-width="304" data-image-height="541" data-orig-id="u518538_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="6" data-orig-id="u518601"><!-- image -->
-              <img class="block ImageInclude temp_no_id" data-col-pos="6" data-src="images/select04305x542.jpg?crc=4001099623" data-hidpi-src="images/select04305x542_2x.jpg?crc=4132117410" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="1.7796052631578947" data-image-width="304" data-image-height="541" data-orig-id="u518601_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="7" data-orig-id="u435737"><!-- image -->
-              <img class="block ImageInclude temp_no_id" data-col-pos="7" data-src="images/pic_event01-crop-u4357372.jpg?crc=4148750516" data-hidpi-src="images/pic_event01-crop-u435737_2x2.jpg?crc=37446389" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="0.6076233183856502" data-image-width="892" data-image-height="542" data-orig-id="u435737_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="8" data-orig-id="u451180"><!-- image -->
-              <img class="block ImageInclude temp_no_id" data-col-pos="8" data-src="images/pic_poster03736x412.jpg?crc=492291413" data-hidpi-src="images/pic_poster03736x412_2x.jpg?crc=3989820187" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="0.5597826086956522" data-image-width="736" data-image-height="412" data-orig-id="u451180_img"/>
-             </div>
-            </div>
-           </div>
-          </div>
-          <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="1" data-orig-id="u435363popup">
-           <div class="SSSlideLinks clearfix temp_no_id" data-col-pos="1" data-orig-id="u435363"><!-- horizontal-rows box -->
-            <div class="clearfix grpelem temp_no_id" data-orig-id="pu435366"><!-- column -->
-             <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="0" data-orig-id="u435366"><!-- image -->
-              <img class="block temp_no_id temp_no_img_src" data-col-pos="0" data-orig-src="images/pic_event04-crop-u4353664.jpg?crc=69784934" data-hidpi-src="images/pic_event04-crop-u435366_2x4.jpg?crc=4116498265" alt="" data-heightwidthratio="0.75" data-image-width="260" data-image-height="195" data-orig-id="u435366_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="3" data-orig-id="u518430"><!-- image -->
-              <img class="block temp_no_id temp_no_img_src" data-col-pos="3" data-orig-src="images/select01-crop-u5184304.jpg?crc=3788734090" data-hidpi-src="images/select01-crop-u518430_2x4.jpg?crc=3970341315" alt="" data-heightwidthratio="0.75" data-image-width="260" data-image-height="195" data-orig-id="u518430_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="6" data-orig-id="u518619"><!-- image -->
-              <img class="block temp_no_id temp_no_img_src" data-col-pos="6" data-orig-src="images/select04-crop-u5186194.jpg?crc=268260381" data-hidpi-src="images/select04-crop-u518619_2x4.jpg?crc=163795153" alt="" data-heightwidthratio="0.75" data-image-width="260" data-image-height="195" data-orig-id="u518619_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-            </div>
-            <div class="clearfix grpelem temp_no_id" data-orig-id="pu435646"><!-- column -->
-             <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="1" data-orig-id="u435646"><!-- image -->
-              <img class="block temp_no_id temp_no_img_src" data-col-pos="1" data-orig-src="images/pic_event03260x195.jpg?crc=434258898" data-hidpi-src="images/pic_event03260x195_2x.jpg?crc=4048110297" alt="" data-heightwidthratio="0.749034749034749" data-image-width="259" data-image-height="194" data-orig-id="u435646_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="4" data-orig-id="u518493"><!-- image -->
-              <img class="block temp_no_id temp_no_img_src" data-col-pos="4" data-orig-src="images/select02-crop-u5184934.jpg?crc=3971209750" data-hidpi-src="images/select02-crop-u518493_2x4.jpg?crc=50450823" alt="" data-heightwidthratio="0.75" data-image-width="260" data-image-height="195" data-orig-id="u518493_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="7" data-orig-id="u435752"><!-- image -->
-              <img class="block temp_no_id temp_no_img_src" data-col-pos="7" data-orig-src="images/pic_event01260x195.jpg?crc=432727534" data-hidpi-src="images/pic_event01260x195_2x.jpg?crc=119725666" alt="" data-heightwidthratio="0.749034749034749" data-image-width="259" data-image-height="194" data-orig-id="u435752_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-            </div>
-            <div class="clearfix grpelem temp_no_id" data-orig-id="pu435699"><!-- column -->
-             <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="2" data-orig-id="u435699"><!-- image -->
-              <img class="block temp_no_id temp_no_img_src" data-col-pos="2" data-orig-src="images/pic_event02260x195.jpg?crc=4175264737" data-hidpi-src="images/pic_event02260x195_2x.jpg?crc=335965182" alt="" data-heightwidthratio="0.749034749034749" data-image-width="259" data-image-height="194" data-orig-id="u435699_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="5" data-orig-id="u518556"><!-- image -->
-              <img class="block temp_no_id temp_no_img_src" data-col-pos="5" data-orig-src="images/select03-crop-u5185564.jpg?crc=354006314" data-hidpi-src="images/select03-crop-u518556_2x4.jpg?crc=434131679" alt="" data-heightwidthratio="0.75" data-image-width="260" data-image-height="195" data-orig-id="u518556_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="8" data-orig-id="u451198"><!-- image -->
-              <img class="block temp_no_id temp_no_img_src" data-col-pos="8" data-orig-src="images/pic_poster03-crop-u4511984.jpg?crc=395225744" data-hidpi-src="images/pic_poster03-crop-u451198_2x4.jpg?crc=3921424427" alt="" data-heightwidthratio="0.75" data-image-width="260" data-image-height="195" data-orig-id="u451198_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-            </div>
-           </div>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
+     <span class="clearfix colelem placeholder" data-placeholder-for="u406718-4_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu496122"><!-- group -->
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u496122_content"><!-- placeholder node --></span>
+      <span class="SFadeUp size_fixed grpelem placeholder" data-placeholder-for="u487544_content"><!-- placeholder node --></span>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u487694-9_content"><!-- placeholder node --></span>
+      <span class="grpelem placeholder" data-placeholder-for="u487036_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext Show museBGSize grpelem placeholder" data-placeholder-for="u499059_content"><!-- placeholder node --></span>
      </div>
-     <span class="anchor_item colelem placeholder" data-placeholder-for="socialmedia_content"><!-- placeholder node --></span>
-     <span class="clearfix colelem placeholder" data-placeholder-for="pu496122_content"><!-- placeholder node --></span>
      <span class="anchor_item colelem placeholder" data-placeholder-for="news_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="pu406651_content"><!-- placeholder node --></span>
     </div>
@@ -1635,7 +1536,7 @@ body {
   </svg>
 
     </div>
-    <div class="verticalspacer" data-offset-top="4483" data-content-above-spacer="4480" data-content-below-spacer="92" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="verticalspacer" data-offset-top="4671" data-content-above-spacer="4668" data-content-below-spacer="92" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
     <span class="clearfix grpelem placeholder" data-placeholder-for="pu72154_content"><!-- placeholder node --></span>
    </div>
    <div class="preload_images">
@@ -1655,9 +1556,10 @@ body {
       <span class="size_fixed grpelem placeholder" data-placeholder-for="u506040_content"><!-- placeholder node --></span>
       <span class="size_fixed grpelem placeholder" data-placeholder-for="u434625_content"><!-- placeholder node --></span>
      </div>
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu508093"><!-- group -->
-      <span class="size_fixed grpelem placeholder" data-placeholder-for="u508093_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem temp_no_id" data-orig-id="ppu408228"><!-- group -->
       <span class="clearfix grpelem placeholder" data-placeholder-for="pu408228_content"><!-- placeholder node --></span>
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u508093_content"><!-- placeholder node --></span>
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u521260_content"><!-- placeholder node --></span>
      </div>
      <span class="size_fixed colelem placeholder" data-placeholder-for="u408355_content"><!-- placeholder node --></span>
     </div>
@@ -1678,79 +1580,10 @@ body {
        </div>
       </div>
       <div class="browser_width grpelem temp_no_id" data-orig-id="u280429-bw">
-       <div class="museBGSize temp_no_id" data-orig-id="u280429"><!-- group -->
+       <div class="museBGSize temp_no_id" data-orig-id="u280429"><!-- column -->
         <div class="clearfix temp_no_id" data-orig-id="u280429_align_to_page">
-         <span class="anchor_item grpelem placeholder" data-placeholder-for="socialmedia_content"><!-- placeholder node --></span>
-         <div class="SlideShowWidget clearfix widget_invisible grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="slideshowu435354"><!-- none box -->
-          <div class="clearfix temp_no_id" data-orig-id="pu435373"><!-- group -->
-           <div class="popup_anchor temp_no_id" data-col-pos="0" data-orig-id="u435373popup">
-            <div class="SlideShowContentPanel gradient clearfix temp_no_id" data-col-pos="0" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u435373"><!-- stack box -->
-             <div class="SSSlide clip_frame grpelem temp_no_id" data-col-pos="0" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u435378"><!-- image -->
-              <img class="block ImageInclude temp_no_id" data-col-pos="0" data-src="images/pic_event04541x305.jpg?crc=88236190" data-hidpi-src="images/pic_event04541x305_2x.jpg?crc=3838056626" src="images/blank.gif?crc=4208392903" alt="" data-width="541" data-height="305" data-orig-id="u435378_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame clearfix grpelem temp_no_id" data-col-pos="1" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u435628"><!-- image -->
-              <img class="ImageInclude position_content temp_no_id" data-col-pos="1" data-src="images/pic_event03698x524.jpg?crc=95077403" data-hidpi-src="images/pic_event03698x524_2x.jpg?crc=4192437689" src="images/blank.gif?crc=4208392903" alt="" data-width="698" data-height="523" data-orig-id="u435628_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame clearfix grpelem temp_no_id" data-col-pos="2" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u435684"><!-- image -->
-              <img class="ImageInclude position_content temp_no_id" data-col-pos="2" data-src="images/pic_event02698x524.jpg?crc=3797421741" data-hidpi-src="images/pic_event02698x524_2x.jpg?crc=4243128224" src="images/blank.gif?crc=4208392903" alt="" data-width="698" data-height="523" data-orig-id="u435684_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="3" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u518412"><!-- image -->
-              <img class="block ImageInclude temp_no_id" data-col-pos="3" data-src="images/select01698x393.jpg?crc=361365944" data-hidpi-src="images/select01698x393_2x.jpg?crc=3830015997" src="images/blank.gif?crc=4208392903" alt="" data-width="698" data-height="392" data-orig-id="u518412_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u518475"><!-- image -->
-              <img class="block ImageInclude temp_no_id" data-col-pos="4" data-src="images/select02698x393.jpg?crc=4005821910" data-hidpi-src="images/select02698x393_2x.jpg?crc=216142110" src="images/blank.gif?crc=4208392903" alt="" data-width="698" data-height="392" data-orig-id="u518475_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="5" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u518538"><!-- image -->
-              <img class="block ImageInclude temp_no_id" data-col-pos="5" data-src="images/select03239x424.jpg?crc=4025685896" data-hidpi-src="images/select03239x424_2x.jpg?crc=404889587" src="images/blank.gif?crc=4208392903" alt="" data-width="238" data-height="424" data-orig-id="u518538_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="6" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u518601"><!-- image -->
-              <img class="block ImageInclude temp_no_id" data-col-pos="6" data-src="images/select04239x424.jpg?crc=3800630890" data-hidpi-src="images/select04239x424_2x.jpg?crc=104015015" src="images/blank.gif?crc=4208392903" alt="" data-width="238" data-height="424" data-orig-id="u518601_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame clearfix grpelem temp_no_id" data-col-pos="7" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u435737"><!-- image -->
-              <img class="ImageInclude position_content temp_no_id" data-col-pos="7" data-src="images/pic_event01698x524.jpg?crc=38242663" data-hidpi-src="images/pic_event01698x524_2x.jpg?crc=4008086103" src="images/blank.gif?crc=4208392903" alt="" data-width="698" data-height="523" data-orig-id="u435737_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="8" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u451180"><!-- image -->
-              <img class="block ImageInclude temp_no_id" data-col-pos="8" data-src="images/pic_poster03576x323.jpg?crc=4214697759" data-hidpi-src="images/pic_poster03576x323_2x.jpg?crc=132591558" src="images/blank.gif?crc=4208392903" alt="" data-width="576" data-height="322" data-orig-id="u451180_img"/>
-             </div>
-            </div>
-           </div>
-          </div>
-          <div class="popup_anchor temp_no_id" data-col-pos="1" data-orig-id="u435363popup">
-           <div class="SSSlideLinks clearfix temp_no_id" data-col-pos="1" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u435363"><!-- horizontal-rows box -->
-            <div class="clearfix grpelem temp_no_id" data-orig-id="pu435366"><!-- column -->
-             <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="0" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u435366"><!-- image -->
-              <img class="block temp_no_id temp_no_img_src" data-col-pos="0" data-orig-src="images/pic_event04-crop-u4353665.jpg?crc=3926613188" data-hidpi-src="images/pic_event04-crop-u435366_2x5.jpg?crc=3944866454" alt="" width="233" height="168" data-orig-id="u435366_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame clearfix colelem temp_no_id" data-col-pos="2" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u435699"><!-- image -->
-              <img class="position_content temp_no_id temp_no_img_src" data-col-pos="2" data-orig-src="images/pic_event02233x175.jpg?crc=3797049983" data-hidpi-src="images/pic_event02233x175_2x.jpg?crc=3894676192" alt="" width="232" height="174" data-orig-id="u435699_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u518493"><!-- image -->
-              <img class="block temp_no_id temp_no_img_src" data-col-pos="4" data-orig-src="images/select02-crop-u5184935.jpg?crc=4244136850" data-hidpi-src="images/select02-crop-u518493_2x5.jpg?crc=3807518616" alt="" width="233" height="168" data-orig-id="u518493_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="6" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u518619"><!-- image -->
-              <img class="block temp_no_id temp_no_img_src" data-col-pos="6" data-orig-src="images/select04-crop-u5186195.jpg?crc=4006928403" data-hidpi-src="images/select04-crop-u518619_2x5.jpg?crc=4221898168" alt="" width="233" height="168" data-orig-id="u518619_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="8" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u451198"><!-- image -->
-              <img class="block temp_no_id temp_no_img_src" data-col-pos="8" data-orig-src="images/pic_poster03-crop-u4511985.jpg?crc=4252728291" data-hidpi-src="images/pic_poster03-crop-u451198_2x5.jpg?crc=148669816" alt="" width="233" height="168" data-orig-id="u451198_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-            </div>
-            <div class="clearfix grpelem temp_no_id" data-orig-id="pu435646"><!-- column -->
-             <div class="SSSlideLink rounded-corners clip_frame clearfix colelem temp_no_id" data-col-pos="1" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u435646"><!-- image -->
-              <img class="position_content temp_no_id temp_no_img_src" data-col-pos="1" data-orig-src="images/pic_event03233x175.jpg?crc=4115112398" data-hidpi-src="images/pic_event03233x175_2x.jpg?crc=486951712" alt="" width="232" height="174" data-orig-id="u435646_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="3" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u518430"><!-- image -->
-              <img class="block temp_no_id temp_no_img_src" data-col-pos="3" data-orig-src="images/select01-crop-u5184305.jpg?crc=4054935446" data-hidpi-src="images/select01-crop-u518430_2x5.jpg?crc=151944553" alt="" width="233" height="168" data-orig-id="u518430_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="5" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u518556"><!-- image -->
-              <img class="block temp_no_id temp_no_img_src" data-col-pos="5" data-orig-src="images/select03-crop-u5185565.jpg?crc=181529397" data-hidpi-src="images/select03-crop-u518556_2x5.jpg?crc=221602984" alt="" width="233" height="168" data-orig-id="u518556_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame clearfix colelem temp_no_id" data-col-pos="7" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u435752"><!-- image -->
-              <img class="position_content temp_no_id temp_no_img_src" data-col-pos="7" data-orig-src="images/pic_event01233x175.jpg?crc=157335533" data-hidpi-src="images/pic_event01233x175_2x.jpg?crc=187367974" alt="" width="232" height="174" data-orig-id="u435752_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-            </div>
-           </div>
-          </div>
-         </div>
+         <span class="size_fixed colelem placeholder" data-placeholder-for="u521271_content"><!-- placeholder node --></span>
+         <span class="anchor_item colelem placeholder" data-placeholder-for="socialmedia_content"><!-- placeholder node --></span>
         </div>
        </div>
       </div>
@@ -1777,7 +1610,7 @@ body {
      <span class="clearfix colelem placeholder" data-placeholder-for="pu406651_content"><!-- placeholder node --></span>
     </div>
     <span class="size_fixed placeholder" data-placeholder-for="u78923_content"><!-- placeholder node --></span>
-    <div class="verticalspacer" data-offset-top="4635" data-content-above-spacer="4631" data-content-below-spacer="92" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="verticalspacer" data-offset-top="5148" data-content-above-spacer="5144" data-content-below-spacer="92" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
     <span class="clearfix grpelem placeholder" data-placeholder-for="pu72154_content"><!-- placeholder node --></span>
    </div>
    <div class="preload_images">
@@ -1797,9 +1630,10 @@ body {
       <span class="size_fixed grpelem placeholder" data-placeholder-for="u506040_content"><!-- placeholder node --></span>
       <span class="size_fixed grpelem placeholder" data-placeholder-for="u434625_content"><!-- placeholder node --></span>
      </div>
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu508093"><!-- group -->
-      <span class="size_fixed grpelem placeholder" data-placeholder-for="u508093_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem temp_no_id" data-orig-id="ppu408228"><!-- group -->
       <span class="clearfix grpelem placeholder" data-placeholder-for="pu408228_content"><!-- placeholder node --></span>
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u508093_content"><!-- placeholder node --></span>
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u521260_content"><!-- placeholder node --></span>
      </div>
      <span class="size_fixed colelem placeholder" data-placeholder-for="u408355_content"><!-- placeholder node --></span>
     </div>
@@ -1807,85 +1641,7 @@ body {
      <span class="anchor_item colelem placeholder" data-placeholder-for="activities_content"><!-- placeholder node --></span>
      <span class="nonblock nontext colelem placeholder" data-placeholder-for="u319686_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="u508081-4_content"><!-- placeholder node --></span>
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu279930"><!-- group -->
-      <span class="browser_width grpelem placeholder" data-placeholder-for="u279930-bw_content"><!-- placeholder node --></span>
-      <div class="browser_width grpelem temp_no_id" data-orig-id="u280429-bw">
-       <div class="museBGSize temp_no_id" data-orig-id="u280429"><!-- column -->
-        <div class="clearfix temp_no_id" data-orig-id="u280429_align_to_page">
-         <span class="clearfix colelem placeholder" data-placeholder-for="u513659_content"><!-- placeholder node --></span>
-         <div class="SlideShowWidget clearfix widget_invisible colelem temp_no_id" data-visibility="changed" style="visibility:hidden" data-orig-id="slideshowu435354"><!-- none box -->
-          <div class="clearfix temp_no_id" data-orig-id="pu435373"><!-- group -->
-           <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="0" data-orig-id="u435373popup">
-            <div class="SlideShowContentPanel gradient clearfix temp_no_id" data-col-pos="0" data-orig-id="u435373"><!-- stack box -->
-             <div class="SSSlide clip_frame grpelem temp_no_id" data-col-pos="0" data-orig-id="u435378"><!-- image -->
-              <img class="block ImageInclude temp_no_id" data-col-pos="0" data-src="images/pic_event04361x204.jpg?crc=432996976" data-hidpi-src="images/pic_event04361x204_2x.jpg?crc=3858422263" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="0.5638888888888889" data-image-width="360" data-image-height="203" data-orig-id="u435378_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="1" data-orig-id="u435628"><!-- image -->
-              <img class="block ImageInclude temp_no_id" data-col-pos="1" data-src="images/pic_event03-crop-u4356283.jpg?crc=4105092991" data-hidpi-src="images/pic_event03-crop-u435628_2x3.jpg?crc=507343165" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="0.6086021505376344" data-image-width="465" data-image-height="283" data-orig-id="u435628_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="2" data-orig-id="u435684"><!-- image -->
-              <img class="block ImageInclude temp_no_id" data-col-pos="2" data-src="images/pic_event02-crop-u4356843.jpg?crc=3772215451" data-hidpi-src="images/pic_event02-crop-u435684_2x3.jpg?crc=144876922" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="0.6086021505376344" data-image-width="465" data-image-height="283" data-orig-id="u435684_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="3" data-orig-id="u518412"><!-- image -->
-              <img class="block ImageInclude temp_no_id" data-col-pos="3" data-src="images/select01465x262.jpg?crc=185632793" data-hidpi-src="images/select01465x262_2x.jpg?crc=3859331805" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="0.5634408602150538" data-image-width="465" data-image-height="262" data-orig-id="u518412_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="4" data-orig-id="u518475"><!-- image -->
-              <img class="block ImageInclude temp_no_id" data-col-pos="4" data-src="images/select02465x262.jpg?crc=361313494" data-hidpi-src="images/select02465x262_2x.jpg?crc=3826529658" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="0.5634408602150538" data-image-width="465" data-image-height="262" data-orig-id="u518475_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="5" data-orig-id="u518538"><!-- image -->
-              <img class="block ImageInclude temp_no_id" data-col-pos="5" data-src="images/select03159x283.jpg?crc=4262597866" data-hidpi-src="images/select03159x283_2x.jpg?crc=3973724664" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="1.7735849056603774" data-image-width="159" data-image-height="282" data-orig-id="u518538_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="6" data-orig-id="u518601"><!-- image -->
-              <img class="block ImageInclude temp_no_id" data-col-pos="6" data-src="images/select04159x283.jpg?crc=4043140354" data-hidpi-src="images/select04159x283_2x.jpg?crc=329102585" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="1.7735849056603774" data-image-width="159" data-image-height="282" data-orig-id="u518601_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="7" data-orig-id="u435737"><!-- image -->
-              <img class="block ImageInclude temp_no_id" data-col-pos="7" data-src="images/pic_event01-crop-u4357373.jpg?crc=3986833990" data-hidpi-src="images/pic_event01-crop-u435737_2x3.jpg?crc=4111147295" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="0.6086021505376344" data-image-width="465" data-image-height="283" data-orig-id="u435737_img"/>
-             </div>
-             <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="8" data-orig-id="u451180"><!-- image -->
-              <img class="block ImageInclude temp_no_id" data-col-pos="8" data-src="images/pic_poster03384x215.jpg?crc=4254201847" data-hidpi-src="images/pic_poster03384x215_2x.jpg?crc=198272605" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="0.5598958333333334" data-image-width="384" data-image-height="215" data-orig-id="u451180_img"/>
-             </div>
-            </div>
-           </div>
-          </div>
-          <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="1" data-orig-id="u435363popup">
-           <div class="SSSlideLinks clearfix temp_no_id" data-col-pos="1" data-height-width-ratio="1.912928759894459" data-orig-id="u435363"><!-- horizontal-rows box -->
-            <div class="clearfix grpelem temp_no_id" data-orig-id="pu435366"><!-- column -->
-             <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="0" data-orig-id="u435366"><!-- image -->
-              <img class="block temp_no_id temp_no_img_src" data-col-pos="0" data-orig-src="images/pic_event04-crop-u4353666.jpg?crc=471602565" data-hidpi-src="images/pic_event04-crop-u435366_2x6.jpg?crc=375667650" alt="" data-heightwidthratio="0.7486338797814208" data-image-width="183" data-image-height="137" data-orig-id="u435366_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="2" data-orig-id="u435699"><!-- image -->
-              <img class="block temp_no_id temp_no_img_src" data-col-pos="2" data-orig-src="images/pic_event02183x137.jpg?crc=469705042" data-hidpi-src="images/pic_event02183x137_2x.jpg?crc=281820109" alt="" data-heightwidthratio="0.7486338797814208" data-image-width="183" data-image-height="137" data-orig-id="u435699_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="4" data-orig-id="u518493"><!-- image -->
-              <img class="block temp_no_id temp_no_img_src" data-col-pos="4" data-orig-src="images/select02-crop-u5184936.jpg?crc=472433318" data-hidpi-src="images/select02-crop-u518493_2x6.jpg?crc=4172311257" alt="" data-heightwidthratio="0.7486338797814208" data-image-width="183" data-image-height="137" data-orig-id="u518493_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="6" data-orig-id="u518619"><!-- image -->
-              <img class="block temp_no_id temp_no_img_src" data-col-pos="6" data-orig-src="images/select04-crop-u5186196.jpg?crc=4179769644" data-hidpi-src="images/select04-crop-u518619_2x6.jpg?crc=4242662220" alt="" data-heightwidthratio="0.7486338797814208" data-image-width="183" data-image-height="137" data-orig-id="u518619_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="8" data-orig-id="u451198"><!-- image -->
-              <img class="block temp_no_id temp_no_img_src" data-col-pos="8" data-orig-src="images/pic_poster03-crop-u4511986.jpg?crc=4153675241" data-hidpi-src="images/pic_poster03-crop-u451198_2x6.jpg?crc=4186847414" alt="" data-heightwidthratio="0.7486338797814208" data-image-width="183" data-image-height="137" data-orig-id="u451198_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-            </div>
-            <div class="clearfix grpelem temp_no_id" data-orig-id="pu435646"><!-- column -->
-             <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="1" data-orig-id="u435646"><!-- image -->
-              <img class="block temp_no_id temp_no_img_src" data-col-pos="1" data-orig-src="images/pic_event03183x137.jpg?crc=165665962" data-hidpi-src="images/pic_event03183x137_2x.jpg?crc=499567152" alt="" data-heightwidthratio="0.7486338797814208" data-image-width="183" data-image-height="137" data-orig-id="u435646_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="3" data-orig-id="u518430"><!-- image -->
-              <img class="block temp_no_id temp_no_img_src" data-col-pos="3" data-orig-src="images/select01-crop-u5184306.jpg?crc=348625613" data-hidpi-src="images/select01-crop-u518430_2x6.jpg?crc=4212411715" alt="" data-heightwidthratio="0.7486338797814208" data-image-width="183" data-image-height="137" data-orig-id="u518430_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="5" data-orig-id="u518556"><!-- image -->
-              <img class="block temp_no_id temp_no_img_src" data-col-pos="5" data-orig-src="images/select03-crop-u5185566.jpg?crc=492224331" data-hidpi-src="images/select03-crop-u518556_2x6.jpg?crc=266271401" alt="" data-heightwidthratio="0.7486338797814208" data-image-width="183" data-image-height="137" data-orig-id="u518556_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-             <div class="SSSlideLink rounded-corners clip_frame colelem temp_no_id" data-col-pos="7" data-orig-id="u435752"><!-- image -->
-              <img class="block temp_no_id temp_no_img_src" data-col-pos="7" data-orig-src="images/pic_event01183x137.jpg?crc=4189975154" data-hidpi-src="images/pic_event01183x137_2x.jpg?crc=41776773" alt="" data-heightwidthratio="0.7486338797814208" data-image-width="183" data-image-height="137" data-orig-id="u435752_img" src="images/blank.gif?crc=4208392903"/>
-             </div>
-            </div>
-           </div>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
+     <div class="clearfix colelem" id="pu406680"><!-- group -->
       <div class="browser_width grpelem temp_no_id" data-orig-id="u406680-bw">
        <div class="museBGSize temp_no_id" data-orig-id="u406680"><!-- column -->
         <div class="clearfix temp_no_id" data-orig-id="u406680_align_to_page">
@@ -1895,9 +1651,24 @@ body {
         </div>
        </div>
       </div>
-      <span class="anchor_item grpelem placeholder" data-placeholder-for="gallery_content"><!-- placeholder node --></span>
       <span class="nonblock nontext museBGSize shadow rounded-corners Event01 grpelem placeholder" data-placeholder-for="u408395_content"><!-- placeholder node --></span>
       <span class="ScrolldownM grpelem placeholder" data-placeholder-for="u434586_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu279930"><!-- group -->
+      <div class="browser_width grpelem temp_no_id" data-orig-id="u279930-bw">
+       <div class="temp_no_id" data-orig-id="u279930"><!-- group -->
+        <div class="clearfix temp_no_id" data-orig-id="u279930_align_to_page">
+         <span class="clearfix grpelem placeholder" data-placeholder-for="u513659_content"><!-- placeholder node --></span>
+        </div>
+       </div>
+      </div>
+      <div class="browser_width grpelem temp_no_id" data-orig-id="u280429-bw">
+       <div class="museBGSize temp_no_id" data-orig-id="u280429"><!-- simple frame --></div>
+      </div>
+      <span class="anchor_item grpelem placeholder" data-placeholder-for="gallery_content"><!-- placeholder node --></span>
+      <div class="browser_width grpelem" id="u521271-bw">
+       <span class="size_browser_width placeholder" data-placeholder-for="u521271_content"><!-- placeholder node --></span>
+      </div>
      </div>
      <span class="anchor_item colelem placeholder" data-placeholder-for="socialmedia_content"><!-- placeholder node --></span>
      <div class="clearfix colelem temp_no_id" data-orig-id="pu487932"><!-- group -->
@@ -1912,7 +1683,7 @@ body {
      <span class="clearfix colelem placeholder" data-placeholder-for="pu406651_content"><!-- placeholder node --></span>
     </div>
     <span class="size_fixed placeholder" data-placeholder-for="u78923_content"><!-- placeholder node --></span>
-    <div class="verticalspacer" data-offset-top="3889" data-content-above-spacer="3885" data-content-below-spacer="88" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="verticalspacer" data-offset-top="5632" data-content-above-spacer="5628" data-content-below-spacer="89" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
     <div class="clearfix grpelem temp_no_id" data-orig-id="pu72154"><!-- group -->
      <div class="browser_width grpelem temp_no_id" data-orig-id="u72154-bw">
       <div class="temp_no_id" data-orig-id="u72154"><!-- group -->
@@ -1947,7 +1718,7 @@ var suppressMissingFileError = false
 k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){f(!0)},5E3):f()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","jquery.musepolyfill.bgsize","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.musemenu","jquery.museresponsive"],function(c){var $ = c;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","jquery.musepolyfill.bgsize","jquery.musemenu","jquery.museresponsive"],function(c){var $ = c;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.detectScreenResolution();/* HiDPI screens */
@@ -2060,6 +1831,83 @@ Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized');
 (function(){
 	try{
 
+if(9 == 1){
+document.getElementById('lightgallery1').innerHTML = "<li href='assets/pic_event04.jpg' data-sub-html='#c11'><a href='#'><img src='assets/pic_event04.jpg' alt='體驗活動 照片1'></a></li>";
+}
+else if(9 == 2){
+document.getElementById('lightgallery1').innerHTML = "<li href='assets/pic_event04.jpg' data-sub-html='#c11'><a href='#'><img src='assets/pic_event04.jpg' alt='體驗活動 照片1'></a></li><li href='assets/pic_event03.jpg' data-sub-html='#c21'><a href='#'><img src='assets/pic_event03.jpg' alt='體驗活動 照片2'></a></li>";
+}
+else if(9 == 3){
+document.getElementById('lightgallery1').innerHTML = "<li href='assets/pic_event04.jpg' data-sub-html='#c11'><a href='#'><img src='assets/pic_event04.jpg' alt='體驗活動 照片1'></a></li><li href='assets/pic_event03.jpg' data-sub-html='#c21'><a href='#'><img src='assets/pic_event03.jpg' alt='體驗活動 照片2'></a></li><li href='assets/pic_event02.jpg' data-sub-html='#c31'><a href='#'><img src='assets/pic_event02.jpg' alt='體驗活動 照片3'></a></li>";
+}
+else if(9 == 4){
+document.getElementById('lightgallery1').innerHTML = "<li href='assets/pic_event04.jpg' data-sub-html='#c11'><a href='#'><img src='assets/pic_event04.jpg' alt='體驗活動 照片1'></a></li><li href='assets/pic_event03.jpg' data-sub-html='#c21'><a href='#'><img src='assets/pic_event03.jpg' alt='體驗活動 照片2'></a></li><li href='assets/pic_event02.jpg' data-sub-html='#c31'><a href='#'><img src='assets/pic_event02.jpg' alt='體驗活動 照片3'></a></li><li href='assets/pic_event01.jpg' data-sub-html='#c41'><a href='#'><img src='assets/pic_event01.jpg' alt='體驗活動 照片4'></a></li>";
+}
+else if(9 == 5){
+document.getElementById('lightgallery1').innerHTML = "<li href='assets/pic_event04.jpg' data-sub-html='#c11'><a href='#'><img src='assets/pic_event04.jpg' alt='體驗活動 照片1'></a></li><li href='assets/pic_event03.jpg' data-sub-html='#c21'><a href='#'><img src='assets/pic_event03.jpg' alt='體驗活動 照片2'></a></li><li href='assets/pic_event02.jpg' data-sub-html='#c31'><a href='#'><img src='assets/pic_event02.jpg' alt='體驗活動 照片3'></a></li><li href='assets/pic_event01.jpg' data-sub-html='#c41'><a href='#'><img src='assets/pic_event01.jpg' alt='體驗活動 照片4'></a></li><li href='assets/pic_poster03.jpg' data-sub-html='#c51'><a href='#'><img src='assets/pic_poster03.jpg' alt='體驗活動 照片5'></a></li>";
+}
+else if(9 == 6){
+document.getElementById('lightgallery1').innerHTML = "<li href='assets/pic_event04.jpg' data-sub-html='#c11'><a href='#'><img src='assets/pic_event04.jpg' alt='體驗活動 照片1'></a></li><li href='assets/pic_event03.jpg' data-sub-html='#c21'><a href='#'><img src='assets/pic_event03.jpg' alt='體驗活動 照片2'></a></li><li href='assets/pic_event02.jpg' data-sub-html='#c31'><a href='#'><img src='assets/pic_event02.jpg' alt='體驗活動 照片3'></a></li><li href='assets/pic_event01.jpg' data-sub-html='#c41'><a href='#'><img src='assets/pic_event01.jpg' alt='體驗活動 照片4'></a></li><li href='assets/pic_poster03.jpg' data-sub-html='#c51'><a href='#'><img src='assets/pic_poster03.jpg' alt='體驗活動 照片5'></a></li><li href='assets/pic_event06.jpg' data-sub-html='#c61'><a href='#'><img src='assets/pic_event06.jpg' alt='研發團隊 照片1'></a></li>";
+}
+else if(9 == 7){
+document.getElementById('lightgallery1').innerHTML = "<li href='assets/pic_event04.jpg' data-sub-html='#c11'><a href='#'><img src='assets/pic_event04.jpg' alt='體驗活動 照片1'></a></li><li href='assets/pic_event03.jpg' data-sub-html='#c21'><a href='#'><img src='assets/pic_event03.jpg' alt='體驗活動 照片2'></a></li><li href='assets/pic_event02.jpg' data-sub-html='#c31'><a href='#'><img src='assets/pic_event02.jpg' alt='體驗活動 照片3'></a></li><li href='assets/pic_event01.jpg' data-sub-html='#c41'><a href='#'><img src='assets/pic_event01.jpg' alt='體驗活動 照片4'></a></li><li href='assets/pic_poster03.jpg' data-sub-html='#c51'><a href='#'><img src='assets/pic_poster03.jpg' alt='體驗活動 照片5'></a></li><li href='assets/pic_event06.jpg' data-sub-html='#c61'><a href='#'><img src='assets/pic_event06.jpg' alt='研發團隊 照片1'></a></li><li href='assets/pic_event05.jpg' data-sub-html='#c71'><a href='#'><img src='assets/pic_event05.jpg' alt='研發團隊 照片1'></a></li>";
+}
+else if(9 == 8){
+document.getElementById('lightgallery1').innerHTML = "<li href='assets/pic_event04.jpg' data-sub-html='#c11'><a href='#'><img src='assets/pic_event04.jpg' alt='體驗活動 照片1'></a></li><li href='assets/pic_event03.jpg' data-sub-html='#c21'><a href='#'><img src='assets/pic_event03.jpg' alt='體驗活動 照片2'></a></li><li href='assets/pic_event02.jpg' data-sub-html='#c31'><a href='#'><img src='assets/pic_event02.jpg' alt='體驗活動 照片3'></a></li><li href='assets/pic_event01.jpg' data-sub-html='#c41'><a href='#'><img src='assets/pic_event01.jpg' alt='體驗活動 照片4'></a></li><li href='assets/pic_poster03.jpg' data-sub-html='#c51'><a href='#'><img src='assets/pic_poster03.jpg' alt='體驗活動 照片5'></a></li><li href='assets/pic_event06.jpg' data-sub-html='#c61'><a href='#'><img src='assets/pic_event06.jpg' alt='研發團隊 照片1'></a></li><li href='assets/pic_event05.jpg' data-sub-html='#c71'><a href='#'><img src='assets/pic_event05.jpg' alt='研發團隊 照片1'></a></li><li href='assets/pic_event08.jpg' data-sub-html='#c81'><a href='#'><img src='assets/pic_event08.jpg' alt='研發團隊 照片3'></a></li>";
+}
+else if(9 == 9){
+document.getElementById('lightgallery1').innerHTML = "<li href='assets/pic_event04.jpg' data-sub-html='#c11'><a href='#'><img src='assets/pic_event04.jpg' alt='體驗活動 照片1'></a></li><li href='assets/pic_event03.jpg' data-sub-html='#c21'><a href='#'><img src='assets/pic_event03.jpg' alt='體驗活動 照片2'></a></li><li href='assets/pic_event02.jpg' data-sub-html='#c31'><a href='#'><img src='assets/pic_event02.jpg' alt='體驗活動 照片3'></a></li><li href='assets/pic_event01.jpg' data-sub-html='#c41'><a href='#'><img src='assets/pic_event01.jpg' alt='體驗活動 照片4'></a></li><li href='assets/pic_poster03.jpg' data-sub-html='#c51'><a href='#'><img src='assets/pic_poster03.jpg' alt='體驗活動 照片5'></a></li><li href='assets/pic_event06.jpg' data-sub-html='#c61'><a href='#'><img src='assets/pic_event06.jpg' alt='研發團隊 照片1'></a></li><li href='assets/pic_event05.jpg' data-sub-html='#c71'><a href='#'><img src='assets/pic_event05.jpg' alt='研發團隊 照片1'></a></li><li href='assets/pic_event08.jpg' data-sub-html='#c81'><a href='#'><img src='assets/pic_event08.jpg' alt='研發團隊 照片3'></a></li><li href='assets/pic_event07.jpg' data-sub-html='#c91'><a href='#'><img src='assets/pic_event07.jpg' alt='研發團隊 照片4'></a></li>";
+}
+else if(9 == 10){
+document.getElementById('lightgallery1').innerHTML = "<li href='assets/pic_event04.jpg' data-sub-html='#c11'><a href='#'><img src='assets/pic_event04.jpg' alt='體驗活動 照片1'></a></li><li href='assets/pic_event03.jpg' data-sub-html='#c21'><a href='#'><img src='assets/pic_event03.jpg' alt='體驗活動 照片2'></a></li><li href='assets/pic_event02.jpg' data-sub-html='#c31'><a href='#'><img src='assets/pic_event02.jpg' alt='體驗活動 照片3'></a></li><li href='assets/pic_event01.jpg' data-sub-html='#c41'><a href='#'><img src='assets/pic_event01.jpg' alt='體驗活動 照片4'></a></li><li href='assets/pic_poster03.jpg' data-sub-html='#c51'><a href='#'><img src='assets/pic_poster03.jpg' alt='體驗活動 照片5'></a></li><li href='assets/pic_event06.jpg' data-sub-html='#c61'><a href='#'><img src='assets/pic_event06.jpg' alt='研發團隊 照片1'></a></li><li href='assets/pic_event05.jpg' data-sub-html='#c71'><a href='#'><img src='assets/pic_event05.jpg' alt='研發團隊 照片1'></a></li><li href='assets/pic_event08.jpg' data-sub-html='#c81'><a href='#'><img src='assets/pic_event08.jpg' alt='研發團隊 照片3'></a></li><li href='assets/pic_event07.jpg' data-sub-html='#c91'><a href='#'><img src='assets/pic_event07.jpg' alt='研發團隊 照片4'></a></li><li href='Add File' data-sub-html='#c101'><a href='#'><img src='Add File' alt='alternative text'></a></li>";
+}
+else if(9 == 11){
+document.getElementById('lightgallery1').innerHTML = "<li href='assets/pic_event04.jpg' data-sub-html='#c11'><a href='#'><img src='assets/pic_event04.jpg' alt='體驗活動 照片1'></a></li><li href='assets/pic_event03.jpg' data-sub-html='#c21'><a href='#'><img src='assets/pic_event03.jpg' alt='體驗活動 照片2'></a></li><li href='assets/pic_event02.jpg' data-sub-html='#c31'><a href='#'><img src='assets/pic_event02.jpg' alt='體驗活動 照片3'></a></li><li href='assets/pic_event01.jpg' data-sub-html='#c41'><a href='#'><img src='assets/pic_event01.jpg' alt='體驗活動 照片4'></a></li><li href='assets/pic_poster03.jpg' data-sub-html='#c51'><a href='#'><img src='assets/pic_poster03.jpg' alt='體驗活動 照片5'></a></li><li href='assets/pic_event06.jpg' data-sub-html='#c61'><a href='#'><img src='assets/pic_event06.jpg' alt='研發團隊 照片1'></a></li><li href='assets/pic_event05.jpg' data-sub-html='#c71'><a href='#'><img src='assets/pic_event05.jpg' alt='研發團隊 照片1'></a></li><li href='assets/pic_event08.jpg' data-sub-html='#c81'><a href='#'><img src='assets/pic_event08.jpg' alt='研發團隊 照片3'></a></li><li href='assets/pic_event07.jpg' data-sub-html='#c91'><a href='#'><img src='assets/pic_event07.jpg' alt='研發團隊 照片4'></a></li><li href='Add File' data-sub-html='#c101'><a href='#'><img src='Add File' alt='alternative text'></a></li><li href='Add File' data-sub-html='#c111'><a href='#'><img src='Add File' alt='alternative text'></a></li>";
+}
+else{
+document.getElementById('lightgallery1').innerHTML = "<li href='assets/pic_event04.jpg' data-sub-html='#c11'><a href='#'><img src='assets/pic_event04.jpg' alt='體驗活動 照片1'></a></li><li href='assets/pic_event03.jpg' data-sub-html='#c21'><a href='#'><img src='assets/pic_event03.jpg' alt='體驗活動 照片2'></a></li><li href='assets/pic_event02.jpg' data-sub-html='#c31'><a href='#'><img src='assets/pic_event02.jpg' alt='體驗活動 照片3'></a></li><li href='assets/pic_event01.jpg' data-sub-html='#c41'><a href='#'><img src='assets/pic_event01.jpg' alt='體驗活動 照片4'></a></li><li href='assets/pic_poster03.jpg' data-sub-html='#c51'><a href='#'><img src='assets/pic_poster03.jpg' alt='體驗活動 照片5'></a></li><li href='assets/pic_event06.jpg' data-sub-html='#c61'><a href='#'><img src='assets/pic_event06.jpg' alt='研發團隊 照片1'></a></li><li href='assets/pic_event05.jpg' data-sub-html='#c71'><a href='#'><img src='assets/pic_event05.jpg' alt='研發團隊 照片1'></a></li><li href='assets/pic_event08.jpg' data-sub-html='#c81'><a href='#'><img src='assets/pic_event08.jpg' alt='研發團隊 照片3'></a></li><li href='assets/pic_event07.jpg' data-sub-html='#c91'><a href='#'><img src='assets/pic_event07.jpg' alt='研發團隊 照片4'></a></li><li href='Add File' data-sub-html='#c101'><a href='#'><img src='Add File' alt='alternative text'></a></li><li href='Add File' data-sub-html='#c111'><a href='#'><img src='Add File' alt='alternative text'></a></li><li href='Add File' data-sub-html='#c121'><a href='#'><img src='Add File' alt='alternative text'></a></li>";
+}
+
+$(".demo-gallery").parent().css("height","auto");
+
+require(['https://cdn.jsdelivr.net/npm/lightgallery@1.6.0/dist/js/lightgallery.min.js'], function() {
+require(['https://cdn.jsdelivr.net/npm/lightgallery@1.6.0/modules/lg-thumbnail.min.js','https://f.vimeocdn.com/js/froogaloop2.min.js','https://cdn.jsdelivr.net/npm/lightgallery@1.6.0/modules/lg-autoplay.min.js','https://cdn.jsdelivr.net/npm/lightgallery@1.6.0/modules/lg-fullscreen.min.js','https://cdn.jsdelivr.net/npm/lightgallery@1.6.0/modules/lg-video.min.js','https://cdn.jsdelivr.net/npm/lightgallery@1.6.0/modules/lg-zoom.min.js','https://cdn.jsdelivr.net/mousewheel/3.1.13/jquery.mousewheel.min.js','https://cdn.jsdelivr.net/npm/object-fit-images@3.2.3/dist/ofi.min.js'], function() {
+    $('#lightgallery1').lightGallery({
+    mode: 'lg-slide',
+    cssEasing: 'cubic-bezier(0.250, 0.250, 0.750, 0.750)',
+    speed: 600,
+    pause: 6000,
+    hash: false,
+    counter: true,
+    pullCaptionUp: true,
+    autoplayControls: true,
+    download: true,
+    fullScreen: true,
+    zoom: true,
+    controls: true,
+    mousewheel: true,
+    enableDrag: true,
+    enableSwipe: true,
+    loop: true,
+    thumbnail:true,
+    animateThumb: true,
+    thumbMargin: 5,
+    showThumbByDefault: true
+    });
+$('#lightgallery1').on('onAfterOpen.lg',function(event){var $rlgImages = $('.lg-thumb-item > img');objectFitImages($rlgImages);});
+var $rlgImages = $('.demo-gallery>ul>li a>img');objectFitImages($rlgImages);
+});
+});
+
+	}
+	catch(e)
+	{
+		Muse.Assert.fail('Error with Widget:RLG - Images (1.9) ParamHTMLOnDocReady Handler ' + e.toString());
+	}
+})();/* Widget:RLG - Images (1.9) */
+(function(){
+	try{
+
 $(document).ready(function(){pic=new Image();pic.src="assets/footer_pullup_s.png";if(7==1){document.getElementById('bgmu').innerHTML="<li><a href='./index.html' target='_self'>香港警覺性及記憶篩查</a></li>"}
 else if(7==2){document.getElementById('bgmu').innerHTML="<li><a href='./index.html' target='_self'>香港警覺性及記憶篩查</a></li><li><a href='./dementia_intro.html' target='_self'>認知障礙症</a></li>"}
 else if(7==3){document.getElementById('bgmu').innerHTML="<li><a href='./index.html' target='_self'>香港警覺性及記憶篩查</a></li><li><a href='./dementia_intro.html' target='_self'>認知障礙症</a></li><li><a href='./brainhealth_intro.html' target='_self'>大腦健康管理</a></li>"}
@@ -2089,7 +1937,6 @@ if(1==1){var close=TweenLite.to(".overlay-close",0.5,{rotation:360,ease:Power1.e
 		Muse.Assert.fail('Error with Widget:BIG Menu - Slide Up (2.6) ParamHTMLOnDocReady Handler ' + e.toString());
 	}
 })();/* Widget:BIG Menu - Slide Up (2.6) */
-Muse.Utils.resizeHeight('.popup_anchor.allow_click_through');/* resize height */
 (function(){
 	try{
 
@@ -2342,9 +2189,7 @@ $(function() {
 	}
 })();/* Widget:SVG Menus - Menu 3 (1.0) */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
-Muse.Utils.initWidget('#slideshowu435354', ['#bp_infinity', '#bp_1200', '#bp_720'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:false,displayInterval:3000,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:true,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu435354 */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_1200', '#bp_1024'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
-Muse.Utils.initWidget('#slideshowu435354', ['#bp_1024', '#bp_920', '#bp_480'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:false,displayInterval:3000,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:true,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:true}); $(elem).data('widget', widget); return widget; });/* #slideshowu435354 */
 Muse.Utils.fullPage('#page');/* 100% height page */
 $( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
@@ -2549,5 +2394,8 @@ $(document).ready(function(){
 
     </script>
 		
+<script>
+</script>
+
    </body>
 </html>

@@ -1,50 +1,50 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://www.polyu.edu.hk/proj/hkvmt" resolutions="1x,2x" timestamp="1629686197115">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://www.polyu.edu.hk/proj/hkvmt" resolutions="1x,2x" timestamp="1629864413655">
   <folder name="css">
     <file name="site_global.css" crc="3777718271"/>
-    <file name="master_storytelling-green.css" crc="265968175" ref="brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social:brainhealth_intro"/>
-    <file name="nomq_preview_master_storytelling-green.css" crc="3866361183" ref="brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social:brainhealth_intro"/>
-    <file name="master_storytelling-yellow.css" crc="279393213" ref="dementia_healing:dementia_intro:dementia_stages:dementia_causes"/>
-    <file name="nomq_preview_master_storytelling-yellow.css" crc="3783592510" ref="dementia_healing:dementia_intro:dementia_stages:dementia_causes"/>
-    <file name="master_normal.css" crc="3936018715" ref="index:aboutus:media_activities:partnership:resources"/>
-    <file name="nomq_preview_master_normal.css" crc="226054560" ref="index:aboutus:media_activities:partnership:resources"/>
-    <file name="index.css" crc="4060550496" ref="index"/>
-    <file name="nomq_index.css" crc="3948605421" ref="index"/>
-    <file name="dementia_healing.css" crc="144091603" ref="dementia_healing"/>
-    <file name="nomq_dementia_healing.css" crc="466560295" ref="dementia_healing"/>
-    <file name="brainhealth_exercises.css" crc="4124532930" ref="brainhealth_exercises"/>
-    <file name="nomq_brainhealth_exercises.css" crc="233433673" ref="brainhealth_exercises"/>
-    <file name="aboutus.css" crc="3994001837" ref="aboutus"/>
-    <file name="nomq_aboutus.css" crc="232906763" ref="aboutus"/>
-    <file name="brainhealth_cognitive.css" crc="3784471160" ref="brainhealth_cognitive"/>
-    <file name="nomq_brainhealth_cognitive.css" crc="301978950" ref="brainhealth_cognitive"/>
-    <file name="media_activities.css" crc="4106509724" ref="media_activities"/>
-    <file name="nomq_media_activities.css" crc="472965668" ref="media_activities"/>
-    <file name="brainhealth_diet.css" crc="3818901143" ref="brainhealth_diet"/>
-    <file name="nomq_brainhealth_diet.css" crc="534173471" ref="brainhealth_diet"/>
-    <file name="partnership.css" crc="3877983284" ref="partnership"/>
-    <file name="nomq_partnership.css" crc="529902176" ref="partnership"/>
-    <file name="dementia_intro.css" crc="402140331" ref="dementia_intro"/>
-    <file name="nomq_dementia_intro.css" crc="217840856" ref="dementia_intro"/>
-    <file name="brainhealth_emotions.css" crc="3843667936" ref="brainhealth_emotions"/>
-    <file name="nomq_brainhealth_emotions.css" crc="3923751854" ref="brainhealth_emotions"/>
-    <file name="dementia_stages.css" crc="463915738" ref="dementia_stages"/>
+    <file name="master_normal.css" crc="3936018715" ref="resources:index:aboutus:media_activities:partnership"/>
+    <file name="nomq_preview_master_normal.css" crc="226054560" ref="resources:index:aboutus:media_activities:partnership"/>
+    <file name="master_storytelling-green.css" crc="265968175" ref="brainhealth_social:brainhealth_intro:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions"/>
+    <file name="nomq_preview_master_storytelling-green.css" crc="3866361183" ref="brainhealth_social:brainhealth_intro:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions"/>
+    <file name="master_storytelling-yellow.css" crc="279393213" ref="dementia_stages:dementia_causes:dementia_healing:dementia_intro"/>
+    <file name="nomq_preview_master_storytelling-yellow.css" crc="3783592510" ref="dementia_stages:dementia_causes:dementia_healing:dementia_intro"/>
+    <file name="dementia_stages.css" crc="4208160503" ref="dementia_stages"/>
     <file name="nomq_dementia_stages.css" crc="458690481" ref="dementia_stages"/>
     <file name="resources.css" crc="269395108" ref="resources"/>
     <file name="nomq_resources.css" crc="474547141" ref="resources"/>
-    <file name="brainhealth_social.css" crc="4013834637" ref="brainhealth_social"/>
+    <file name="brainhealth_social.css" crc="151150177" ref="brainhealth_social"/>
     <file name="nomq_brainhealth_social.css" crc="4062673721" ref="brainhealth_social"/>
     <file name="dementia_causes.css" crc="4235134431" ref="dementia_causes"/>
     <file name="nomq_dementia_causes.css" crc="423246120" ref="dementia_causes"/>
     <file name="brainhealth_intro.css" crc="4282016186" ref="brainhealth_intro"/>
     <file name="nomq_brainhealth_intro.css" crc="4155817167" ref="brainhealth_intro"/>
+    <file name="index.css" crc="4060550496" ref="index"/>
+    <file name="nomq_index.css" crc="3948605421" ref="index"/>
+    <file name="dementia_healing.css" crc="144091603" ref="dementia_healing"/>
+    <file name="nomq_dementia_healing.css" crc="466560295" ref="dementia_healing"/>
+    <file name="brainhealth_exercises.css" crc="3967150415" ref="brainhealth_exercises"/>
+    <file name="nomq_brainhealth_exercises.css" crc="233433673" ref="brainhealth_exercises"/>
+    <file name="aboutus.css" crc="155191673" ref="aboutus"/>
+    <file name="nomq_aboutus.css" crc="232906763" ref="aboutus"/>
+    <file name="brainhealth_cognitive.css" crc="4091939556" ref="brainhealth_cognitive"/>
+    <file name="nomq_brainhealth_cognitive.css" crc="301978950" ref="brainhealth_cognitive"/>
+    <file name="media_activities.css" crc="4214192321" ref="media_activities"/>
+    <file name="nomq_media_activities.css" crc="4247375262" ref="media_activities"/>
+    <file name="brainhealth_diet.css" crc="174037479" ref="brainhealth_diet"/>
+    <file name="nomq_brainhealth_diet.css" crc="424620716" ref="brainhealth_diet"/>
+    <file name="partnership.css" crc="3877983284" ref="partnership"/>
+    <file name="nomq_partnership.css" crc="529902176" ref="partnership"/>
+    <file name="dementia_intro.css" crc="411166829" ref="dementia_intro"/>
+    <file name="nomq_dementia_intro.css" crc="217840856" ref="dementia_intro"/>
+    <file name="brainhealth_emotions.css" crc="3958164970" ref="brainhealth_emotions"/>
+    <file name="nomq_brainhealth_emotions.css" crc="3923751854" ref="brainhealth_emotions"/>
   </folder>
   <folder name="fonts">
-    <file name="fakepearl-regular.woff" crc="199010244"/>
-    <file name="fakepearl-regular.eot" crc="3931012199"/>
-    <file name="fakepearl-regular.svg" crc="4183474000"/>
     <file name="fakepearl-light.woff" crc="145533271"/>
     <file name="fakepearl-light.eot" crc="3986492076"/>
     <file name="fakepearl-light.svg" crc="13062958"/>
+    <file name="fakepearl-regular.woff" crc="199010244"/>
+    <file name="fakepearl-regular.eot" crc="3931012199"/>
+    <file name="fakepearl-regular.svg" crc="4183474000"/>
   </folder>
   <folder name="assets">
     <file name="footer_pullup.png" crc="4032338105" seo="true" mt="1617815516000"/>
@@ -59,7 +59,7 @@
     <file name="hk-vmt-user.mp4" crc="4149447906" seo="true" mt="1622167525000"/>
     <file name="pic_event02.jpg" crc="70160691" seo="true" mt="1628158792000"/>
     <file name="pic_event01.jpg" crc="532940384" seo="true" mt="1628158851000"/>
-    <file name="pic_event04.jpg" crc="4097350490" seo="true" mt="1628158969000"/>
+    <file name="pic_event04.jpg" crc="4248193995" seo="true" mt="1629861031000"/>
     <file name="pic_event03.jpg" crc="464455178" seo="true" mt="1628158705000"/>
     <file name="pic_poster03.jpg" crc="317944118" seo="true" mt="1628167301000"/>
     <file name="title.svg" crc="231789981" seo="true" mt="1628346555000"/>
@@ -72,6 +72,10 @@
     <file name="poster-iatp.jpg" crc="398087019" seo="true" mt="1615707298000"/>
     <file name="risk-factors-map.jpg" crc="58626929" seo="true" mt="1628491096000"/>
     <file name="polyrnn-demo.gif" crc="3795956365" seo="true" mt="1622171374000"/>
+    <file name="pic_event06.jpg" crc="4288178121" seo="true" mt="1629685144000"/>
+    <file name="pic_event05.jpg" crc="410962962" seo="true" mt="1629685139000"/>
+    <file name="pic_event08.jpg" crc="292500153" seo="true" mt="1629685148000"/>
+    <file name="pic_event07.jpg" crc="396902378" seo="true" mt="1629685145000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="dementia_intro:resources:brainhealth_intro:dementia_healing:aboutus:media_activities:partnership:dementia_stages:dementia_causes:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social"/>
@@ -84,10 +88,6 @@
     <file name="html5shiv.js" crc="4241844378" ref="dementia_intro:resources:brainhealth_intro:dementia_healing:aboutus:media_activities:partnership:dementia_stages:dementia_causes:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social"/>
     <file name="jquery.museresponsive.js" crc="95814420" ref="dementia_intro:resources:brainhealth_intro:dementia_healing:aboutus:media_activities:partnership:dementia_stages:dementia_causes:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social"/>
     <file name="require.js" crc="4177726516" ref="dementia_intro:resources:brainhealth_intro:dementia_healing:aboutus:media_activities:partnership:dementia_stages:dementia_causes:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social"/>
-    <file name="webpro.js" crc="3856315280" ref="media_activities"/>
-    <file name="musewpslideshow.js" crc="244150766" ref="media_activities"/>
-    <file name="jquery.museoverlay.js" crc="3877667098" ref="media_activities"/>
-    <file name="touchswipe.js" crc="3888935200" ref="media_activities"/>
   </folder>
   <folder name="images">
     <file name="storytelling-yellow-favicon.ico" crc="3891198573" ref="dementia_intro"/>
@@ -568,46 +568,46 @@
     <file name="pic_doctor-u274956-fr3.jpg" crc="3997672662" ref="dementia_healing"/>
     <file name="pic_doctor-u274956-fr_2x3.jpg" crc="3834260029" ref="dementia_healing"/>
     <file name="aboutus-favicon.ico" crc="3891198573" ref="aboutus"/>
-    <file name="pic_ada-fung.jpg" crc="3769123616" ref="aboutus">
+    <file name="pic_ada-fung.jpg" crc="4282062212" ref="aboutus">
       <caption webpage="aboutus" alt=""/>
     </file>
-    <file name="pic_ada-fung_2x.jpg" crc="233957461" ref="aboutus">
+    <file name="pic_ada-fung_2x.jpg" crc="3984607733" ref="aboutus">
       <caption webpage="aboutus" alt=""/>
     </file>
-    <file name="pic_kevin-chan.jpg" crc="4214064892" ref="aboutus">
+    <file name="pic_kevin-chan.jpg" crc="110257378" ref="aboutus">
       <caption webpage="aboutus" alt=""/>
     </file>
-    <file name="pic_kevin-chan_2x.jpg" crc="4002191004" ref="aboutus">
+    <file name="pic_kevin-chan_2x.jpg" crc="4121780011" ref="aboutus">
       <caption webpage="aboutus" alt=""/>
     </file>
-    <file name="pic_newman-lau.jpg" crc="501103347" ref="aboutus">
+    <file name="pic_newman-lau.jpg" crc="3970021177" ref="aboutus">
       <caption webpage="aboutus" alt=""/>
     </file>
-    <file name="pic_newman-lau_2x.jpg" crc="4004699632" ref="aboutus">
+    <file name="pic_newman-lau_2x.jpg" crc="425242811" ref="aboutus">
       <caption webpage="aboutus" alt=""/>
     </file>
-    <file name="pic_able.jpg" crc="3759132933" ref="aboutus">
+    <file name="pic_able.jpg" crc="167963245" ref="aboutus">
       <caption webpage="aboutus" alt=""/>
     </file>
-    <file name="pic_able_2x.jpg" crc="276449786" ref="aboutus">
+    <file name="pic_able_2x.jpg" crc="4233758807" ref="aboutus">
       <caption webpage="aboutus" alt=""/>
     </file>
-    <file name="pic_dicky.jpg" crc="4140292258" ref="aboutus">
+    <file name="pic_dicky.jpg" crc="4278832806" ref="aboutus">
       <caption webpage="aboutus" alt=""/>
     </file>
-    <file name="pic_dicky_2x.jpg" crc="351101044" ref="aboutus">
+    <file name="pic_dicky_2x.jpg" crc="3918379183" ref="aboutus">
       <caption webpage="aboutus" alt=""/>
     </file>
-    <file name="image1png.jpg" crc="3813352801" ref="aboutus">
+    <file name="pic_proflam.jpg" crc="3953434706" ref="aboutus">
       <caption webpage="aboutus" alt=""/>
     </file>
-    <file name="image1png_2x.jpg" crc="501798150" ref="aboutus">
+    <file name="pic_proflam_2x.jpg" crc="4223219434" ref="aboutus">
       <caption webpage="aboutus" alt=""/>
     </file>
-    <file name="pic_alex-choy.jpg" crc="4213756416" ref="aboutus">
+    <file name="pic_alex-choy.jpg" crc="299927367" ref="aboutus">
       <caption webpage="aboutus" alt=""/>
     </file>
-    <file name="pic_alex-choy_2x.jpg" crc="3857092811" ref="aboutus">
+    <file name="pic_alex-choy_2x.jpg" crc="4179513046" ref="aboutus">
       <caption webpage="aboutus" alt=""/>
     </file>
     <file name="itf logo.png" crc="3995858239" ref="aboutus">
@@ -638,139 +638,6 @@
     <file name="polyu_logo_2x.png" crc="3821811018" ref="aboutus">
       <caption webpage="aboutus" alt=""/>
     </file>
-    <file name="pic_event04.jpg" crc="522464413" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event04_2x.jpg" crc="26737200" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event03.jpg" crc="3992084581" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event03_2x.jpg" crc="4018857970" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event02.jpg" crc="170902933" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event02_2x.jpg" crc="217220801" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select01.jpg" crc="3758219503" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select01_2x.jpg" crc="410962962" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select02.jpg" crc="4204182203" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select02_2x.jpg" crc="4288178121" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select03.jpg" crc="415819964" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select03_2x.jpg" crc="4054694593" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select04.jpg" crc="4084645057" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select04_2x.jpg" crc="396751187" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event01.jpg" crc="432905455" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event01_2x.jpg" crc="258369169" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_poster031024x573.jpg" crc="4105966083" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_poster031024x573_2x.jpg" crc="194071887" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event04-crop-u435366.jpg" crc="4283395247" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event04-crop-u435366_2x.jpg" crc="3904315774" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select01-crop-u518430.jpg" crc="4018812989" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select01-crop-u518430_2x.jpg" crc="4087947183" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select04-crop-u518619.jpg" crc="96732971" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select04-crop-u518619_2x.jpg" crc="4135265866" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event03329x247.jpg" crc="4084565752" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event03329x247_2x.jpg" crc="269608564" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select02-crop-u518493.jpg" crc="4174655478" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select02-crop-u518493_2x.jpg" crc="4156922851" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event01329x247.jpg" crc="479543825" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event01329x247_2x.jpg" crc="4293330018" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event02329x247.jpg" crc="458785757" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event02329x247_2x.jpg" crc="494630057" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select03-crop-u518556.jpg" crc="23674891" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select03-crop-u518556_2x.jpg" crc="107919275" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_poster03-crop-u451198.jpg" crc="353855177" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_poster03-crop-u451198_2x.jpg" crc="32498307" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="loading.gif" crc="3815509949" ref="media_activities"/>
     <file name="poster iatp.jpg" crc="4122112325" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
@@ -787,478 +654,10 @@
     <file name="facebook_s-u499059-fr_2x.png" crc="129529778" ref="media_activities"/>
     <file name="facebook-u499059-r-fr.png" crc="434960246" ref="media_activities"/>
     <file name="facebook-u499059-r-fr_2x.png" crc="526248403" ref="media_activities"/>
-    <file name="pic_event04-crop-u4353662.jpg" crc="4283395247" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event04-crop-u435366_2x2.jpg" crc="3904315774" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select01-crop-u5184302.jpg" crc="4018812989" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select01-crop-u518430_2x2.jpg" crc="4087947183" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select04-crop-u5186192.jpg" crc="96732971" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select04-crop-u518619_2x2.jpg" crc="4135265866" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select02-crop-u5184932.jpg" crc="4174655478" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select02-crop-u518493_2x2.jpg" crc="4156922851" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select03-crop-u5185562.jpg" crc="23674891" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select03-crop-u518556_2x2.jpg" crc="107919275" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_poster03-crop-u4511982.jpg" crc="353855177" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_poster03-crop-u451198_2x2.jpg" crc="32498307" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event04770x434.jpg" crc="4216254595" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event04770x434_2x.jpg" crc="3916909697" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event03-crop-u435628.jpg" crc="3903955936" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event03-crop-u435628_2x.jpg" crc="118469098" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event02-crop-u435684.jpg" crc="3983012958" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event02-crop-u435684_2x.jpg" crc="3799366694" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select01992x558.jpg" crc="43046756" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select01992x558_2x.jpg" crc="434252483" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select02992x558.jpg" crc="78530095" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select02992x558_2x.jpg" crc="150490241" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select03339x603.jpg" crc="4284173833" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select03339x603_2x.jpg" crc="3970127999" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select04339x603.jpg" crc="244907749" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select04339x603_2x.jpg" crc="4266393352" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event01-crop-u435737.jpg" crc="277928623" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event01-crop-u435737_2x.jpg" crc="3993264405" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_poster03820x459.jpg" crc="4173649504" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_poster03820x459_2x.jpg" crc="3964694147" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event04-crop-u4353663.jpg" crc="4167460156" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event04-crop-u435366_2x3.jpg" crc="4172920191" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select01-crop-u5184303.jpg" crc="251526222" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select01-crop-u518430_2x3.jpg" crc="3823882010" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select04-crop-u5186193.jpg" crc="3772932804" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select04-crop-u518619_2x3.jpg" crc="29710137" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event03289x217.jpg" crc="352049691" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event03289x217_2x.jpg" crc="4132095186" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select02-crop-u5184933.jpg" crc="4249890648" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select02-crop-u518493_2x3.jpg" crc="383881254" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event01289x217.jpg" crc="309726941" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event01289x217_2x.jpg" crc="3866616995" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event02289x217.jpg" crc="124204771" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event02289x217_2x.jpg" crc="222187029" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select03-crop-u5185563.jpg" crc="3981885741" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select03-crop-u518556_2x3.jpg" crc="107211141" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_poster03-crop-u4511983.jpg" crc="3763612908" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_poster03-crop-u451198_2x3.jpg" crc="4260238370" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
     <file name="facebook_s-u499059-fr2.png" crc="188299485" ref="media_activities"/>
     <file name="facebook_s-u499059-fr_2x2.png" crc="356282212" ref="media_activities"/>
     <file name="facebook-u499059-r-fr2.png" crc="487347874" ref="media_activities"/>
     <file name="facebook-u499059-r-fr_2x2.png" crc="3876160477" ref="media_activities"/>
-    <file name="pic_event04691x390.jpg" crc="3881922863" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event04691x390_2x.jpg" crc="4275897596" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event03-crop-u4356282.jpg" crc="306895392" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event03-crop-u435628_2x2.jpg" crc="3894289400" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event02-crop-u4356842.jpg" crc="3908130544" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event02-crop-u435684_2x2.jpg" crc="3996090982" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select01892x502.jpg" crc="4012147998" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select01892x502_2x.jpg" crc="4167244723" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select02892x502.jpg" crc="423465223" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select02892x502_2x.jpg" crc="509079546" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select03305x542.jpg" crc="3893333106" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select03305x542_2x.jpg" crc="4200597873" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select04305x542.jpg" crc="4001099623" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select04305x542_2x.jpg" crc="4132117410" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event01-crop-u4357372.jpg" crc="4148750516" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event01-crop-u435737_2x2.jpg" crc="37446389" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_poster03736x412.jpg" crc="492291413" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_poster03736x412_2x.jpg" crc="3989820187" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event04-crop-u4353664.jpg" crc="69784934" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event04-crop-u435366_2x4.jpg" crc="4116498265" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select01-crop-u5184304.jpg" crc="3788734090" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select01-crop-u518430_2x4.jpg" crc="3970341315" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select04-crop-u5186194.jpg" crc="268260381" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select04-crop-u518619_2x4.jpg" crc="163795153" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event03260x195.jpg" crc="434258898" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event03260x195_2x.jpg" crc="4048110297" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select02-crop-u5184934.jpg" crc="3971209750" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select02-crop-u518493_2x4.jpg" crc="50450823" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event01260x195.jpg" crc="432727534" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event01260x195_2x.jpg" crc="119725666" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event02260x195.jpg" crc="4175264737" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event02260x195_2x.jpg" crc="335965182" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select03-crop-u5185564.jpg" crc="354006314" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select03-crop-u518556_2x4.jpg" crc="434131679" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_poster03-crop-u4511984.jpg" crc="395225744" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_poster03-crop-u451198_2x4.jpg" crc="3921424427" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event04541x305.jpg" crc="88236190" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event04541x305_2x.jpg" crc="3838056626" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event03698x524.jpg" crc="95077403" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event03698x524_2x.jpg" crc="4192437689" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event02698x524.jpg" crc="3797421741" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event02698x524_2x.jpg" crc="4243128224" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select01698x393.jpg" crc="361365944" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select01698x393_2x.jpg" crc="3830015997" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select02698x393.jpg" crc="4005821910" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select02698x393_2x.jpg" crc="216142110" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select03239x424.jpg" crc="4025685896" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select03239x424_2x.jpg" crc="404889587" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select04239x424.jpg" crc="3800630890" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select04239x424_2x.jpg" crc="104015015" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event01698x524.jpg" crc="38242663" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event01698x524_2x.jpg" crc="4008086103" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_poster03576x323.jpg" crc="4214697759" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_poster03576x323_2x.jpg" crc="132591558" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event04-crop-u4353665.jpg" crc="3926613188" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event04-crop-u435366_2x5.jpg" crc="3944866454" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event02233x175.jpg" crc="3797049983" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event02233x175_2x.jpg" crc="3894676192" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select02-crop-u5184935.jpg" crc="4244136850" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select02-crop-u518493_2x5.jpg" crc="3807518616" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select04-crop-u5186195.jpg" crc="4006928403" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select04-crop-u518619_2x5.jpg" crc="4221898168" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_poster03-crop-u4511985.jpg" crc="4252728291" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_poster03-crop-u451198_2x5.jpg" crc="148669816" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event03233x175.jpg" crc="4115112398" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event03233x175_2x.jpg" crc="486951712" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select01-crop-u5184305.jpg" crc="4054935446" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select01-crop-u518430_2x5.jpg" crc="151944553" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select03-crop-u5185565.jpg" crc="181529397" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select03-crop-u518556_2x5.jpg" crc="221602984" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event01233x175.jpg" crc="157335533" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event01233x175_2x.jpg" crc="187367974" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event04361x204.jpg" crc="432996976" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event04361x204_2x.jpg" crc="3858422263" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event03-crop-u4356283.jpg" crc="4105092991" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event03-crop-u435628_2x3.jpg" crc="507343165" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event02-crop-u4356843.jpg" crc="3772215451" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event02-crop-u435684_2x3.jpg" crc="144876922" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select01465x262.jpg" crc="185632793" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select01465x262_2x.jpg" crc="3859331805" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select02465x262.jpg" crc="361313494" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select02465x262_2x.jpg" crc="3826529658" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select03159x283.jpg" crc="4262597866" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select03159x283_2x.jpg" crc="3973724664" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select04159x283.jpg" crc="4043140354" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select04159x283_2x.jpg" crc="329102585" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event01-crop-u4357373.jpg" crc="3986833990" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event01-crop-u435737_2x3.jpg" crc="4111147295" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_poster03384x215.jpg" crc="4254201847" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_poster03384x215_2x.jpg" crc="198272605" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event04-crop-u4353666.jpg" crc="471602565" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event04-crop-u435366_2x6.jpg" crc="375667650" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event02183x137.jpg" crc="469705042" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event02183x137_2x.jpg" crc="281820109" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select02-crop-u5184936.jpg" crc="472433318" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select02-crop-u518493_2x6.jpg" crc="4172311257" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select04-crop-u5186196.jpg" crc="4179769644" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select04-crop-u518619_2x6.jpg" crc="4242662220" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_poster03-crop-u4511986.jpg" crc="4153675241" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_poster03-crop-u451198_2x6.jpg" crc="4186847414" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event03183x137.jpg" crc="165665962" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event03183x137_2x.jpg" crc="499567152" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select01-crop-u5184306.jpg" crc="348625613" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select01-crop-u518430_2x6.jpg" crc="4212411715" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select03-crop-u5185566.jpg" crc="492224331" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="select03-crop-u518556_2x6.jpg" crc="266271401" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event01183x137.jpg" crc="4189975154" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event01183x137_2x.jpg" crc="41776773" seo="true" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
     <file name="poster iatp-u408408-fr.jpg" crc="336713854" ref="media_activities"/>
     <file name="poster iatp-u408408-fr_2x.jpg" crc="67969650" ref="media_activities"/>
     <file name="partnership-favicon.ico" crc="3891198573" ref="partnership"/>
@@ -1829,22 +1228,22 @@
     <file name="brainhealth04_2x.png" crc="285310690" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py1_1s.png" crc="203116118" ref="brainhealth_diet">
+    <file name="py1_1s.png" crc="3925151309" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
     <file name="py1_1.png" crc="518855185" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py1_2s.png" crc="228920583" ref="brainhealth_diet">
+    <file name="py1_2s.png" crc="4163444053" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
     <file name="py1_2.png" crc="89556347" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py1_3s.png" crc="448518551" ref="brainhealth_diet">
+    <file name="py1_3s.png" crc="4196493576" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py1_3s_2x.png" crc="4041642358" ref="brainhealth_diet">
+    <file name="py1_3s_2x.png" crc="45242651" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
     <file name="py1_3.png" crc="3848160013" ref="brainhealth_diet">
@@ -1853,10 +1252,10 @@
     <file name="py1_3_2x.png" crc="483520229" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py1_4s.png" crc="3886627393" ref="brainhealth_diet">
+    <file name="py1_4s.png" crc="3885611127" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py1_4s_2x.png" crc="4213639821" ref="brainhealth_diet">
+    <file name="py1_4s_2x.png" crc="3829510271" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
     <file name="py1_4.png" crc="522848426" ref="brainhealth_diet">
@@ -1865,10 +1264,10 @@
     <file name="py1_4_2x.png" crc="512055233" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py1_5s.png" crc="3995312803" ref="brainhealth_diet">
+    <file name="py1_5s.png" crc="4284082889" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py1_5s_2x.png" crc="272942664" ref="brainhealth_diet">
+    <file name="py1_5s_2x.png" crc="3835566975" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
     <file name="py1_5.png" crc="53649286" ref="brainhealth_diet">
@@ -1877,16 +1276,16 @@
     <file name="py1_5_2x.png" crc="59759737" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py2_1s.png" crc="3809261643" ref="brainhealth_diet">
+    <file name="py2_1s.png" crc="187267633" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
     <file name="py2_1.png" crc="3840463359" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py2_2_1s.png" crc="303704832" ref="brainhealth_diet">
+    <file name="py2_2_1s.png" crc="3931964769" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py2_2_1s_2x.png" crc="57545379" ref="brainhealth_diet">
+    <file name="py2_2_1s_2x.png" crc="4025398079" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
     <file name="py2_2_1.png" crc="3950704321" ref="brainhealth_diet">
@@ -1895,10 +1294,10 @@
     <file name="py2_2_1_2x.png" crc="256110009" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py2_2_2s.png" crc="19042407" ref="brainhealth_diet">
+    <file name="py2_2_2s.png" crc="206679102" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py2_2_2s_2x.png" crc="528624003" ref="brainhealth_diet">
+    <file name="py2_2_2s_2x.png" crc="3891681752" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
     <file name="py2_2_2.png" crc="28269781" ref="brainhealth_diet">
@@ -1907,10 +1306,10 @@
     <file name="py2_2_2_2x.png" crc="472937767" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py2_3_1s.png" crc="3872121462" ref="brainhealth_diet">
+    <file name="py2_3_1s.png" crc="275706997" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py2_3_1s_2x.png" crc="375413175" ref="brainhealth_diet">
+    <file name="py2_3_1s_2x.png" crc="306934097" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
     <file name="py2_3_1.png" crc="201838993" ref="brainhealth_diet">
@@ -1919,10 +1318,10 @@
     <file name="py2_3_1_2x.png" crc="145106216" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py2_3_2s.png" crc="3862388362" ref="brainhealth_diet">
+    <file name="py2_3_2s.png" crc="471794517" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py2_3_2s_2x.png" crc="4011094429" ref="brainhealth_diet">
+    <file name="py2_3_2s_2x.png" crc="79269058" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
     <file name="py2_3_2.png" crc="4250843136" ref="brainhealth_diet">
@@ -1931,10 +1330,10 @@
     <file name="py2_3_2_2x.png" crc="180644578" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py2_4s.png" crc="221030268" ref="brainhealth_diet">
+    <file name="py2_4s.png" crc="4285752063" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py2_4s_2x.png" crc="3982637775" ref="brainhealth_diet">
+    <file name="py2_4s_2x.png" crc="63573918" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
     <file name="py2_4.png" crc="509865702" ref="brainhealth_diet">
@@ -1943,10 +1342,10 @@
     <file name="py2_4_2x.png" crc="61005418" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py2_5s.png" crc="28550672" ref="brainhealth_diet">
+    <file name="py2_5s.png" crc="3914130311" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py2_5s_2x.png" crc="237497483" ref="brainhealth_diet">
+    <file name="py2_5s_2x.png" crc="16363754" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
     <file name="py2_5.png" crc="4174727407" ref="brainhealth_diet">
@@ -1955,10 +1354,10 @@
     <file name="py2_5_2x.png" crc="4152096637" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py3_1s.png" crc="480061780" ref="brainhealth_diet">
+    <file name="py3_1s.png" crc="4277366520" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py3_1s_2x.png" crc="4050228253" ref="brainhealth_diet">
+    <file name="py3_1s_2x.png" crc="2036781" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
     <file name="py3_1.png" crc="274740681" ref="brainhealth_diet">
@@ -1967,10 +1366,10 @@
     <file name="py3_1_2x.png" crc="99326125" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py3_2s.png" crc="263793925" ref="brainhealth_diet">
+    <file name="py3_2s.png" crc="397451292" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py3_2s_2x.png" crc="253155913" ref="brainhealth_diet">
+    <file name="py3_2s_2x.png" crc="317468731" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
     <file name="py3_2.png" crc="5724384" ref="brainhealth_diet">
@@ -1979,10 +1378,10 @@
     <file name="py3_2_2x.png" crc="306624298" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py3_4s.png" crc="3770265997" ref="brainhealth_diet">
+    <file name="py3_4s.png" crc="3874005638" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py3_4s_2x.png" crc="3849245985" ref="brainhealth_diet">
+    <file name="py3_4s_2x.png" crc="4186398664" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
     <file name="py3_4.png" crc="344638350" ref="brainhealth_diet">
@@ -1991,10 +1390,10 @@
     <file name="py3_4_2x.png" crc="4008772166" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py3_3s.png" crc="4106609062" ref="brainhealth_diet">
+    <file name="py3_3s.png" crc="310461473" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py3_3s_2x.png" crc="3989788934" ref="brainhealth_diet">
+    <file name="py3_3s_2x.png" crc="4113604212" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
     <file name="py3_3.png" crc="306873609" ref="brainhealth_diet">
@@ -2003,10 +1402,10 @@
     <file name="py3_3_2x.png" crc="439505233" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py3_5s.png" crc="3927838054" ref="brainhealth_diet">
+    <file name="py3_5s.png" crc="4240182469" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py3_5s_2x.png" crc="3884298595" ref="brainhealth_diet">
+    <file name="py3_5s_2x.png" crc="259379344" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
     <file name="py3_5.png" crc="339377824" ref="brainhealth_diet">
@@ -2015,10 +1414,10 @@
     <file name="py3_5_2x.png" crc="3779262328" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py3_6s.png" crc="4022325956" ref="brainhealth_diet">
+    <file name="py3_6s.png" crc="212452664" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py3_6s_2x.png" crc="226906248" ref="brainhealth_diet">
+    <file name="py3_6s_2x.png" crc="4294730584" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
     <file name="py3_6.png" crc="51013749" ref="brainhealth_diet">
@@ -2027,10 +1426,10 @@
     <file name="py3_6_2x.png" crc="299034540" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py3_7s.png" crc="243215464" ref="brainhealth_diet">
+    <file name="py3_7s.png" crc="3776770334" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py3_7s_2x.png" crc="225065238" ref="brainhealth_diet">
+    <file name="py3_7s_2x.png" crc="4099281026" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
     <file name="py3_7.png" crc="123481576" ref="brainhealth_diet">
@@ -2039,10 +1438,10 @@
     <file name="py3_7_2x.png" crc="3902638497" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py3_8s.png" crc="4182960239" ref="brainhealth_diet">
+    <file name="py3_8s.png" crc="4206995280" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py3_8s_2x.png" crc="3872672664" ref="brainhealth_diet">
+    <file name="py3_8s_2x.png" crc="120874010" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
     <file name="py3_8.png" crc="112160873" ref="brainhealth_diet">
@@ -2051,10 +1450,10 @@
     <file name="py3_8_2x.png" crc="3948578359" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py3_10s.png" crc="146717156" ref="brainhealth_diet">
+    <file name="py3_10s.png" crc="4259133775" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py3_10s_2x.png" crc="452830820" ref="brainhealth_diet">
+    <file name="py3_10s_2x.png" crc="4078996255" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
     <file name="py3_10.png" crc="3843374820" ref="brainhealth_diet">
@@ -2063,10 +1462,10 @@
     <file name="py3_10_2x.png" crc="186386685" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py3_13s.png" crc="360960962" ref="brainhealth_diet">
+    <file name="py3_13s.png" crc="116878379" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py3_13s_2x.png" crc="111765565" ref="brainhealth_diet">
+    <file name="py3_13s_2x.png" crc="180988808" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
     <file name="py3_13.png" crc="385093385" ref="brainhealth_diet">
@@ -2075,10 +1474,10 @@
     <file name="py3_13_2x.png" crc="3838110180" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py3_11s.png" crc="3905993268" ref="brainhealth_diet">
+    <file name="py3_11s.png" crc="3992091125" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py3_11s_2x.png" crc="4259583912" ref="brainhealth_diet">
+    <file name="py3_11s_2x.png" crc="4199142546" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
     <file name="py3_11.png" crc="118117848" ref="brainhealth_diet">
@@ -2087,10 +1486,10 @@
     <file name="py3_11_2x.png" crc="3978522993" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py3_12s.png" crc="512294400" ref="brainhealth_diet">
+    <file name="py3_12s.png" crc="3950606867" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
-    <file name="py3_12s_2x.png" crc="4043355673" ref="brainhealth_diet">
+    <file name="py3_12s_2x.png" crc="289514161" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
     <file name="py3_12.png" crc="503564147" ref="brainhealth_diet">
@@ -2272,19 +1671,19 @@
     <file name="brainhealth06-u398787-fr3.png" crc="209750448" ref="brainhealth_social"/>
     <file name="brainhealth06-u398787-fr_2x3.png" crc="303947194" ref="brainhealth_social"/>
   </folder>
-  <file name="dementia_intro.html" crc="505661383" seo="true" mt="1629624856095" redirect="true"/>
+  <file name="dementia_intro.html" crc="4144659914" seo="true" mt="1629624856095" redirect="true"/>
   <file name="resources.html" crc="335840443" seo="true" mt="1629624856096" redirect="true"/>
   <file name="brainhealth_intro.html" crc="3932106993" seo="true" mt="1629653772932" redirect="true"/>
   <file name="dementia_healing.html" crc="215582501" seo="true" mt="1629658127121" redirect="true"/>
-  <file name="aboutus.html" crc="4216280001" seo="true" mt="1629685373520" redirect="true"/>
-  <file name="media_activities.html" crc="310219835" seo="true" mt="1629685347065" redirect="true"/>
+  <file name="aboutus.html" crc="394825777" seo="true" mt="1629860526772" redirect="true"/>
+  <file name="media_activities.html" crc="353266514" seo="true" mt="1629862311058" redirect="true"/>
   <file name="partnership.html" crc="498355633" seo="true" mt="1629624856098" redirect="true"/>
-  <file name="dementia_stages.html" crc="263508279" seo="true" mt="1629647553542" redirect="true"/>
+  <file name="dementia_stages.html" crc="3872729526" seo="true" mt="1629647553542" redirect="true"/>
   <file name="dementia_causes.html" crc="3931626430" seo="true" mt="1629653057244" redirect="true"/>
   <file name="index.html" crc="4123254845" seo="true" mt="1629636826619" redirect="true"/>
-  <file name="brainhealth_exercises.html" crc="4258546532" seo="true" mt="1629685814392" redirect="true"/>
-  <file name="brainhealth_cognitive.html" crc="141298035" seo="true" mt="1629654975666" redirect="true"/>
-  <file name="brainhealth_diet.html" crc="4132281694" seo="true" mt="1629685952417" redirect="true"/>
-  <file name="brainhealth_emotions.html" crc="4165000527" seo="true" mt="1629658127122" redirect="true"/>
-  <file name="brainhealth_social.html" crc="386973406" seo="true" mt="1629658130224" redirect="true"/>
+  <file name="brainhealth_exercises.html" crc="475137575" seo="true" mt="1629685814392" redirect="true"/>
+  <file name="brainhealth_cognitive.html" crc="492179286" seo="true" mt="1629654975666" redirect="true"/>
+  <file name="brainhealth_diet.html" crc="376135442" seo="true" mt="1629864305845" redirect="true"/>
+  <file name="brainhealth_emotions.html" crc="166136726" seo="true" mt="1629658127122" redirect="true"/>
+  <file name="brainhealth_social.html" crc="310811671" seo="true" mt="1629658130224" redirect="true"/>
 </manifest>
