@@ -1,42 +1,42 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://www.polyu.edu.hk/proj/hkvmt" resolutions="1x,2x" timestamp="1629868316705">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://www.polyu.edu.hk/proj/hkvmt" resolutions="1x,2x" timestamp="1629894008261">
   <folder name="css">
     <file name="site_global.css" crc="3777718271"/>
-    <file name="master_storytelling-yellow.css" crc="279393213" ref="dementia_intro:dementia_healing:dementia_stages:dementia_causes"/>
-    <file name="nomq_preview_master_storytelling-yellow.css" crc="3783592510" ref="dementia_intro:dementia_healing:dementia_stages:dementia_causes"/>
-    <file name="master_normal.css" crc="3936018715" ref="index:media_activities:partnership:resources:aboutus"/>
-    <file name="nomq_preview_master_normal.css" crc="226054560" ref="index:media_activities:partnership:resources:aboutus"/>
-    <file name="master_storytelling-green.css" crc="265968175" ref="brainhealth_social:brainhealth_exercises:brainhealth_intro:brainhealth_diet:brainhealth_cognitive:brainhealth_emotions"/>
-    <file name="nomq_preview_master_storytelling-green.css" crc="3866361183" ref="brainhealth_social:brainhealth_exercises:brainhealth_intro:brainhealth_diet:brainhealth_cognitive:brainhealth_emotions"/>
-    <file name="brainhealth_social.css" crc="63935122" ref="brainhealth_social"/>
-    <file name="nomq_brainhealth_social.css" crc="4062673721" ref="brainhealth_social"/>
-    <file name="index.css" crc="4060550496" ref="index"/>
-    <file name="nomq_index.css" crc="3948605421" ref="index"/>
-    <file name="media_activities.css" crc="4236809572" ref="media_activities"/>
+    <file name="master_storytelling-yellow.css" crc="458257853" ref="dementia_intro:dementia_stages:dementia_causes:dementia_healing"/>
+    <file name="nomq_preview_master_storytelling-yellow.css" crc="16747305" ref="dementia_intro:dementia_stages:dementia_causes:dementia_healing"/>
+    <file name="master_storytelling-green.css" crc="452045649" ref="brainhealth_diet:brainhealth_emotions:brainhealth_social:brainhealth_intro:brainhealth_exercises:brainhealth_cognitive"/>
+    <file name="nomq_preview_master_storytelling-green.css" crc="111231265" ref="brainhealth_diet:brainhealth_emotions:brainhealth_social:brainhealth_intro:brainhealth_exercises:brainhealth_cognitive"/>
+    <file name="master_normal.css" crc="4076596588" ref="media_activities:partnership:resources:index:aboutus"/>
+    <file name="nomq_preview_master_normal.css" crc="3805217756" ref="media_activities:partnership:resources:index:aboutus"/>
+    <file name="media_activities.css" crc="4211235408" ref="media_activities"/>
     <file name="nomq_media_activities.css" crc="270330736" ref="media_activities"/>
+    <file name="brainhealth_diet.css" crc="4204168566" ref="brainhealth_diet"/>
+    <file name="nomq_brainhealth_diet.css" crc="3759472151" ref="brainhealth_diet"/>
+    <file name="partnership.css" crc="454056158" ref="partnership"/>
+    <file name="nomq_partnership.css" crc="236263562" ref="partnership"/>
     <file name="dementia_intro.css" crc="411166829" ref="dementia_intro"/>
     <file name="nomq_dementia_intro.css" crc="217840856" ref="dementia_intro"/>
-    <file name="brainhealth_exercises.css" crc="3782796816" ref="brainhealth_exercises"/>
-    <file name="nomq_brainhealth_exercises.css" crc="233433673" ref="brainhealth_exercises"/>
-    <file name="partnership.css" crc="3877983284" ref="partnership"/>
-    <file name="nomq_partnership.css" crc="529902176" ref="partnership"/>
-    <file name="resources.css" crc="269395108" ref="resources"/>
-    <file name="nomq_resources.css" crc="474547141" ref="resources"/>
+    <file name="brainhealth_emotions.css" crc="3972324636" ref="brainhealth_emotions"/>
+    <file name="nomq_brainhealth_emotions.css" crc="3974908922" ref="brainhealth_emotions"/>
+    <file name="dementia_stages.css" crc="272478813" ref="dementia_stages"/>
+    <file name="nomq_dementia_stages.css" crc="458690481" ref="dementia_stages"/>
+    <file name="resources.css" crc="4070955888" ref="resources"/>
+    <file name="nomq_resources.css" crc="230249565" ref="resources"/>
+    <file name="brainhealth_social.css" crc="3934976981" ref="brainhealth_social"/>
+    <file name="nomq_brainhealth_social.css" crc="314168825" ref="brainhealth_social"/>
+    <file name="dementia_causes.css" crc="67957271" ref="dementia_causes"/>
+    <file name="nomq_dementia_causes.css" crc="332553090" ref="dementia_causes"/>
     <file name="brainhealth_intro.css" crc="4282016186" ref="brainhealth_intro"/>
     <file name="nomq_brainhealth_intro.css" crc="4155817167" ref="brainhealth_intro"/>
-    <file name="brainhealth_diet.css" crc="4086055814" ref="brainhealth_diet"/>
-    <file name="nomq_brainhealth_diet.css" crc="221453556" ref="brainhealth_diet"/>
-    <file name="brainhealth_cognitive.css" crc="3860896995" ref="brainhealth_cognitive"/>
-    <file name="nomq_brainhealth_cognitive.css" crc="301978950" ref="brainhealth_cognitive"/>
-    <file name="dementia_healing.css" crc="144091603" ref="dementia_healing"/>
-    <file name="nomq_dementia_healing.css" crc="466560295" ref="dementia_healing"/>
-    <file name="dementia_stages.css" crc="4068095426" ref="dementia_stages"/>
-    <file name="nomq_dementia_stages.css" crc="458690481" ref="dementia_stages"/>
-    <file name="brainhealth_emotions.css" crc="4087917128" ref="brainhealth_emotions"/>
-    <file name="nomq_brainhealth_emotions.css" crc="3923751854" ref="brainhealth_emotions"/>
-    <file name="aboutus.css" crc="4055635560" ref="aboutus"/>
-    <file name="nomq_aboutus.css" crc="232906763" ref="aboutus"/>
-    <file name="dementia_causes.css" crc="4235134431" ref="dementia_causes"/>
-    <file name="nomq_dementia_causes.css" crc="423246120" ref="dementia_causes"/>
+    <file name="index.css" crc="396800887" ref="index"/>
+    <file name="nomq_index.css" crc="200773070" ref="index"/>
+    <file name="dementia_healing.css" crc="113913940" ref="dementia_healing"/>
+    <file name="nomq_dementia_healing.css" crc="127934325" ref="dementia_healing"/>
+    <file name="brainhealth_exercises.css" crc="394795517" ref="brainhealth_exercises"/>
+    <file name="nomq_brainhealth_exercises.css" crc="4293786865" ref="brainhealth_exercises"/>
+    <file name="aboutus.css" crc="93663018" ref="aboutus"/>
+    <file name="nomq_aboutus.css" crc="113871053" ref="aboutus"/>
+    <file name="brainhealth_cognitive.css" crc="55516393" ref="brainhealth_cognitive"/>
+    <file name="nomq_brainhealth_cognitive.css" crc="3858816475" ref="brainhealth_cognitive"/>
   </folder>
   <folder name="fonts">
     <file name="fakepearl-light.woff" crc="145533271"/>
@@ -682,6 +682,12 @@
       <caption webpage="partnership" alt=""/>
     </file>
     <file name="循道衛理楊震社會服務處_2x.png" crc="4234471809" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="陳慶社會服務中心.jpg" crc="3799645152" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="陳慶社會服務中心_2x.jpg" crc="4159298587" ref="partnership">
       <caption webpage="partnership" alt=""/>
     </file>
     <file name="hi_stages_p1_4.png" crc="218790337" ref="dementia_stages">
@@ -1670,19 +1676,19 @@
     <file name="brainhealth06-u398787-fr3.png" crc="209750448" ref="brainhealth_social"/>
     <file name="brainhealth06-u398787-fr_2x3.png" crc="303947194" ref="brainhealth_social"/>
   </folder>
-  <file name="dementia_intro.html" crc="4144659914" seo="true" mt="1629624856095" redirect="true"/>
-  <file name="resources.html" crc="335840443" seo="true" mt="1629624856096" redirect="true"/>
-  <file name="brainhealth_intro.html" crc="3932106993" seo="true" mt="1629653772932" redirect="true"/>
-  <file name="dementia_healing.html" crc="215582501" seo="true" mt="1629658127121" redirect="true"/>
-  <file name="aboutus.html" crc="455199873" seo="true" mt="1629860526772" redirect="true"/>
-  <file name="media_activities.html" crc="3795379669" seo="true" mt="1629868179516" redirect="true"/>
-  <file name="partnership.html" crc="498355633" seo="true" mt="1629624856098" redirect="true"/>
-  <file name="dementia_stages.html" crc="4155291936" seo="true" mt="1629647553542" redirect="true"/>
-  <file name="dementia_causes.html" crc="3931626430" seo="true" mt="1629653057244" redirect="true"/>
-  <file name="index.html" crc="4070288448" seo="true" mt="1629867970384" redirect="true"/>
-  <file name="brainhealth_exercises.html" crc="63560066" seo="true" mt="1629685814392" redirect="true"/>
-  <file name="brainhealth_cognitive.html" crc="150583681" seo="true" mt="1629654975666" redirect="true"/>
-  <file name="brainhealth_diet.html" crc="327386667" seo="true" mt="1629868091449" redirect="true"/>
-  <file name="brainhealth_emotions.html" crc="3898216056" seo="true" mt="1629658127122" redirect="true"/>
-  <file name="brainhealth_social.html" crc="35145768" seo="true" mt="1629658130224" redirect="true"/>
+  <file name="dementia_intro.html" crc="216327812" seo="true" mt="1629624856095" redirect="true"/>
+  <file name="resources.html" crc="72848275" seo="true" mt="1629624856096" redirect="true"/>
+  <file name="brainhealth_intro.html" crc="4003316326" seo="true" mt="1629653772932" redirect="true"/>
+  <file name="dementia_healing.html" crc="4088905684" seo="true" mt="1629869695881" redirect="true"/>
+  <file name="aboutus.html" crc="219156801" seo="true" mt="1629860526772" redirect="true"/>
+  <file name="media_activities.html" crc="3766345752" seo="true" mt="1629868179516" redirect="true"/>
+  <file name="partnership.html" crc="3903723787" seo="true" mt="1629893828118" redirect="true"/>
+  <file name="dementia_stages.html" crc="77617387" seo="true" mt="1629647553542" redirect="true"/>
+  <file name="dementia_causes.html" crc="4028549490" seo="true" mt="1629653057244" redirect="true"/>
+  <file name="index.html" crc="280089565" seo="true" mt="1629867970384" redirect="true"/>
+  <file name="brainhealth_exercises.html" crc="209218105" seo="true" mt="1629685814392" redirect="true"/>
+  <file name="brainhealth_cognitive.html" crc="356599752" seo="true" mt="1629654975666" redirect="true"/>
+  <file name="brainhealth_diet.html" crc="82420218" seo="true" mt="1629868091449" redirect="true"/>
+  <file name="brainhealth_emotions.html" crc="4074485114" seo="true" mt="1629658127122" redirect="true"/>
+  <file name="brainhealth_social.html" crc="4000241615" seo="true" mt="1629658130224" redirect="true"/>
 </manifest>
